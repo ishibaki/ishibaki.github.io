@@ -22,11 +22,11 @@ redirect_from:
   - Supervisor: Prof. Akira Shinohara
 
 - 2016-2019: Research Fellowship for Young Scientists (DC1), JSPS
-  - Laboratory of Cell Biology, Department of Biological Sciences, Osaka University
+  - [Laboratory of Cell Biology](http://www.bio.sci.osaka-u.ac.jp/bio_web/lab_page/matsuno/Etop.html), Department of Biological Sciences, Osaka University
   - Supervisor: Prof. Kenji Matsuno
 
 - 2019-Today: Postdoctoral Researcher
-  - Laboratory of Insect Ecology, Faulty of Agriculture, Kyoto University
+  - [Laboratory of Insect Ecology](http://www.insecteco.kais.kyoto-u.ac.jp/englishpage.html), Faulty of Agriculture, Kyoto University
   - Supervisor: Prof. Kenji Matsuura
 
 # Skills
