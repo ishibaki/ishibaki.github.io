@@ -11,8 +11,8 @@ redirect_from:
 
 # Education
 
-- B.S. in Science, Osaka University, 2014
-- B.S. in Science, Osaka University, 2016
+- Bachelor of Science, Osaka University, 2014
+- Master of Science, Osaka University, 2016
 - Ph.D in Science, Osaka University, 2019
 
 # Work experience
