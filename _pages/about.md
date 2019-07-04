@@ -26,15 +26,15 @@ Previously, I was a student in [Matsuno Lab](http://www.bio.sci.osaka-u.ac.jp/bi
 
 ## Work experience
 
-- 2011-2012: Lab technician
+- **2011-2012: Lab technician**
   - Laboratory of Genome and Chromosome Functions, Institute for Protein Research, Osaka University
   - Supervisor: Prof. Akira Shinohara
 
-- 2016-2019: Research Fellowship for Young Scientists (DC1), JSPS
+- **2016-2019: Research Fellowship for Young Scientists (DC1), JSPS**
   - [Laboratory of Cell Biology](http://www.bio.sci.osaka-u.ac.jp/bio_web/lab_page/matsuno/Etop.html), Department of Biological Sciences, Osaka University
   - Supervisor: Prof. Kenji Matsuno
 
-- 2019-Today: Postdoctoral Researcher
+- **2019-Today: Postdoctoral Researcher**
   - [Laboratory of Insect Ecology](http://www.insecteco.kais.kyoto-u.ac.jp/englishpage.html), Faulty of Agriculture, Kyoto University
   - Supervisor: Prof. Kenji Matsuura
 
