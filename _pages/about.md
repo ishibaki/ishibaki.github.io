@@ -22,7 +22,7 @@ Previously, I was a student in [Matsuno Lab](http://www.bio.sci.osaka-u.ac.jp/bi
 
 - Bachelor of Science, Osaka University, 2014
 - Master of Science, Osaka University, 2016
-- Ph.D in Science, Osaka University, 2019
+- Ph.D (Science), Osaka University, 2019
 
 ## Work experience
 
