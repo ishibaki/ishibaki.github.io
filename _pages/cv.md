@@ -9,51 +9,53 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+# Education
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+- B.S. in Science, Osaka University, 2014
+- B.S. in Science, Osaka University, 2016
+- Ph.D in Science, Osaka University, 2019
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+# Work experience
 
-Publications
-======
+- 2011-2012: Lab technician
+  - Laboratory of Genome and Chromosome Functions, Institute for Protein Research, Osaka University
+  - Supervisor: Prof. Akira Shinohara
+
+- 2016-2019: Research Fellowship for Young Scientists (DC1), JSPS
+  - Laboratory of Cell Biology, Department of Biological Sciences, Osaka University
+  - Supervisor: Prof. Kenji Matsuno
+
+- 2019-Today: Postdoctoral Researcher
+  - Laboratory of Insect Ecology, Faulty of Agriculture, Kyoto University
+  - Supervisor: Prof. Kenji Matsuura
+
+# Skills
+
+- Skills in *Drosophila melanogaster*
+  - Developmental biology
+  - Genetics
+  - Cell biology
+  - Molecular biology
+- Bioinformatics
+  - RNA-seq
+  - Wholo genome sequencing
+  - ChIP-seq
+
+# Publications
+
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
+
+# Talks
+
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
-Teaching
-======
+
+# Teaching
+
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
