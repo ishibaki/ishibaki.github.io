@@ -47,7 +47,7 @@ Previously, I was a student in [Matsuno Lab](http://www.bio.sci.osaka-u.ac.jp/bi
   - Molecular biology
 - Bioinformatics
   - RNA-seq
-  - Wholo genome sequencing
+  - Whole genome sequencing
   - ChIP-seq
 
 ## Publications
