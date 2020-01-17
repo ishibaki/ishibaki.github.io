@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Other works"
+title: "Others"
 permalink: /others/
 author_profile: true
 ---
