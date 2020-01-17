@@ -40,11 +40,14 @@ Previously, I was a student in [Matsuno Lab](http://www.bio.sci.osaka-u.ac.jp/bi
 
 ## Skills
 
-- Skills in *Drosophila melanogaster*
+- Skills for *Drosophila melanogaster*
   - Developmental biology
   - Genetics
   - Cell biology
   - Molecular biology
+  - Imaging
+- Skills for termites
+  - Ecology
 - Bioinformatics
   - RNA-seq
   - Whole genome sequencing
