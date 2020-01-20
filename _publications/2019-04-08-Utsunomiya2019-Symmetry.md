@@ -1,7 +1,7 @@
 ---
 title: "Cells with Broken Left–Right Symmetry: Roles of Intrinsic Cell Chirality in Left–Right Asymmetric Epithelial Morphogenesis"
 collection: publications
-permalink: /publication/2019-04-08-paper-number-3
+permalink: /publication/2019-04-08-Utsunomiya2019-Symmetry
 excerpt: ''
 date: 2019-04-08
 venue: 'Symmetry'

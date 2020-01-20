@@ -1,7 +1,7 @@
 ---
 title: "E and ID proteins regulate cell chirality and left–right asymmetric development in Drosophila"
 collection: publications
-permalink: /publication/2019-01-09-paper-number-3
+permalink: /publication/2019-01-09-Ishibashi2019-Genes-to-Cells
 excerpt: ''
 date: 2019-01-09
 venue: 'Genes to Cells'

@@ -1,7 +1,7 @@
 ---
 title: "A gain-of-function screen to identify genes that reduce lifespan in the adult of *Drosophila melanogaster*"
 collection: publications
-permalink: /publication/2014-04-08-paper-number-1
+permalink: /publication/2014-04-08-Nakamura2014-BMC-Genet
 excerpt: ''
 date: 2014-04-08
 venue: 'BMC Genetics'
