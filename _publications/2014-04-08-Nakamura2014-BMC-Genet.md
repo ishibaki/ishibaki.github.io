@@ -16,7 +16,7 @@ Minoru Nakayama, **Tomoki Ishibashi**, Hiroyuki O Ishikawa, Hiroyasu Sato, Takao
 
 ---
 
-# 解説
+# 簡単な解説
 
 私が著者に入っている最初の論文です．
 第2著者として参加しました．
