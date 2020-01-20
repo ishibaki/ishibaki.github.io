@@ -16,9 +16,9 @@ Previously, I was a student in [Matsuno Lab](http://www.bio.sci.osaka-u.ac.jp/bi
 
 ---
 
-## Recent Publications
+## Publications
 
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
@@ -34,6 +34,7 @@ Previously, I was a student in [Matsuno Lab](http://www.bio.sci.osaka-u.ac.jp/bi
   - Imaging
 - Skills for termites
   - Ecology
+  - Mathematical modeling
 - Bioinformatics
   - RNA-seq
   - Whole genome sequencing
