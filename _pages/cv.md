@@ -61,7 +61,7 @@ redirect_from:
 
 # Awards
 
-  <ul>{% for post in site.awards %}
-    {% include archive-single-cv.html %}
+  <ul>{% for post in site.awards reversed %}
+    {% include archive-single.html %}
   {% endfor %}</ul>
 
