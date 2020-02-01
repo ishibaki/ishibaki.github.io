@@ -23,6 +23,8 @@ Previously, I was a student in [Matsuno Lab](http://www.bio.sci.osaka-u.ac.jp/bi
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
+[Full publication list](https://ishibaki.github.io/publications/)
+
 ---
 
 ## Skills
@@ -49,3 +51,5 @@ Previously, I was a student in [Matsuno Lab](http://www.bio.sci.osaka-u.ac.jp/bi
   {% for post in awards limit:5 reversed %}
     {% include archive-single.html %}
   {% endfor %}</ul>
+
+[Full award list](https://ishibaki.github.io/awards/)
