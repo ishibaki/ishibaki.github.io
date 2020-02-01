@@ -6,5 +6,5 @@ excerpt: ''
 date: 2020-04-01
 venue: 'Annual Report of Research Center for Structural Thermodynamics'
 paperurl: ''
-citation: 'Ishibashi and Matsuno &quot;E and Id transcription factors regulate cell chirality to induce left-right asymmetric morphogenesis of gut in <i>Drosophila</i>.&quot; <i>Annual Report of Research Center for Structural Thermodynamics</i> 2019.'
+citation: 'Ishibashi and Matsuno &quot;E and Id transcription factors regulate cell chirality to induce left-right asymmetric morphogenesis of gut in <i>Drosophila</i>.&quot; <i>Annual Report of Research Center for Structural Thermodynamics</i> 2019. <b>in press</b>'
 ---
