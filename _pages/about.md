@@ -42,9 +42,9 @@ Previously, I was a student in [Matsuno Lab](http://www.bio.sci.osaka-u.ac.jp/bi
 
 ---
 
-## Awards
+## Recent Awards
 
-  <ul>{% for post in site.awards reversed %}
+  <ul>{% for post in site.awards reversed limit:5 %}
     {% include archive-single.html %}
   {% endfor %}</ul>
 
