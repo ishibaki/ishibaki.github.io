@@ -18,7 +18,8 @@ Previously, I was a student in [Matsuno Lab](http://www.bio.sci.osaka-u.ac.jp/bi
 
 ## Recent Publications
 
-  <ul>{% for post in site.publications limit:5 reversed %}
+  <ul>{% assign pulications = site.publications | reverse %}
+  {% for post in publications limit:5 %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
@@ -44,7 +45,7 @@ Previously, I was a student in [Matsuno Lab](http://www.bio.sci.osaka-u.ac.jp/bi
 
 ## Recent Awards
 
-  <ul>{% for post in site.awards limit:5 reversed %}
+  <ul>{% assign awards = site.awards | reverse %}
+  {% for post in awards limit:5 reversed %}
     {% include archive-single.html %}
   {% endfor %}</ul>
-
