@@ -6,7 +6,7 @@ excerpt: ''
 date: 2020-01-20
 venue: 'Journal of Veterinary Medical Science'
 paperurl: ''
-citation: 'Doysabas <i>et al.</i> &quot;ATeam technology for detecting early signs of viral cytopathic effect&quot; <i>J. Vet. Med. Sci.</i> 2020 <b>in press</b>'
+citation: 'Doysabas <i>et al.</i> &quot;ATeam technology for detecting early signs of viral cytopathic effect&quot; <i>Journal of Veterinary Medical Science</i> 2020 <b>in press</b>'
 ---
 
 Authors:  
