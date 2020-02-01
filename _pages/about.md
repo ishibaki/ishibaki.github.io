@@ -16,9 +16,9 @@ Previously, I was a student in [Matsuno Lab](http://www.bio.sci.osaka-u.ac.jp/bi
 
 ---
 
-## Publications
+## Recent Publications
 
-  <ul>{% for post in site.publications reversed %}
+  <ul>{% for post in site.publications reversed limit:5 %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
