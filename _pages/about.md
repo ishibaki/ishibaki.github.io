@@ -18,7 +18,7 @@ Previously, I was a student in [Matsuno Lab](http://www.bio.sci.osaka-u.ac.jp/bi
 
 ## Recent Publications
 
-  <ul>{% assign pulications = site.publications | reverse %}
+  <ul>{% assign publications = site.publications | reverse %}
   {% for post in publications limit:5 %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
