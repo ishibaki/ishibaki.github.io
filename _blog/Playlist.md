@@ -40,6 +40,7 @@ date: 2020-01-01
 - HELSINKI LAMBDA CLUB
 - BAYNK
 - Clean Bandit
+- 長谷川白紙
 
 # いつか思いの丈を綴るべき音楽
 
