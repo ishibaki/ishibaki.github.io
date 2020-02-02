@@ -6,8 +6,9 @@ redirect_from:
   - "/blog.html"
 ---
 
-# Blog Posts
+# ブログのようなもの
 
+twitterで言うようなことじゃないけど，外部化しておきたいこと．
 
 {% include base_path %}
 
