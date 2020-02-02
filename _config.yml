@@ -188,9 +188,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  posts:
-      output:true
-  permaling: /:collection/:path/
+  blog:
+    output: true
+    permaling: /:collection/:path/
 
 
 # Defaults
@@ -240,10 +240,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _posts
+  # _blog
   - scope:
       path: ""
-      type: posts
+      type: blog
     values:
       layout: single
       author_profile: true

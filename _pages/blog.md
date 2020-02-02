@@ -1,9 +1,8 @@
 ---
-permalink: /posts/
+permalink: /blog/
 title: "Blog Posts"
 author_profile: true
 redirect_from: 
-  - "/blog/"
   - "/blog.html"
 ---
 
@@ -12,6 +11,6 @@ redirect_from:
 
 {% include base_path %}
 
-{% for post in site.posts reversed %}
+{% for post in site.blog reversed %}
   {% include archive-single.html %}
 {% endfor %}
