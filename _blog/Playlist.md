@@ -4,6 +4,9 @@ collection: posts
 permalink: /posts/Playlist
 excerpt: ''
 date: 2020-01-01
+tags:
+  - music
+  - idea
 ---
 
 # いつか思いの丈を綴るべきバンド
