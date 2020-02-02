@@ -1,17 +1,17 @@
 ---
-permalink: /non-menu-page/
-title: "Page not in menu"
-excerpt: "This is a page not in th emain menu"
+permalink: /posts/
+title: "Blog Posts"
 author_profile: true
 redirect_from: 
-  - "/nmp/"
-  - "/nmp.html"
+  - "/blog/"
+  - "/blog.html"
 ---
 
-This is a page not in the menu. You can use markdown in this page.
+# Blog Posts
 
-Heading 1
-======
 
-Heading 2
-======
+{% include base_path %}
+
+{% for post in site.posts reversed %}
+  {% include archive-single.html %}
+{% endfor %}

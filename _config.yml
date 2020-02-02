@@ -188,6 +188,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  posts:
+      output:true
+  permaling: /:collection/:path/
 
 
 # Defaults
@@ -232,6 +235,15 @@ defaults:
   - scope:
       path: ""
       type: awards
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _posts
+  - scope:
+      path: ""
+      type: posts
     values:
       layout: single
       author_profile: true
