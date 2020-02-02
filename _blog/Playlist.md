@@ -4,6 +4,7 @@ collection: posts
 permalink: /posts/Playlist
 excerpt: ''
 date: 2020-01-01
+categories: "音楽"
 tags:
   - music
   - idea
