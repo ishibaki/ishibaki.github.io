@@ -6,7 +6,7 @@ excerpt: ''
 date: 2019-01-09
 venue: 'Genes to Cells'
 paperurl: 'https://onlinelibrary.wiley.com/doi/full/10.1111/gtc.12669'
-citation: 'Ishibashi <i>et al.</i> &quot;E and ID proteins regulate cell chirality and left-right asymmetric development in <i>Drosphila</i>.&quot; <i>Genes to Cells</i> 2018 <b>24</b>:3.'
+citation: 'Ishibashi <i>et al.</i> &quot;E and ID proteins regulate cell chirality and left-right asymmetric development in <i>Drosphila</i>.&quot; <i>Genes to Cells</i> 2019 <b>24</b>:3.'
 ---
 
 Authors:  
