@@ -15,6 +15,11 @@ var addressPoints = [
     116.42533866079168
   ],
   [
+    "National Tsing Hua University",
+    24.79172355,
+    120.99220704396953
+  ],
+  [
     "Orlando World Center Marriott",
     28.3611447,
     -81.50931519270647
@@ -28,5 +33,10 @@ var addressPoints = [
     "National University of Singapore, Singapore",
     1.2962018,
     103.77689943784759
+  ],
+  [
+    "Nambu-Hall, Osaka, Japan",
+    34.803222149999996,
+    135.45628326443807
   ]
 ];
