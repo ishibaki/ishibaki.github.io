@@ -53,3 +53,14 @@ Previously, I was a student in [Matsuno Lab](http://www.bio.sci.osaka-u.ac.jp/bi
   {% endfor %}</ul>
 
 [Full award list](https://ishibaki.github.io/awards/)
+
+---
+
+## Recent Talks
+
+  <ul>{% assign talks = site.talks | reverse %}
+  {% for post in talks limit:5 reversed %}
+    {% include archive-single.html %}
+  {% endfor %}</ul>
+
+[Full presentation list](https://ishibaki.github.io/talks/)
