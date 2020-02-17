@@ -56,7 +56,7 @@ Previously, I was a student in [Matsuno Lab](http://www.bio.sci.osaka-u.ac.jp/bi
 
 ---
 
-## Recent Talks
+## Recent Presentations
 
   <ul>{% assign talks = site.talks | reverse %}
   {% for post in talks limit:5 reversed %}
