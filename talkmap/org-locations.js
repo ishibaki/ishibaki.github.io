@@ -1,5 +1,10 @@
 var addressPoints = [
   [
+    "Finlandia Hall, Helsinki, Finland",
+    60.1758229,
+    24.933560829716676
+  ],
+  [
     "Sigma Hall, Osaka, Japan",
     34.803434949999996,
     135.45533516683585
