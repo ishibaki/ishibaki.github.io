@@ -5,9 +5,19 @@ var addressPoints = [
     135.45533516683585
   ],
   [
+    "Convention Center, Osaka, Japan",
+    34.8178978,
+    135.5225784547267
+  ],
+  [
     "Shin-Kokaido, Nara, Japan",
     34.6830547,
     135.8430045
+  ],
+  [
+    "Tower Hall Funabori, Tokyo, Japan",
+    35.684403,
+    139.8647807085842
   ],
   [
     "\u5317\u4eac\u4f1a\u8b70\u4e2d\u5fc3",
