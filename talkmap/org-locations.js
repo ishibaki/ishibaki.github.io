@@ -15,6 +15,11 @@ var addressPoints = [
     116.42533866079168
   ],
   [
+    "Orlando World Center Marriott",
+    28.3611447,
+    -81.50931519270647
+  ],
+  [
     "Asamushi, Aomori, Japan",
     40.8915056,
     140.8624421
