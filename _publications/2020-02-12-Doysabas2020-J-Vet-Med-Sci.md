@@ -1,9 +1,9 @@
 ---
 title: "ATeam technology for detecting early signs of viral cytopathic effect"
 collection: publications
-permalink: /publication/2020-00-00-Doysabas2020-J-Vet-Med-Sci
+permalink: /publication/2020-02-12-Doysabas2020-J-Vet-Med-Sci
 excerpt: ''
-date: 2020-01-20
+date: 2020-02-12
 venue: 'Journal of Veterinary Medical Science'
 paperurl: 'https://doi.org/10.1292/jvms.20-0021'
 citation: 'Doysabas <i>et al.</i> &quot;ATeam technology for detecting early signs of viral cytopathic effect&quot; <i>Journal of Veterinary Medical Science</i> 2020 <b>in press</b>'
