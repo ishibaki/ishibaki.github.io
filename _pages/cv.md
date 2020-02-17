@@ -48,6 +48,12 @@ redirect_from:
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
+# Awards
+
+  <ul>{% for post in site.awards reversed %}
+    {% include archive-single.html %}
+  {% endfor %}</ul>
+
 # Talks
 
   <ul>{% for post in site.talks reversed %}
@@ -59,10 +65,3 @@ redirect_from:
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-
-# Awards
-
-  <ul>{% for post in site.awards reversed %}
-    {% include archive-single.html %}
-  {% endfor %}</ul>
-
