@@ -6,6 +6,8 @@ redirect_from:
   - "/link.html"
 ---
 
+{% include toc.html html=content %}
+
 # Labs
 
 - [京都大学 松浦研](http://www.insecteco.kais.kyoto-u.ac.jp)
@@ -21,6 +23,7 @@ redirect_from:
 
 - [FlyBase](http://flybase.org)
 - [The Interactive Fly](https://www.sdbonline.org/sites/fly/aimain/1aahome.htm)
+
 ### Stock Centers
 
 - [BDSC](http://flystocks.bio.indiana.edu)
@@ -35,7 +38,7 @@ redirect_from:
 ## Termites
 
 - [*Z. nevadensis*](http://termitegenome.org)
-- [TMB](http://genome.jgi.doe.gov/Fibsp1/Fibsp1.home.html)
+- [Termiteball](http://genome.jgi.doe.gov/Fibsp1/Fibsp1.home.html)
 
 ## Other organisms
 
@@ -67,3 +70,10 @@ redirect_from:
 - [蛍光スペクトルビューア](https://www.thermofisher.com/jp/ja/home/life-science/cell-analysis/labeling-chemistry/fluorescence-spectraviewer.html)
 - [I-TASSER](https://zhanglab.ccmb.med.umich.edu/I-TASSER/)
 - [LOMETS](https://zhanglab.ccmb.med.umich.edu/LOMETS/)
+
+# Journal Search Engine
+
+- [Google Scholar](https://scholar.google.com)
+- [PubMed](https://pubmed.ncbi.nlm.nih.gov)
+- [Web of Science](http://apps.webofknowledge.com/WOS_GeneralSearch_input.do?product=WOS&search_mode=GeneralSearch&SID=F1xaZevytU3VMuEh3YS&preferencesSaved=)
+- [Journal Citation Reports](https://jcr.clarivate.com/JCRLandingPageAction.action?Init=Yes&SrcApp=IC2LS&SID=J2-fC9fNlsgvlnp7RsqiVw7wIx2BGwMhaC01s-18x2dTsUhtWx2FjMvwPrQKQ8eH2vwx3Dx3DhQLou7fMwgbpToax2F2vNqhgx3Dx3D-WwpRYkX4Gz8e7T4uNl5SUQx3Dx3D-wBEj1mx2B0mykql8H4kstFLwx3Dx3D)
