@@ -6,6 +6,9 @@ redirect_from:
   - "/link.html"
 ---
 
+{% include base_path %}
+{% include toc %}
+
 # Labs
 
 - [京都大学 松浦研](http://www.insecteco.kais.kyoto-u.ac.jp)
