@@ -78,7 +78,3 @@ redirect_from:
 - [PubMed](https://pubmed.ncbi.nlm.nih.gov)
 - [Web of Science](http://apps.webofknowledge.com/WOS_GeneralSearch_input.do?product=WOS&search_mode=GeneralSearch&SID=F1xaZevytU3VMuEh3YS&preferencesSaved=)
 - [Journal Citation Reports](https://jcr.clarivate.com/JCRLandingPageAction.action?Init=Yes&SrcApp=IC2LS&SID=J2-fC9fNlsgvlnp7RsqiVw7wIx2BGwMhaC01s-18x2dTsUhtWx2FjMvwPrQKQ8eH2vwx3Dx3DhQLou7fMwgbpToax2F2vNqhgx3Dx3D-WwpRYkX4Gz8e7T4uNl5SUQx3Dx3D-wBEj1mx2B0mykql8H4kstFLwx3Dx3D)
-
-# :love:
-
-
