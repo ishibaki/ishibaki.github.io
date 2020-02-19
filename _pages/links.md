@@ -71,6 +71,7 @@ redirect_from:
 - [蛍光スペクトルビューア](https://www.thermofisher.com/jp/ja/home/life-science/cell-analysis/labeling-chemistry/fluorescence-spectraviewer.html)
 - [I-TASSER](https://zhanglab.ccmb.med.umich.edu/I-TASSER/)
 - [LOMETS](https://zhanglab.ccmb.med.umich.edu/LOMETS/)
+- [In fusion Primer Converter](http://bioinfo.clontech.com/infusion/convertPcrPrimersInit.do)
 
 # Journal Search Engine
 
