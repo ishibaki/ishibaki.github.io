@@ -20,6 +20,7 @@ tags:
 # <font color="#ff4500">特に思いの丈を綴るべき魂のこもったバンド</font>
 
 <font color="#ff4500">
+
 - 鈴木実貴子ズ
 - MOROHA
 - 女王蜂
