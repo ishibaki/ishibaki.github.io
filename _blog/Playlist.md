@@ -17,19 +17,24 @@ tags:
 でもそれを外部化したいという欲求もある．
 だからここで，ひっそりと外部化する．
 
-# いつか思いの丈を綴るべきバンド
+# 特に思いの丈を綴るべき魂のこもったバンド
 
 - 鈴木実貴子ズ
+- MOROHA
+- 女王蜂
+- カネコアヤノ
+- FINLANDS
+- BRADIO
+
+# いつか思いの丈を綴るべきバンド
+
 - hyukoh
 - Tempalay
-- BRADIO
 - NITRODAY
 - LUCKY KILIMANJARO
 - きのこ帝国
 - ウリチパン郡
 - 清竜人
-- カネコアヤノ
-- FINLANDS
 - 日食なつこ
 - Sugar's Campaign
 - Emerald
@@ -42,7 +47,6 @@ tags:
 - 台風クラブ
 - D.A.N.
 - フレンズ
-- MOROHA
 - betcover!!
 - plenty
 - showmore
