@@ -20,7 +20,7 @@ tags:
 # <font color="#ff4500">特に思いの丈を綴るべき魂のこもったバンド</font>
 
 <ul>
-<li><font color="#ff4500">鈴木実貴子ズ</font></li>
+<li><font color="#ff4500"><a href="/posts/SuzukiMikikos">鈴木実貴子ズ</a></font></li>
 <li><font color="#ff4500">MOROHA</font></li>
 <li><font color="#ff4500">女王蜂</font></li>
 <li><font color="#ff4500">カネコアヤノ</font></li>
