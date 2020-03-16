@@ -12,9 +12,9 @@ redirect_from:
 
 # Education
 
-- Bachelor of Science, Osaka University, 2014
-- Master of Science, Osaka University, 2016
-- Ph.D in Science, Osaka University, 2019
+- BS, Department of Biological Sciences, Osaka University, March 25th, 2014
+- MS, Department of Biological Sciences, Osaka University, March 28th, 2016
+- Ph.D, Department of Biological Sciences, Osaka University, March 25th, 2019
 
 # Work experience
 
