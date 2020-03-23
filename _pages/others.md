@@ -12,4 +12,4 @@ author_profile: true
 - a [Pandoc](https://pandoc.org) user
 - a [Pandoc Manual Translation Team member](https://pandoc-doc-ja.readthedocs.io/ja/latest/)
 - a [Python](https://www.python.org) user
-- a [contributor of Mark Text](https://github.com/marktext/marktext#contributors)
+- a [contributor of Mark Text](https://github.com/marktext/marktext/graphs/contributors)
