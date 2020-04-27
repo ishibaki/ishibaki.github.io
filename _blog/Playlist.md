@@ -67,3 +67,11 @@ tags:
 - Unknown Mortal Orchestra - Hunnybee
 - How To Dress Well - Words I Don't Remember
 - Taylor McFerrin - 'Already There' ft. Robert Glasper & Thundercat
+
+<script src="https://utteranc.es/client.js"
+        repo="ishibaki/ishibaki.github.io"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

@@ -110,3 +110,11 @@ AメロからBメロにいって，サビに行くのか...と待っていたら
 もうやめてくれ，と思いながら．
 
 <iframe width="912" height="360" src="https://www.youtube.com/embed/ZasPCECJDpc?list=RDEMviGa6QG33xnu1dcoIg9I2w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<script src="https://utteranc.es/client.js"
+        repo="ishibaki/ishibaki.github.io"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
