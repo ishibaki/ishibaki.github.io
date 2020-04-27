@@ -15,3 +15,15 @@ twitterで言うようなことじゃないけど，外部化しておきたい�
 {% for post in site.blog reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
+---
+
+いちおう，Githubアカウント持ってたらコメントできるようになってます．
+
+<script src="https://utteranc.es/client.js"
+        repo="ishibaki/ishibaki.github.io"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
