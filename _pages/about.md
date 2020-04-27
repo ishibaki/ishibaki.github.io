@@ -67,4 +67,4 @@ Previously, I was a student in [Matsuno Lab](http://www.bio.sci.osaka-u.ac.jp/bi
 
 ---
 
-<font size="7" color="#fafafa">[blog](/blog/)</font>
+<font size="1" color="#fafafa">[blog](https://ishibaki.github.io/blog/)</font>
