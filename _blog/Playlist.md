@@ -58,6 +58,7 @@ tags:
 - BAYNK
 - Clean Bandit
 - 長谷川白紙
+- 矢井田瞳
 
 # いつか思いの丈を綴るべき音楽
 
