@@ -26,6 +26,7 @@ tags:
 <li><font color="#ff4500">カネコアヤノ</font></li>
 <li><font color="#ff4500">FINLANDS</font></li>
 <li><font color="#ff4500">BRADIO</font></li>
+<li><font color="#ff4500">Qrion</font></li>
 </ul>
 
 # いつか思いの丈を綴るべきバンド
