@@ -1,12 +1,10 @@
 ---
 permalink: /blog/
-title: "Blog Posts"
+title: "片隅ブログ"
 author_profile: true
 redirect_from: 
   - "/blog.html"
 ---
-
-# ブログのようなもの
 
 twitterで言うようなことじゃないけど，外部化しておきたいこと．
 
