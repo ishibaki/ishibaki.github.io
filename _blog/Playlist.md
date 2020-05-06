@@ -34,7 +34,7 @@ tags:
 - hyukoh
 - Tempalay
 - NITRODAY
-- LUCKY KILIMANJARO
+- <a href="/posts/LuckyKilimanjaro">Lucky Kilimanjaro</a>
 - きのこ帝国
 - ウリチパン郡
 - 清竜人
