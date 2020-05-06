@@ -70,7 +70,7 @@ tags:
 - How To Dress Well - Words I Don't Remember
 - Taylor McFerrin - 'Already There' ft. Robert Glasper & Thundercat
 
-[片隅ブログへ戻る](/blogs/)
+[片隅ブログへ戻る](/blog/)
 
 ---
 
