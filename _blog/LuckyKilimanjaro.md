@@ -83,3 +83,13 @@ Lucky Kilimanjaroは，特に超能力めいた音楽を作る．
 <iframe width="640" height="360" src="https://www.youtube.com/embed/C5SHFXA9tdA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ，とか言いながら，こんな辛気臭い世界に向けたダンスチューンに，少しだけウルっときたりして．
+
+---
+
+<script src="https://utteranc.es/client.js"
+        repo="ishibaki/ishibaki.github.io"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
