@@ -1,7 +1,7 @@
 ---
 title: "Lucky Kilimanjaroに踊らされる日常"
-collection: posts
-permalink: /posts/LuckyKilimanjaro
+collection: blog
+permalink: /blog/LuckyKilimanjaro
 excerpt: ''
 date: 2020-05-05
 categories: "音楽"

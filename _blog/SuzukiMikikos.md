@@ -1,7 +1,7 @@
 ---
 title: "もうやめてくれ，と思いながら鈴木実貴子ズを聴く"
-collection: posts
-permalink: /posts/SuzukiMikikos
+collection: blog
+permalink: /blog/SuzukiMikikos
 excerpt: ''
 date: 2020-02-27
 categories: "音楽"

@@ -1,7 +1,7 @@
 ---
 title: "愛すべき音楽というもの"
-collection: posts
-permalink: /posts/Playlist
+collection: blog
+permalink: /blog/Playlist
 excerpt: ''
 date: 2020-01-01
 categories: "音楽"
