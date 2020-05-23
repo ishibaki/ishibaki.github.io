@@ -46,7 +46,7 @@ tags:
 - Guiano
 - 環ROY
 - はっぴぃえんど
-- Hump Back
+- <a href="/blog/WhenIWasDepressed">Hump Back</a>
 - 台風クラブ
 - D.A.N.
 - フレンズ
@@ -55,6 +55,7 @@ tags:
 - showmore
 - パンパンの塔
 - バレーボウイズ
+- <a href="/blog/WhenIWasDepressed">Hakubi</a>
 - HELSINKI LAMBDA CLUB
 - BAYNK
 - Clean Bandit
@@ -65,6 +66,7 @@ tags:
 
 - タイニーリトルアジアンタム
 - 悲しくてやりきれない
+- <a href="/blog/WhenIWasDepressed">今日はクラブに行かない</a>
 - Cashmere Cat - Victoria's Veil
 - Unknown Mortal Orchestra - Hunnybee
 - How To Dress Well - Words I Don't Remember
