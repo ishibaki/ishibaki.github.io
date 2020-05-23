@@ -1,7 +1,7 @@
 ---
 title: "私が一人暮らしをしていた頃の話/今日はクラブに行かない - 猫まみれ太郎/月まで - Hump Back/午前4時、SNS - Hakubi"
 collection: blog
-permalink: /blog/WhilIWasDepressed
+permalink: /blog/WhileIWasDepressed
 excerpt: ''
 date: 2020-05-24
 categories: "音楽"
