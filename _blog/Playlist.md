@@ -2,6 +2,7 @@
 title: "愛すべき音楽というもの"
 collection: blog
 permalink: /blog/Playlist
+description: 石橋朋樹のキモい音楽語り．
 excerpt: ''
 date: 2020-01-01
 categories: "音楽"

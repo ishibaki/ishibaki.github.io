@@ -3,6 +3,7 @@ title: "Lucky Kilimanjaroに踊らされる日常"
 collection: blog
 permalink: /blog/LuckyKilimanjaro
 excerpt: ''
+description: Lucky Kilimanjaroという強烈なシティポップバンドを紹介
 date: 2020-05-05
 categories: "音楽"
 tags:

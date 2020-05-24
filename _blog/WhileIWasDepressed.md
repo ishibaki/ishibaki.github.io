@@ -3,6 +3,7 @@ title: "私が一人暮らしをしていた頃の話/今日はクラブに行�
 collection: blog
 permalink: /blog/WhileIWasDepressed
 excerpt: ''
+description: 博士号をとるまでに誰もが通るだろう，鬱っぽい時期についてのエッセイ?
 date: 2020-05-24
 categories: "音楽"
 tags:

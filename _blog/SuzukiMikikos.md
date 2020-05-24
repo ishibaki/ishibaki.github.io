@@ -2,6 +2,7 @@
 title: "もうやめてくれ，と思いながら鈴木実貴子ズを聴く"
 collection: blog
 permalink: /blog/SuzukiMikikos
+description: 私の最も愛するバンド，鈴木実貴子ズを紹介したい．
 excerpt: ''
 date: 2020-02-27
 categories: "音楽"
