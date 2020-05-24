@@ -2,6 +2,7 @@
 layout: archive
 title: "Awards"
 permalink: /awards/
+description: 石橋朋樹の賞罰リスト
 author_profile: true
 ---
 

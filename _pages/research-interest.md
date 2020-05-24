@@ -1,6 +1,7 @@
 ---
 title: "Research Interest"
 permalink: /research-interest/
+description: 石橋朋樹の研究内容
 author_profile: true
 ---
 

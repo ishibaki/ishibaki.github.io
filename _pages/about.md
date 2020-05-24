@@ -2,6 +2,7 @@
 permalink: /
 title: "Hello"
 excerpt: "Hello"
+description: 石橋朋樹のホームページです/This is Tomoki Ishibashi's website
 author_profile: true
 redirect_from: 
   - /about/

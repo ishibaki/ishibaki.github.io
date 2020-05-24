@@ -2,6 +2,7 @@
 layout: archive
 title: "CV"
 permalink: /cv/
+description: 石橋朋樹の履歴書
 author_profile: true
 redirect_from:
   - /resume

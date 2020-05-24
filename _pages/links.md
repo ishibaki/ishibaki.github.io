@@ -2,6 +2,7 @@
 permalink: /links/
 title: "Useful Links"
 author_profile: true
+description: 石橋朋樹が気になるリンクたち
 redirect_from: 
   - "/link.html"
 ---

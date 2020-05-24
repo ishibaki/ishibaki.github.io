@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Others"
+description: アカデミック以外で石橋朋樹がわちゃわちゃしてることリスト
 permalink: /others/
 author_profile: true
 ---

@@ -2,6 +2,7 @@
 permalink: /blog/
 title: "片隅ブログ"
 author_profile: true
+description: なんかちょっとしたブログ的なもの．トップページにリンクはありません．
 redirect_from: 
   - "/blog.html"
 ---

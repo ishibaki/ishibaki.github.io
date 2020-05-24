@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Publications"
+description: 石橋朋樹のこれまでの業績リスト
 permalink: /publications/
 author_profile: true
 ---
