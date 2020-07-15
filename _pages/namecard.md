@@ -25,11 +25,26 @@ document.write("P"+"hon"+"e nu"+"mbe"+"r 2: " + ph_shtml2 + "<br>");
 </script>
 <noscript><img src="/images/mailto.png"></noscript>
 
-所属: 京都大学大学院 農学研究科 昆虫生態学研究室  
-Affiliation: Laboratory of Insect Ecology, Graduate School of Agriculture, Kyoto University
+---
 
-住所: 〒606-8502 京都市左京区北白川追分町 吉田キャンパス北部構内 農学部総合館 昆虫生態学研究室  
-Address: Laboratory of Insect Ecology, Faculty of Agriculture Main Bldg., Yoshida North Campus, Kyoto University, Oiwakecho, Kitashirakawa, Sakyoku, Kyoto City, 606-8502, Japan
+所属: [京都大学大学院 農学研究科 昆虫生態学研究室](http://www.insecteco.kais.kyoto-u.ac.jp/)
 
-シロアリ研究してます!  
-シロアリと共生するカビの遺伝子組換えには成功したので，次はシロアリ本体の遺伝子組換えをせねば...
+Affiliation: [Laboratory of Insect Ecology, Graduate School of Agriculture, Kyoto University](http://www.insecteco.kais.kyoto-u.ac.jp/englishpage.html)
+
+---
+
+住所: [〒606-8502 京都市左京区北白川追分町 吉田キャンパス北部構内 農学部総合館 昆虫生態学研究室](https://www.google.co.jp/maps/place/35%C2%B001'50.7%22N+135%C2%B047'05.6%22E/@35.030757,135.7843388,19z/data=!3m1!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d35.0307567!4d135.7848863?hl=ja)
+
+Address: [Laboratory of Insect Ecology, Faculty of Agriculture Main Bldg., Yoshida North Campus, Kyoto University, Oiwakecho, Kitashirakawa, Sakyoku, Kyoto City, 606-8502, Japan](https://www.google.co.jp/maps/place/35%C2%B001'50.7%22N+135%C2%B047'05.6%22E/@35.030757,135.7843388,19z/data=!3m1!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d35.0307567!4d135.7848863?hl=en)
+
+---
+
+名刺からジャンプいただきありがとうございます!
+
+分子生物学を用いてシロアリの研究をしています!  
+シロアリに寄生するカビの遺伝子組換えには成功したので，次はシロアリ本体の遺伝子組換えをせねばと思っています．
+
+もともとはキイロショウジョウバエの発生学をやっていました．  
+モデル生物あがりの人間なので，順遺伝学的スクリーニングをしたくてしたくてたまりません...
+
+今後とも，よろしくお願い申し上げます!!!
