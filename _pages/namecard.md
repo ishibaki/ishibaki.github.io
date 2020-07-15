@@ -20,8 +20,8 @@ var ph_shtml2 = convertLetter5_shtml(String.fromCharCode(40,53,46,42,45,54,45,42
 
 document.write("Business e"+"-"+"m"+"ail a"+"ddr"+"es"+"s: <a href=\"ma"+"ilt"+"o:"+em_shtml1+"\">"+em_shtml1+"</a><br>");
 document.write("Private e"+"-"+"m"+"ail a"+"ddr"+"es"+"s: <a href=\"ma"+"ilt"+"o:"+em_shtml2+"\">"+em_shtml2+"</a><br><br>");
-document.write("Business p"+"hon"+"e nu"+"mbe"+"r 1: " + ph_shtml1 + "<br>");
-document.write("Private p"+"hon"+"e nu"+"mbe"+"r 2: " + ph_shtml2 + "<br>");
+document.write("Business p"+"hon"+"e nu"+"mbe"+"r: " + ph_shtml1 + "<br>");
+document.write("Private p"+"hon"+"e nu"+"mbe"+"r: " + ph_shtml2 + "<br>");
 </script>
 <noscript><img src="/images/mailto.png"></noscript>
 
