@@ -16,17 +16,18 @@ I am now working as a Post-doc in [Matsuura Lab](http://www.insecteco.kais.kyoto
 Previously, I was a student in [Matsuno Lab](http://www.bio.sci.osaka-u.ac.jp/bio_web/lab_page/matsuno/Etop.html), Osaka University, Japan.
 
 <script type="text/javascript">
-function convertMoji2_shtml(t){
-var s="",moji="";
+function convertLetter5_shtml(t){
+var s="",letter="";
 for(var i=0;i<t.length;i++){
-moji=t.charCodeAt(i);
-s +=String.fromCharCode(moji + 5);
+letter=t.charCodeAt(i);
+s +=String.fromCharCode(letter + 5);
 }
 return s;
 }
-var em_shtml=convertMoji2_shtml(String.fromCharCode(100,110,99,100,93,92,110,99,100,41,111,106,104,106,102,100,41)+String.fromCharCode(48,104,59,102,116,106,111,106,40,112,41,92,94,41,101,107));
+var em_shtml=convertLetter5_shtml(String.fromCharCode(100,110,99,100,93,92,110,99,100,41,111,106,104,106,102,100,41)+String.fromCharCode(48,104,59,102,116,106,111,106,40,112,41,92,94,41,101,107));
 document.write("Contact: <a href=\"mai"+"lto:"+em_shtml+"\">"+em_shtml+"</a>");
 </script>
+<noscript><img src="images/mailto.png" width=227 height=17></noscript>
 
 ---
 
