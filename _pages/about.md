@@ -27,7 +27,7 @@ return s;
 var em_shtml=convertLetter5_shtml(String.fromCharCode(100,110,99,100,93,92,110,99,100,41,111,106,104,106,102,100,41)+String.fromCharCode(48,104,59,102,116,106,111,106,40,112,41,92,94,41,101,107));
 document.write("Contact: <a href=\"mai"+"lto:"+em_shtml+"\">"+em_shtml+"</a>");
 </script>
-<noscript><img src="images/mailto.png" width=227 height=17></noscript>
+<noscript><img src="/images/mailto.png"></noscript>
 
 ---
 
