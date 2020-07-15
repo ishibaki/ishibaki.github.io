@@ -2,8 +2,6 @@
 permalink: /namecard/
 title: "Tomoki Ishibashi, Ph.D. / 石橋朋樹 博士(理学)"
 author_profile: true
-redirect_from: 
-  - /namecard/
 ---
 
 <script type="text/javascript">
