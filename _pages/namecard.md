@@ -18,10 +18,10 @@ var em_shtml2 = convertLetter5_shtml(String.fromCharCode(101,110,107,101,110,107
 var ph_shtml1 = convertLetter5_shtml(String.fromCharCode(40,53,46,42,45,52,50,42,52,50,48,42,51,46,49,52), 3);
 var ph_shtml2 = convertLetter5_shtml(String.fromCharCode(40,53,46,42,45,54,45,42,46,51,52,50,42,45,49,48,45), 3);
 
-document.write("E"+"-"+"m"+"ail a"+"ddr"+"es"+"s 1: <a href=\"ma"+"ilt"+"o:"+em_shtml1+"\">"+em_shtml1+"</a><br>");
-document.write("E"+"-"+"m"+"ail a"+"ddr"+"es"+"s 2: <a href=\"ma"+"ilt"+"o:"+em_shtml2+"\">"+em_shtml2+"</a><br>");
-document.write("P"+"hon"+"e nu"+"mbe"+"r 1: " + ph_shtml1 + "<br>");
-document.write("P"+"hon"+"e nu"+"mbe"+"r 2: " + ph_shtml2 + "<br>");
+document.write("Business e"+"-"+"m"+"ail a"+"ddr"+"es"+"s: <a href=\"ma"+"ilt"+"o:"+em_shtml1+"\">"+em_shtml1+"</a><br>");
+document.write("Private e"+"-"+"m"+"ail a"+"ddr"+"es"+"s: <a href=\"ma"+"ilt"+"o:"+em_shtml2+"\">"+em_shtml2+"</a><br><br>");
+document.write("Business p"+"hon"+"e nu"+"mbe"+"r 1: " + ph_shtml1 + "<br>");
+document.write("Private p"+"hon"+"e nu"+"mbe"+"r 2: " + ph_shtml2 + "<br>");
 </script>
 <noscript><img src="/images/mailto.png"></noscript>
 
@@ -48,3 +48,13 @@ Address: [Laboratory of Insect Ecology, Faculty of Agriculture Main Bldg., Yoshi
 モデル生物あがりの人間なので，順遺伝学的スクリーニングをしたくてしたくてたまりません...
 
 今後とも，よろしくお願い申し上げます!!!
+
+---
+
+<script src="https://utteranc.es/client.js"
+        repo="ishibaki/ishibaki.github.io"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
