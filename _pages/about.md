@@ -20,11 +20,11 @@ function convertMoji2_shtml(t){
 var s="",moji="";
 for(var i=0;i<t.length;i++){
 moji=t.charCodeAt(i);
-s +=String.fromCharCode(moji+1);
+s +=String.fromCharCode(moji + 5);
 }
 return s;
 }
-var em_shtml=convertMoji2_shtml(String.fromCharCode(104,114,103,104,97,96,114,103,104,45,115,110,108,110,106,104,45)+String.fromCharCode(52,108,63,106,120,110,115,110,44,116,45,96,98,45,105,111));
+var em_shtml=convertMoji2_shtml(String.fromCharCode(100,110,99,100,93,92,110,99,100,41,111,106,104,106,102,100,41)+String.fromCharCode(48,104,59,102,116,106,111,106,40,112,41,92,94,41,101,107));
 document.write("Contact: <a href=\"mai"+"lto:"+em_shtml+"\">"+em_shtml+"</a>");
 </script>
 
