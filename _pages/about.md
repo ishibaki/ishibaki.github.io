@@ -16,7 +16,6 @@ I am now working as a Post-doc in [Matsuura Lab](http://www.insecteco.kais.kyoto
 Previously, I was a student in [Matsuno Lab](http://www.bio.sci.osaka-u.ac.jp/bio_web/lab_page/matsuno/Etop.html), Osaka University, Japan.
 
 <script type="text/javascript">
-<!--
 function convertMoji2_shtml(t){
 var s="",moji="";
 for(var i=0;i<t.length;i++){
@@ -27,7 +26,6 @@ return s;
 }
 var em_shtml=convertMoji2_shtml(String.fromCharCode(104,114,103,104,97,96,114,103,104,45,115,110,108,110,106,104,45)+String.fromCharCode(52,108,63,106,120,110,115,110,44,116,45,96,98,45,105,111));
 document.write("Contact: <a href=\"mai"+"lto:"+em_shtml+"\">"+em_shtml+"</a>");
-// -->
 </script>
 
 ---
