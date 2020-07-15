@@ -1,5 +1,4 @@
 ---
-permalink: /
 title: "Namecard"
 excerpt: "Namecard"
 description: Tomoki Ishibashi, Ph.D./石橋朋樹 博士(理学)
