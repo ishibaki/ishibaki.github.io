@@ -12,7 +12,7 @@ citation: 'Doysabas <i>et al.</i> &quot;ATeam technology for detecting early sig
 Authors:  
 Karla C. C. Doysabas, Mami Oba, **Tomoki Ishibashi**, Hideki Shibata, Hitoshi Takemae, Hiroshi Shimoda, Tetsuya Mizutani, Atsuo Iida, Eiichi Hondo
 
-<!-- [Download paper here](https://) -->
+[Download paper here](https://www.jstage.jst.go.jp/article/jvms/82/3/82_20-0021/_pdf/-char/en)
 
 ---
 

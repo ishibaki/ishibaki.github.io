@@ -12,6 +12,8 @@ citation: 'M. Takata, T. Inagaki, T. Ishibashi, E. Tasaki and K. Matsuura &quot;
 Authors:  
 Mamoru Takata, Tatsuya Inagaki, **Tomoki Ishibashi**, Eisuke Tasaki, and Kenji Matsuura
 
+[Download paper here](https://link.springer.com/content/pdf/10.1007/s00040-020-00785-2.pdf)
+
 # 簡単な解説
 
 本論文は，**シロアリの非侵襲的な性判別法を新しく開発**したことを報告するものであり，私の名前が初めて載ったシロアリに関する論文です．
