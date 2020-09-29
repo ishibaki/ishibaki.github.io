@@ -6,7 +6,7 @@ excerpt: ''
 date: 2019-04-08
 venue: 'Symmetry'
 paperurl: 'https://www.mdpi.com/2073-8994/11/4/505'
-citation: 'S. Utsunomiya, S. Sakamura, T. Sasamura, <u>T. Ishibashi</u>, C. Maeda, M. Inaki, K. Matsuno. &quot;Cells with Broken Left–Right Symmetry: Roles of Intrinsic Cell Chirality in Left–Right Asymmetric Epithelial Morphogenesis&quot; <i>Symmetry</i> 2019 <b>11</b>:4.'
+citation: 'S. Utsunomiya, S. Sakamura, T. Sasamura, <b><u>T. Ishibashi</u></b>, C. Maeda, M. Inaki, K. Matsuno. &quot;Cells with Broken Left–Right Symmetry: Roles of Intrinsic Cell Chirality in Left–Right Asymmetric Epithelial Morphogenesis&quot; <i>Symmetry</i> 2019 <b>11</b>:4.'
 ---
 
 Authors:  
