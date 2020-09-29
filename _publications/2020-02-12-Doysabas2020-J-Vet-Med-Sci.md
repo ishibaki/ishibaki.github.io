@@ -6,7 +6,7 @@ excerpt: ''
 date: 2020-02-12
 venue: 'Journal of Veterinary Medical Science'
 paperurl: 'https://doi.org/10.1292/jvms.20-0021'
-citation: 'K. C. C. Doysabas, M. Oba, <b>T. Ishibashi</b>, H. Shibata, H. Takemae, H. Shimoda, T. Mizutani, A. Iida, E. Hondo. &quot;ATeam technology for detecting early signs of viral cytopathic effect&quot; <i>Journal of Veterinary Medical Science</i> 2020 <b>82</b>(3):387-393'
+citation: 'K. C. C. Doysabas, M. Oba, <u>T. Ishibashi</u>, H. Shibata, H. Takemae, H. Shimoda, T. Mizutani, A. Iida, E. Hondo. &quot;ATeam technology for detecting early signs of viral cytopathic effect&quot; <i>Journal of Veterinary Medical Science</i> 2020 <b>82</b>(3):387-393'
 ---
 
 Authors:  
