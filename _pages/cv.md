@@ -52,7 +52,7 @@ redirect_from:
 # Awards
 
   <ul>{% for post in site.awards reversed %}
-    {% include archive-single.html %}
+    {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
 # Talks
