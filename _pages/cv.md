@@ -13,23 +13,23 @@ redirect_from:
 
 # Education
 
-- BS, Department of Biological Sciences, Osaka University, March 25th, 2014
-- MS, Department of Biological Sciences, Osaka University, March 28th, 2016
 - Ph.D, Department of Biological Sciences, Osaka University, March 25th, 2019
+- MS, Department of Biological Sciences, Osaka University, March 28th, 2016
+- BS, Department of Biological Sciences, Osaka University, March 25th, 2014
 
 # Work experience
 
-- 2011-2012: Lab technician
-  - Laboratory of Genome and Chromosome Functions, Institute for Protein Research, Osaka University
-  - Supervisor: Prof. Akira Shinohara
+- 2019-Today: Postdoctoral Researcher
+  - [Laboratory of Insect Ecology](http://www.insecteco.kais.kyoto-u.ac.jp/englishpage.html), Faulty of Agriculture, Kyoto University
+  - Supervisor: Prof. Kenji Matsuura
 
 - 2016-2019: [Research Fellowship for Young Scientists (DC1), JSPS](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-16J01027/)
   - [Laboratory of Cell Biology](http://www.bio.sci.osaka-u.ac.jp/bio_web/lab_page/matsuno/Etop.html), Department of Biological Sciences, Osaka University
   - Supervisor: Prof. Kenji Matsuno
 
-- 2019-Today: Postdoctoral Researcher
-  - [Laboratory of Insect Ecology](http://www.insecteco.kais.kyoto-u.ac.jp/englishpage.html), Faulty of Agriculture, Kyoto University
-  - Supervisor: Prof. Kenji Matsuura
+- 2011-2012: Lab technician
+  - Laboratory of Genome and Chromosome Functions, Institute for Protein Research, Osaka University
+  - Supervisor: Prof. Akira Shinohara
 
 # Skills
 
@@ -64,5 +64,5 @@ redirect_from:
 # Teaching
 
   <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-teaching.html %}
+    {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
