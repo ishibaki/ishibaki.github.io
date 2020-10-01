@@ -64,5 +64,5 @@ redirect_from:
 # Teaching
 
   <ul>{% for post in site.teaching reversed %}
-    {% include archive-single.html %}
+    {% include archive-single-teaching.html %}
   {% endfor %}</ul>
