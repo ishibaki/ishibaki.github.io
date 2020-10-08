@@ -13,9 +13,7 @@ citation: '<b><u>T. Ishibashi</u></b>, M. Inaki, K. Matusno. &quot;Statistical v
 Authors:  
 **Tomoki Ishibashi**, Mikiko Inaki, Kenji Matsuno.
 
-<!--
-[Download paper here]()
--->
+[Download preprint here](https://ishibaki.github.io/files/201008_biorxiv.pdf)
 
 ---
 
