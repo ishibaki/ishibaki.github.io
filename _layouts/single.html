@@ -36,8 +36,10 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.venue == 'submitting' %}
+          <p>Preprint: <i>{{ page.preprint }}</i>, submitting to {{ page.submitting }}</p>
         {% elsif page.venue == 'preprint' %}
-        <p>Preprint: <i>{{ page.preprint }}</i></p>
+          <p>Preprint: <i>{{ page.preprint }}</i></p>
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
