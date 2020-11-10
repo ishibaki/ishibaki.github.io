@@ -43,7 +43,7 @@
         {% elsif post.collection == 'publications' %}
           {% if post.submitting %}
             <p>Preprint: <i>{{ post.preprint }}</i>, submitting to {{ post.submitting }}</p>
-          {% elsif post.venue == 'preprint' %}
+          {% elsif post.preprint %}
             <p>Preprint: <i>{{ post.preprint }}</i></p>
           {% else %}
             <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
