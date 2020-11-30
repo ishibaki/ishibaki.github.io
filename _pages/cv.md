@@ -45,11 +45,15 @@ redirect_from:
 
 # Publications
 
+Total: {{ site.publications | size }}
+
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
 # Awards
+
+Total: {{ site.awards | size }}
 
   <ul>{% for post in site.awards reversed %}
     {% include archive-single-talk-cv.html %}
@@ -57,11 +61,15 @@ redirect_from:
 
 # Talks
 
+Total: {{ site.talks | size }}
+
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
 # Teaching
+
+Total: {{ site.teaching | size }}
 
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-talk-cv.html %}
