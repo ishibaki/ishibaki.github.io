@@ -1,20 +1,18 @@
 ---
 title: "Statistical validation verifies that enantiomorphic states of cell chirality are determinant dictating the left- or right-handed direction of the hindgut rotation in *Drosophila*"
 collection: publications
-permalink: /publication/2020-11-31-Ishibashi2020-Symmetry
+permalink: /publication/2020-12-02-Ishibashi2020-Symmetry
 excerpt: ''
-date: 2020-11-31
+date: 2020-12-02
 venue: 'Symmetry'
-paperurl: 'https://doi.org/10.1101/2020.10.08.316182'
-citation: '<b><u>T. Ishibashi</u></b>, M. Inaki, K. Matusno. &quot;Statistical validation verifies that enantiomorphic states of cell chirality are determinant dictating the left- or right-handed direction of the hindgut rotation in <i>Drosophila</i>.&quot; <i>Symmetry</i> 2020. <b>in press</b>'
+paperurl: 'https://www.mdpi.com/2073-8994/12/12/1991/htm'
+citation: '<b><u>T. Ishibashi</u></b>, M. Inaki, K. Matusno. &quot;Statistical validation verifies that enantiomorphic states of cell chirality are determinant dictating the left- or right-handed direction of the hindgut rotation in <i>Drosophila</i>.&quot; <i>Symmetry</i> 2020. <b>12</b>:12, 1991'
 ---
 
 Authors:  
 **Tomoki Ishibashi**, Mikiko Inaki, Kenji Matsuno.
 
-[Certificate of Acceptance](/files/201130_symmetry_acceptance_certificate.pdf)
-
-[Download preprint here](https://www.biorxiv.org/content/10.1101/2020.10.08.316182v1.full.pdf)
+[Download paper here](https://www.mdpi.com/2073-8994/12/12/1991/pdf)
 
 ---
 
