@@ -29,12 +29,6 @@ document.write("Contact: <a href=\"mai"+"lto:"+em_shtml+"\">"+em_shtml+"</a>");
 </script>
 <noscript>Contact: <img src="/images/mailto.png"></noscript>
 
-I am using [RemoteHour](https://remotehour.com/)!
-
-<iframe src="https://remotehour.com/widget/364/371?inline=true" width="100%" height="700px" marginwidth="0" marginheight="0" frameborder="0" style="border:none;" allow="microphone; camera"></iframe>
-<br>
-<iframe src="https://remotehour.com/widget/364/371" width="100%" marginwidth="0" marginheight="0" frameborder="0" style="border:none;"></iframe>
-
 ---
 
 ## Recent Publications
