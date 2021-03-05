@@ -15,8 +15,5 @@ main:
   - title: "Others"
     url: /others/
 
-  - title: "Chat"
-    url: /remotehour/
-
   - title: "Links"
     url: /links/
