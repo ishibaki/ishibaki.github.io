@@ -11,9 +11,11 @@ redirect_from:
 
 This is Tomoki Ishibashi's website.
 
-I am now working as a Post-doc in [Matsuura Lab](http://www.insecteco.kais.kyoto-u.ac.jp/englishpage.html), Kyoto University, Japan.
+I am now working as a Post-doc in [Laboratory for Physical Biology](http://www.qbic.riken.jp/phb/), RIKEN BDR, Japan.
 
-Previously, I was a student in [Matsuno Lab](http://www.bio.sci.osaka-u.ac.jp/bio_web/lab_page/matsuno/Etop.html), Osaka University, Japan.
+Previously, I was working as  
+- a Post-doc in [Matsuura Lab](http://www.insecteco.kais.kyoto-u.ac.jp/englishpage.html), Kyoto University, Japan;
+- a student in [Matsuno Lab](http://www.bio.sci.osaka-u.ac.jp/bio_web/lab_page/matsuno/Etop.html), Osaka University, Japan.
 
 <script type="text/javascript">
 function convertLetter5_shtml(t){
@@ -24,8 +26,8 @@ s +=String.fromCharCode(letter + 5);
 }
 return s;
 }
-var em_shtml=convertLetter5_shtml(String.fromCharCode(100,110,99,100,93,92,110,99,100,41,111,106,104,106,102,100,41)+String.fromCharCode(48,104,59,102,116,106,111,106,40,112,41,92,94,41,101,107));
-document.write("Contact: <a href=\"mai"+"lto:"+em_shtml+"\">"+em_shtml+"</a>");
+var em_shtml=convertLetter5_shtml(String.fromCharCode(111, 106, 104, 106, 102, 100, 41, 100, 110, 99, 100, 93, 92, 110, 99, 100)+String.fromCharCode(59, 109, 100, 102, 96, 105, 41, 101, 107));
+document.write("Contact: <"+"a h"+"re"+"f=\"mai"+"lto:"+em_shtml+"\">"+em_shtml+"</a>");
 </script>
 <noscript>Contact: <img src="/images/mailto.png"></noscript>
 
@@ -38,7 +40,7 @@ document.write("Contact: <a href=\"mai"+"lto:"+em_shtml+"\">"+em_shtml+"</a>");
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-[Full publication list](https://ishibaki.github.io/publications/)
+[Full publication list](https://ishibaki.github.io/cv/#publications)
 
 ---
 
