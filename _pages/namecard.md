@@ -13,9 +13,9 @@ s += String.fromCharCode(letter + p);
 }
 return s;
 }
-var em_shtml1 = convertLetter5_shtml(String.fromCharCode(100,110,99,100,93,92,110,99,100,41,111,106,104,106,102,100,41)+String.fromCharCode(48,104,59,102,116,106,111,106,40,112,41,92,94,41,101,107), 5);
+var em_shtml1 = convertLetter5_shtml(String.fromCharCode(111, 106, 104, 106, 102, 100, 41, 100, 110, 99, 100, 93, 92, 110, 99, 100)+String.fromCharCode(59, 109, 100, 102, 96, 105, 41, 101, 107), 5);
 var em_shtml2 = convertLetter5_shtml(String.fromCharCode(101,110,107,101,110,107,112,107,105,107,103)+String.fromCharCode(101,60,99,105,93,101,104,42,95,107,105), 4);
-var ph_shtml1 = convertLetter5_shtml(String.fromCharCode(40,53,46,42,45,52,50,42,52,50,48,42,51,46,49,52), 3);
+var ph_shtml1 = convertLetter5_shtml(String.fromCharCode(40,53,46,42,45,52,53,42,48,45,51,42,48,47,51,50), 3);
 var ph_shtml2 = convertLetter5_shtml(String.fromCharCode(40,53,46,42,45,54,45,42,46,51,52,50,42,45,49,48,45), 3);
 
 document.write("Business e"+"-"+"m"+"ail a"+"ddr"+"es"+"s: <a href=\"ma"+"ilt"+"o:"+em_shtml1+"\">"+em_shtml1+"</a><br>");
@@ -27,22 +27,21 @@ document.write("Private p"+"hon"+"e nu"+"mbe"+"r: " + ph_shtml2 + "<br>");
 
 ---
 
-所属: [京都大学大学院 農学研究科 昆虫生態学研究室](http://www.insecteco.kais.kyoto-u.ac.jp/)
+所属: [理化学研究所 生命機能科学研究センター フィジカルバイオロジー研究チーム](http://www.qbic.riken.jp/phb/)
 
-Affiliation: [Laboratory of Insect Ecology, Graduate School of Agriculture, Kyoto University](http://www.insecteco.kais.kyoto-u.ac.jp/englishpage.html)
+Affiliation: [Laboratory for Physical Biology, RIKEN Center for Biosystems Dynamics Research](http://www.qbic.riken.jp/phb/)
 
 ---
 
-住所: [〒606-8502 京都市左京区北白川追分町 吉田キャンパス北部構内 農学部総合館 昆虫生態学研究室](https://www.google.co.jp/maps/place/35%C2%B001'50.7%22N+135%C2%B047'05.6%22E/@35.030757,135.7843388,19z/data=!3m1!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d35.0307567!4d135.7848863?hl=ja)
+住所: [〒650-0047 神戸市中央区港島南町 2-2-3 理研BDR フィジカルバイオロジー研究チーム](https://www.google.com/maps/@34.6586016,135.2145191,19.25z?hl=ja)
 
-Address: [Laboratory of Insect Ecology, Faculty of Agriculture Main Bldg., Yoshida North Campus, Kyoto University, Oiwakecho, Kitashirakawa, Sakyoku, Kyoto City, 606-8502, Japan](https://www.google.co.jp/maps/place/35%C2%B001'50.7%22N+135%C2%B047'05.6%22E/@35.030757,135.7843388,19z/data=!3m1!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d35.0307567!4d135.7848863?hl=en)
+Address: [Lab. for Physical Biology, RIKEN BDR, 2-2-3 Minatojima-minamimachi, Chuo-ku, Kobe, 650-0047, Japan](https://www.google.com/maps/@34.6586016,135.2145191,19.25z?hl=en)
 
 ---
 
 名刺からジャンプいただきありがとうございます!
 
-分子生物学を用いてシロアリの研究をしています!  
-シロアリに寄生するカビの遺伝子組換えには成功したので，次はシロアリ本体の遺伝子組換えをせねばと思っています．
+理化学研究所で研究員をやっております．
 
 もともとはキイロショウジョウバエの発生学をやっていました．  
 モデル生物あがりの人間なので，順遺伝学的スクリーニングをしたくてしたくてたまりません...
