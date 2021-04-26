@@ -12,6 +12,7 @@ redirect_from:
 
 # Labs
 
+- [理研 フィジカルバイオロジー研究チーム](http://www.qbic.riken.jp/phb/)
 - [京都大学 松浦研](http://www.insecteco.kais.kyoto-u.ac.jp)
 - [大阪大学 松野研](http://www.bio.sci.osaka-u.ac.jp/bio_web/lab_page/matsuno/index.html)
 
