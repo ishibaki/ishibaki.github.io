@@ -46,9 +46,7 @@ Address: [Lab. for Physical Biology, RIKEN BDR, 2-2-3 Minatojima-minamimachi, Ch
 もともとはキイロショウジョウバエの発生学をやっていました．  
 モデル生物あがりの人間なので，順遺伝学的スクリーニングをしたくてしたくてたまりません...
 
-もし何かしらでお話する場合は，[Remotehour](https://remotehour.com)を使っていますので，オンライン中ならいつでもどうぞ．
-
-<iframe src="https://remotehour.com/widget/364/371?inline=true" width="100%" height="700px" marginwidth="0" marginheight="0" frameborder="0" style="border:none;" allow="microphone; camera"></iframe>
+もし何かしらでお話する場合は，[Remotehour](https://remotehour.com/t-ishibashi)を使っていますので，オンライン中ならいつでもどうぞ．
 
 今後とも，よろしくお願い申し上げます!!!
 
