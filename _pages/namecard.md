@@ -4,6 +4,16 @@ title: "Tomoki Ishibashi, Ph.D. / 石橋朋樹 博士(理学)"
 author_profile: true
 ---
 
+<button class="card">
+  <div class="row clearfix">
+    <div class="right"><p><span class="big">R</span>IKEN<p><span class="med no-space">L</span><span class="small no-space">aboratory for </span><span class="med no-space">P</span><span class="small no-space">hysical</span><span class="med no-space">B</span><span class="small no-space">iology</span></p></div>
+  </div>
+  <div class="row">
+    <p><span class="big">T</span>omoki <span class="big">Ishibashi</span></p>
+    <p><span class="big">R</span>esearcher</p>
+  </div>
+</button>
+
 <script type="text/javascript">
 function convertLetter5_shtml(t, p){
 var s = "", letter = "";
