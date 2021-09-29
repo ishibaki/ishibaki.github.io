@@ -11,10 +11,11 @@ redirect_from:
 
 This is Tomoki Ishibashi's website.
 
-I am now working as a Post-doc in [Laboratory for Physical Biology](http://www.qbic.riken.jp/phb/), RIKEN BDR, Japan.
+<!-- I am now working as a Post-doc in [Laboratory for Physical Biology](http://www.qbic.riken.jp/phb/), RIKEN BDR, Japan. -->
+a Post-doc in [Matsuura Lab](http://www.insecteco.kais.kyoto-u.ac.jp), Kyoto University, Japan.
 
 Previously, I was working as  
-- a Post-doc in [Matsuura Lab](http://www.insecteco.kais.kyoto-u.ac.jp/englishpage.html), Kyoto University, Japan;
+<!-- - a Post-doc in [Matsuura Lab](http://www.insecteco.kais.kyoto-u.ac.jp/englishpage.html), Kyoto University, Japan; -->
 - a student in [Matsuno Lab](http://www.bio.sci.osaka-u.ac.jp/bio_web/lab_page/matsuno/Etop.html), Osaka University, Japan.
 
 <script type="text/javascript">
