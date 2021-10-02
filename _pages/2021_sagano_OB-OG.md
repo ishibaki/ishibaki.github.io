@@ -45,6 +45,8 @@ navigation: false
 ## 私のようなコミュ障が同窓会で悩まないためのtips
 
 - [コミュ障でも悩まない同窓会(成人式)で話すネタ、対処法](https://rope-shuttle-h30.hatenablog.jp/entry/2020/01/11/001358)
+- [同窓会にふさわしい話題は何か？](https://blog.goo.ne.jp/yamazaki_hajime/e/3a000df4d1d24e1258f4f3e15252112f)
+- [同窓会でこんな話題はNG！話のネタにしちゃいけないことって？](https://4meee.com/articles/view/31673)
 
 <!-- - [同窓会によくいる痛いヤツ10選](https://news.livedoor.com/article/detail/12119474/) -->
 
