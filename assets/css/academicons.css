@@ -208,6 +208,18 @@
 .ai-zotero-square:before {
   content: "\e861";
 }
+.ai-researchmap:before {
+  content: "\e862";
+}
+.ai-researchmap-square:before {
+  content: "\e863";
+}
+.ai-kaken:before {
+  content: "\e864";
+}
+.ai-kaken-square:before {
+  content: "\e865";
+}
 /*  Duplication of the FontAwesome style classes using 'ai' in place of 'fa'. */
 .ai-lg {
   font-size: 1.33333333em;
