@@ -44,7 +44,7 @@ redirect_from:
   - Molecular biology
 - Bioinformatics
   - RNA-seq
-  - Wholo genome sequencing
+  - Whole genome sequencing
   - ChIP-seq
 
 # Publications
