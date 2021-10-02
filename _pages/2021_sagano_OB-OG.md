@@ -26,7 +26,7 @@ navigation: false
 
 ## 開催場所
 
-[スペーシャルチャット SpatialChat](https://spatial.chat/s/condmatparty200719) (足立くんのルーム) 使用  
+[スペーシャルチャット SpatialChat](https://spatial.chat/s/condmatparty200719)  
 ↑上のリンクをクリック
 
 ### SpatialChatの使い方
