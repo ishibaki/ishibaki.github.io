@@ -32,6 +32,8 @@ author_profile: false
     [![カメラとマイクへのアクセスを許可](https://i.gyazo.com/63f65c6abedeec8815c938a17d9b0ed9.png)](https://gyazo.com/63f65c6abedeec8815c938a17d9b0ed9)
 5. カメラアイコンとマイクアイコンをONにして，"Join Space"をクリック
     [![カメラとマイクをON](https://i.gyazo.com/545f9a6d238f02d7e3b0c45ed53f7e8f.png)](https://gyazo.com/545f9a6d238f02d7e3b0c45ed53f7e8f)
+6. アイコンをドラッグして，話したい人に近づいてください．アイコン間の距離が近いほど，相手の声が大きく聞こえる仕組みです．
+    [![アイコンをドラッグして，話したい人に近づく](https://i.gyazo.com/3df37653ccd2663809cc9afe8b292ec8.png)](https://gyazo.com/3df37653ccd2663809cc9afe8b292ec8)
     
 
 ---
