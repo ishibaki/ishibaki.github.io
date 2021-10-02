@@ -3,6 +3,7 @@ permalink: /20211204-sagano-ob-og
 title: "2009年度卒 嵯峨野高校 自然科学コース 同窓会のお知らせ"
 excerpt: "2009年度卒 嵯峨野高校 自然科学コース 同窓会のお知らせ"
 author_profile: false
+navigation: false
 ---
 
 - 足立，石橋，折笠の謎のメンバーで盛り上がって開催決定しました．  
