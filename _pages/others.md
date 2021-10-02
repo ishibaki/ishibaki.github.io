@@ -8,6 +8,7 @@ author_profile: true
 
 # I am ...
 
+- a Technical Advisor of [BugMo Ltd.](https://bugmo.jp)
 - a [Vimmer](https://www.vim.org)
 - a [Keyboard developer](https://www.google.co.jp/search?q=keyboard%20diy)
 - a [Pandoc](https://pandoc.org) user
