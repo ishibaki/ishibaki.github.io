@@ -19,8 +19,8 @@ author_profile: false
 
 ### コアタイム
 
-1. 18:00 - 18:30 <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MG0xY212MWVpaDhkb2p0YWVjMHFycXRmOWQgaWo2ZnFxOGQ5bmg3NW92aDQ1ZWJ2aDJyYmdAZw&amp;tmsrc=ij6fqq8d9nh75ovh45ebvh2rbg%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_ja.gif"></a>
-2. 21:00 - 21:30 <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=N2xmaWpidXVxOXNmbWZoZ2hpbHRmY3BpZ3EgaWo2ZnFxOGQ5bmg3NW92aDQ1ZWJ2aDJyYmdAZw&amp;tmsrc=ij6fqq8d9nh75ovh45ebvh2rbg%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_ja.gif"></a>
+1. 18:00 - 18:30
+2. 21:00 - 21:30
 
 参加可能な方はコアタイムに原則集合，あとは開催時間内ルーム出入り自由です．
 
