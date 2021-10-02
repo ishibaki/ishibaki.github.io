@@ -14,15 +14,14 @@ author_profile: false
 
 - 2021/12/04 (土)
 - 18:00 - 23:59
-
-<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NGhiODhqNjVjMDRxbzF2dmcwMm5wMm91cTggaWo2ZnFxOGQ5bmg3NW92aDQ1ZWJ2aDJyYmdAZw&amp;tmsrc=ij6fqq8d9nh75ovh45ebvh2rbg%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_ja.gif"></a>
+    - Googleカレンダーに追加する → <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NGhiODhqNjVjMDRxbzF2dmcwMm5wMm91cTggaWo2ZnFxOGQ5bmg3NW92aDQ1ZWJ2aDJyYmdAZw&amp;tmsrc=ij6fqq8d9nh75ovh45ebvh2rbg%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_ja.gif"></a>
 
 ### コアタイム
 
 1. 18:00 - 18:30
 2. 21:00 - 21:30
 
-参加可能な方はコアタイムに原則集合，あとは開催時間内ルーム出入り自由です．
+**参加可能な方はコアタイムに原則集合，あとは開催時間内ルーム出入り自由です．**
 
 ## 開催場所
 
