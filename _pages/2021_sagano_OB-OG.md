@@ -6,7 +6,7 @@ author_profile: false
 navigation: false
 ---
 
-![](image/sagano.png)
+![](../images/sagano.png)
 
 - 足立，石橋，折笠の謎のメンバーで盛り上がって開催決定しました．  
   (なぜこのメンバーなのか気になる方は，経緯をご説明いたしますので，ぜひともご参加ください．)
