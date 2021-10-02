@@ -45,7 +45,8 @@ navigation: false
 ## 私のようなコミュ障が同窓会で悩まないためのtips
 
 - [コミュ障でも悩まない同窓会(成人式)で話すネタ、対処法](https://rope-shuttle-h30.hatenablog.jp/entry/2020/01/11/001358)
-- [同窓会によくいる痛いヤツ10選](https://news.livedoor.com/article/detail/12119474/)
+
+<!-- - [同窓会によくいる痛いヤツ10選](https://news.livedoor.com/article/detail/12119474/) -->
 
 <!-- ## なぜかTシャツを作ってみた
 
