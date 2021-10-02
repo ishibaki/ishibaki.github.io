@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /20211204-sagano-ob-og
 title: "2009年度卒 嵯峨野高校 自然科学コース 同窓会のお知らせ"
 excerpt: "2009年度卒 嵯峨野高校 自然科学コース 同窓会のお知らせ"
 author_profile: false
