@@ -43,3 +43,8 @@ navigation: false
     [![カメラとマイクをON](https://i.gyazo.com/545f9a6d238f02d7e3b0c45ed53f7e8f.png)](https://gyazo.com/545f9a6d238f02d7e3b0c45ed53f7e8f)
 6. アイコンをドラッグして，話したい人に近づいてください．アイコン間の距離が近いほど，相手の声が大きく聞こえる仕組みです．
     [![アイコンをドラッグして，話したい人に近づく](https://i.gyazo.com/3df37653ccd2663809cc9afe8b292ec8.png)](https://gyazo.com/3df37653ccd2663809cc9afe8b292ec8)
+    
+## 私のようなコミュ障が同窓会で悩まないためのtips
+
+- [コミュ障でも悩まない同窓会(成人式)で話すネタ、対処法](https://rope-shuttle-h30.hatenablog.jp/entry/2020/01/11/001358)
+- [同窓会によくいる痛いヤツ10選](https://news.livedoor.com/article/detail/12119474/)
