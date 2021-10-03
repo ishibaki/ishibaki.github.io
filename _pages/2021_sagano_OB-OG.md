@@ -39,7 +39,7 @@ SpatialChatは，現実の飲み会のように
 ### SpatialChatの使い方
 
 1. SpatialChatにアクセス．
-2. 名前を入力する，  
+2. 名前を入力する (高校卒業時の姓名をお使い頂けると助かります)．  
     ![名前の入力](https://i.gyazo.com/e0773956bef1c26b9c5286d219ccac9b.png)
 3. "Continue"をクリック．
 4. カメラ・マイク使用の許可が出る場合は"許可"をクリック．  
