@@ -6,7 +6,7 @@ author_profile: false
 navigation: false
 ---
 
-![](../images/sagano.png)
+![Sagano Reunion Logo, designed by Tomoki Ishibashi](../images/sagano.png)
 
 - 自然科学の知り合いがいらっしゃいましたら，本ページを共有していただけますと幸いです．
 - 担任だったK先生(生物教科担当)の参加を打診中です (2021/10/02, 石橋)
