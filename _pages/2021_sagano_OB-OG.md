@@ -29,18 +29,23 @@ navigation: false
 [スペーシャルチャット SpatialChat](https://spatial.chat/s/condmatparty200719)  
 ↑上のリンクをクリック
 
+SpatialChatは，現実の飲み会のように
+- 近くの人の声が大きく聞こえて，遠くの人の声はほとんど聞こえない
+- 自由に場所を移動し，話したい人の近くにいける
+オンラインミーティングのサービスです．
+
 ### SpatialChatの使い方
 
 1. SpatialChatにアクセス
 2. 名前を入力する  
-    [![名前の入力](https://i.gyazo.com/e0773956bef1c26b9c5286d219ccac9b.png)](https://gyazo.com/e0773956bef1c26b9c5286d219ccac9b)
+    ![名前の入力](https://i.gyazo.com/e0773956bef1c26b9c5286d219ccac9b.png)
 3. "Continue"をクリック
 4. カメラ・マイク使用の許可が出る場合は"許可"をクリック  
-    [![カメラとマイクへのアクセスを許可](https://i.gyazo.com/63f65c6abedeec8815c938a17d9b0ed9.png)](https://gyazo.com/63f65c6abedeec8815c938a17d9b0ed9)
-5. カメラアイコンとマイクアイコンをONにして，"Join Space"をクリック
-    [![カメラとマイクをON](https://i.gyazo.com/545f9a6d238f02d7e3b0c45ed53f7e8f.png)](https://gyazo.com/545f9a6d238f02d7e3b0c45ed53f7e8f)
+    ![カメラとマイクへのアクセスを許可](https://i.gyazo.com/63f65c6abedeec8815c938a17d9b0ed9.png)
+5. カメラアイコンとマイクアイコンをONにして，"Join Space"をクリック(完全に気の抜けた顔と髪型ですみません)
+    ![カメラとマイクをON](https://i.gyazo.com/545f9a6d238f02d7e3b0c45ed53f7e8f.png)
 6. アイコンをドラッグして，話したい人に近づいてください．アイコン間の距離が近いほど，相手の声が大きく聞こえる仕組みです．
-    [![アイコンをドラッグして，話したい人に近づく](https://i.gyazo.com/3df37653ccd2663809cc9afe8b292ec8.png)](https://gyazo.com/3df37653ccd2663809cc9afe8b292ec8)
+    ![アイコンをドラッグして，話したい人に近づく](https://i.gyazo.com/3df37653ccd2663809cc9afe8b292ec8.png)
     
 ## 私のようなコミュ障が同窓会で悩まないためのtips
 
