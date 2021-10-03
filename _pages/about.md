@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello"
+title: "Welcome!"
 excerpt: "Hello"
 description: 石橋朋樹のホームページです/This is Tomoki Ishibashi's website
 author_profile: true
@@ -13,7 +13,7 @@ This is Tomoki Ishibashi's website.
 
 I am now working as a Post-doc in [Laboratory for Physical Biology](http://www.qbic.riken.jp/phb/), RIKEN BDR, Japan.
 
-Previously, I was working as  
+Previously, I was  
 - a Post-doc in [Matsuura Lab](http://www.insecteco.kais.kyoto-u.ac.jp/englishpage.html), Kyoto University, Japan;
 - a student in [Matsuno Lab](http://www.bio.sci.osaka-u.ac.jp/bio_web/lab_page/matsuno/Etop.html), Osaka University, Japan.
 
