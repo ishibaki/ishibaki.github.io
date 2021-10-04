@@ -45,7 +45,7 @@ SpatialChatは，現実の飲み会のように
 4. カメラ・マイク使用の許可が出る場合は"許可"をクリック．  
     ![カメラとマイクへのアクセスを許可](https://i.gyazo.com/63f65c6abedeec8815c938a17d9b0ed9.png)
 5. カメラアイコンとマイクアイコンをONにして，"Join Space"をクリック．  
-    ![カメラとマイクをON](https://i.gyazo.com/545f9a6d238f02d7e3b0c45ed53f7e8f.png)
+    ![カメラとマイクをON ~完全に気が抜けた顔のおじさんを添えて~](https://i.gyazo.com/545f9a6d238f02d7e3b0c45ed53f7e8f.png)
 6. アイコンをドラッグして，話したい人に近づいてください．アイコン間の距離が近いほど，相手の声が大きく聞こえる仕組みです．  
     ![アイコンをドラッグして，話したい人に近づく](https://i.gyazo.com/3df37653ccd2663809cc9afe8b292ec8.png)
     
