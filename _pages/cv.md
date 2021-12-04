@@ -13,11 +13,21 @@ redirect_from:
 
 # Education
 
-- Ph.D, Department of Biological Sciences, Osaka University, March 25th, 2019
+- Ph.D., Department of Biological Sciences, Osaka University, March 25th, 2019
 - MS, Department of Biological Sciences, Osaka University, March 28th, 2016
 - BS, Department of Biological Sciences, Osaka University, March 25th, 2014
 
 # Work experience
+
+<!--
+- 2022-Today: Research Fellowship for Young Scientists (PD), JSPS
+  - [Laboratory for Physical Biology](http://www.qbic.riken.jp/phb/), RIKEN BDR, Japan.
+  - Supervisor: Dr. Tatsuo Shibata
+
+- 2021-2022: Postdoctoral Researcher
+  - [Laboratory for Physical Biology](http://www.qbic.riken.jp/phb/), RIKEN BDR, Japan.
+  - Supervisor: Dr. Tatsuo Shibata
+-->
 
 - 2021-Today: Postdoctoral Researcher
   - [Laboratory for Physical Biology](http://www.qbic.riken.jp/phb/), RIKEN BDR, Japan.
