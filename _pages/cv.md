@@ -13,7 +13,7 @@ redirect_from:
 
 # Education
 
-- Ph.D., Department of Biological Sciences, Osaka University, March 25th, 2019
+- [Ph.D.](../images/学位記.jpg), Department of Biological Sciences, Osaka University, March 25th, 2019
 - MS, Department of Biological Sciences, Osaka University, March 28th, 2016
 - BS, Department of Biological Sciences, Osaka University, March 25th, 2014
 
