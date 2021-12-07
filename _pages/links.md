@@ -71,6 +71,7 @@ redirect_from:
 - [NCBI Primer BLAST](https://www.ncbi.nlm.nih.gov/tools/primer-blast/index.cgi?LINK_LOC=BlastHome)
 - [Primer3](https://primer3plus.com/cgi-bin/dev/primer3plus.cgi)
 - [蛍光スペクトルビューア](https://www.thermofisher.com/jp/ja/home/life-science/cell-analysis/labeling-chemistry/fluorescence-spectraviewer.html)
+- [FPbase](https://www.fpbase.org)
 - [I-TASSER](https://zhanglab.ccmb.med.umich.edu/I-TASSER/)
 - [LOMETS](https://zhanglab.ccmb.med.umich.edu/LOMETS/)
 - [In fusion Primer Converter](http://bioinfo.clontech.com/infusion/convertPcrPrimersInit.do)
