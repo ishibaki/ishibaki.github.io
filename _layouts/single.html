@@ -48,6 +48,8 @@ layout: default
 
         {% if page.collection == 'grants' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y-%m-%d" }} </p>
+        {% elsif page.venue and page.date %}
+          <p>{{ page.venue }}, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% endif %}        
              
         {% if page.citation and page.paperurl %}
