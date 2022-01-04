@@ -73,6 +73,14 @@ Total: {{ site.awards | size }}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
+# Grants
+
+Total: {{ site.grants | size }}
+
+  <ul>{% for post in site.grants reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
 # Talks
 
 Total: {{ site.talks | size }}
