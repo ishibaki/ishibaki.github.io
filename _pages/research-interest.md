@@ -23,7 +23,7 @@ I had studied about embryonic development by using *Drosphila*.
 
 ![Termites](../images/DSC_0943_balanced.jpg)
 
-I am studying about the molecular mechanism of the caste differentiation by using termites.
+I had studied about the molecular mechanism of the caste differentiation by using termites.
 Importantly, this is the developmental biology of the **Superorganism**.
 
 - [A non-invasive method for sexing first and second instar larvae of termites using external morphology](http://link.springer.com/article/10.1007/s00040-020-00785-2)
