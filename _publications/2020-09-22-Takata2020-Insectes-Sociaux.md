@@ -6,7 +6,7 @@ excerpt: ''
 date: 2020-09-22
 venue: 'Insectes Sociaux'
 paperurl: 'http://link.springer.com/article/10.1007/s00040-020-00785-2'
-citation: 'M. Takata, T. Inagaki, <b><u>T. Ishibashi</u></b>, E. Tasaki and K. Matsuura. &quot;A non-invasive method for sexing first and second instar larvae of termites using external morphology.&quot; <i>Insectes Sociaux</i> 2020 <b>67</b>:487–493.'
+citation: 'Takata, M., Inagaki, T, <b><u>Ishibashi, T.</u></b>, Tasaki, E, Matsuura, K. &quot;A non-invasive method for sexing first and second instar larvae of termites using external morphology.&quot; <i>Insectes Sociaux</i> 2020 <b>67</b>:487–493.'
 ---
 
 Authors:  
@@ -26,4 +26,4 @@ Mamoru Takata, Tatsuya Inagaki, **Tomoki Ishibashi**, Eisuke Tasaki, and Kenji M
 本論文では，シロアリ*Reticulitermes speratus*において，腹板の毛の本数が雌雄で異なることを発見し，この特徴を用いることで，PCRによる分子生物学的な性判別法と同等の厳密さで雌雄の性判別が可能であることを示しました．
 また，*R. speratus*で発見された毛の本数による性判別法は，異なるシロアリ種である*Zootermopsis nevadensis*においても利用可能であり，本研究は，**広いシロアリ種における新規な性判別法を開発したという点で生態学的に重要な立ち位置**にあります．
 
-最後に，本論文は，私が京都大学に来て出会えた聡明で心優しく面白いポスドク仲間である高田守博士と田崎英祐博士の3名が連名となった仕事であり，個人的に思い入れの深い論文であることを申し添えておきます．
+最後に，本論文は，私が京都大学に来て出会えた聡明で心優しく面白いポスドク仲間である高田守博士と田﨑英祐博士の3名が連名となった仕事であり，個人的に思い入れの深い論文であることを申し添えておきます．
