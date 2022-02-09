@@ -6,7 +6,7 @@ excerpt: ''
 date: 2014-04-08
 venue: 'BMC Genetics'
 paperurl: 'https://bmcgenet.biomedcentral.com/articles/10.1186/1471-2156-15-46'
-citation: 'M. Nakayama, <b><u>T. Ishibashi</u></b>, H. O. Ishikawa, H. Sato, T. Usui, T. Okuda, H. Yashiro, H. Ishikawa, Y. Taikou, A. Minami, K. Kato, M. Taki, T. Aigaki, W. Gunji, M. Ohtsu, Y. Murakami, S. Tanuma, A. Tsuboi, M. Adachi, J. Kuroda, T. Sasamura, T. Yamakawa and K. Matsuno. &quot;A gain-of-function screen to identify genes that reduce lifespan in the adult of <i>Drosophila melanogaster</i>.&quot; <i>BMC Genetics</i> 2014 <b>15</b>:46.'
+citation: 'Nakayama, M., <b><u>Ishibashi, T.</u></b>, Ishikawa, HO., Sato, H., Usui, T., Okuda, T., Yashiro, H., Ishikawa, H., Taikou, Y., Minami, A., Kato, K., Taki, M., Aigaki, T., Gunji, W., Ohtsu, M., Murakami, Y., Tanuma, S., Tsuboi, A., Adachi, M., Kuroda, J., Sasamura, T., Yamakawa, T., Matsuno, K. &quot;A gain-of-function screen to identify genes that reduce lifespan in the adult of <i>Drosophila melanogaster</i>.&quot; <i>BMC Genetics</i> 2014 <b>15</b>:46.'
 ---
 
 Authors:  
