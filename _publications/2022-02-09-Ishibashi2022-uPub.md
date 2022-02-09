@@ -1,7 +1,7 @@
 ---
 title: "*extra macrochaetae*, encoding *Drosophila* Id, controls apical cell shape in the hindgut epithelium"
 collection: publications
-permalink: /publication/2020-12-02-Ishibashi2020-Symmetry
+permalink: /publication/2022-02-09-Ishibashi2022-uPubBiol
 excerpt: ''
 date: 2022-02-09
 venue: 'microPublication Biology'
