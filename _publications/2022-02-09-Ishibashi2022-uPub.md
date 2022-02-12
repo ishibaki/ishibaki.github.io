@@ -5,7 +5,7 @@ permalink: /publication/2022-02-09-Ishibashi2022-uPubBiol
 excerpt: ''
 date: 2022-02-09
 venue: 'microPublication Biology'
-paperurl: 'https://doi.org/10.17912/micropub.biology.000524'
+paperurl: 'https://doi.org/10.17912/micropub.biology.000525'
 citation: '<b><u>Ishibashi, T.</u></b>, Matusno, K. &quot;<i>extra macrochaetae</i>, encoding <i>Drosophila</i> Id, controls apical cell shape in the hindgut epithelium.&quot; <i>microPublication Biology</i> 2022 <i>in press.</i>'
 ---
 
