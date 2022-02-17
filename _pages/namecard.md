@@ -4,6 +4,30 @@ title: "Tomoki Ishibashi, Ph.D. / 石橋朋樹 博士(理学)"
 author_profile: true
 ---
 
+名前: 石橋朋樹
+
+Name: Tomoki Ishibashi
+
+---
+
+学位: 博士(理学)
+
+Degree: Ph.D.
+
+---
+
+所属: [理化学研究所 生命機能科学研究センター フィジカルバイオロジー研究チーム](http://www.qbic.riken.jp/phb/)
+
+Affiliation: [Laboratory for Physical Biology, RIKEN Center for Biosystems Dynamics Research](http://www.qbic.riken.jp/phb/)
+
+---
+
+職位: 研究員
+
+Position: Researcher
+
+---
+
 <script type="text/javascript">
 function convertLetter5_shtml(t, p){
 var s = "", letter = "";
@@ -26,12 +50,6 @@ document.write("Business p"+"hon"+"e nu"+"mbe"+"r: " + ph_shtml1 + "<br>");
 
 ---
 
-所属: [理化学研究所 生命機能科学研究センター フィジカルバイオロジー研究チーム](http://www.qbic.riken.jp/phb/)
-
-Affiliation: [Laboratory for Physical Biology, RIKEN Center for Biosystems Dynamics Research](http://www.qbic.riken.jp/phb/)
-
----
-
 住所: [〒650-0047 神戸市中央区港島南町 2-2-3 理研BDR フィジカルバイオロジー研究チーム](https://www.google.com/maps/@34.6586016,135.2145191,19.25z?hl=ja)
 
 Address: [Lab. for Physical Biology, RIKEN BDR, 2-2-3 Minatojima-minamimachi, Chuo-ku, Kobe, 650-0047, Japan](https://www.google.com/maps/@34.6586016,135.2145191,19.25z?hl=en)
@@ -41,14 +59,6 @@ Address: [Lab. for Physical Biology, RIKEN BDR, 2-2-3 Minatojima-minamimachi, Ch
 名刺からジャンプいただきありがとうございます!
 
 理化学研究所で研究員をやっております．
-
-もともとはキイロショウジョウバエの発生学をやっていました．  
-モデル生物あがりの人間なので，順遺伝学的スクリーニングをしたくてしたくてたまりません...
-
-もし何かしらでお話する場合は，[Remotehour](https://remotehour.com/t-ishibashi)を使っていますので，オンライン中ならいつでもどうぞ．
-
-<iframe src="https://remotehour.com/widget/364/371?inline=true" width="100%" height="700px" marginwidth="0" marginheight="0" frameborder="0" style="border:none;" allow="microphone; camera"></iframe>
-
 今後とも，よろしくお願い申し上げます!!!
 
 ---
