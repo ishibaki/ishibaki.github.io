@@ -19,13 +19,6 @@ author_profile: true
 
 ---
 
-I am using [Remotehour](https://remotehour.com/t-ishibashi).
-
-
-<iframe src="https://remotehour.com/widget/364/371?inline=true" width="100%" height="700px" marginwidth="0" marginheight="0" frameborder="0" style="border:none;" allow="microphone; camera"></iframe>
-
----
-
 <script src="https://utteranc.es/client.js"
         repo="ishibaki/ishibaki.github.io"
         issue-term="title"
