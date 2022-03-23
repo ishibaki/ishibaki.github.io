@@ -32,15 +32,15 @@ Address: [Lab. for Physical Biology, RIKEN BDR, 2-2-3 Minatojima-minamimachi, Ch
 
 ---
 
-名前: 石橋朋樹
+名前: <b><u>石橋朋樹</u></b>
 
-Name: Tomoki Ishibashi
+Name: <b><u>Tomoki Ishibashi</u></b>
 
 ---
 
-学位: 博士(理学)
+学位: [博士(理学)](../images/学位記.jpg)
 
-Degree: Ph.D.
+Degree: [Ph.D.](../images/学位記.jpg)
 
 ---
 
