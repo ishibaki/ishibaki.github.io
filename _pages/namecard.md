@@ -50,9 +50,9 @@ Affiliation: [Laboratory for Physical Biology, RIKEN Center for Biosystems Dynam
 
 ---
 
-職位: 研究員
+職位: 日本学術振興会 特別研究員 (PD)
 
-Position: Researcher
+Position: Postdoctoral Fellow (PD), Research Fellowships for Young Researchers, JSPS
 
 ---
 
