@@ -19,17 +19,11 @@ redirect_from:
 
 # Work experience
 
-<!--
-- 2022-Today: Research Fellowship for Young Scientists (PD), JSPS
+- 2022-Today: Postdoctoral Fellow (PD), Research Fellowship for Young Scientists, JSPS
   - [Laboratory for Physical Biology](http://www.qbic.riken.jp/phb/), RIKEN BDR, Japan.
   - Supervisor: Dr. Tatsuo Shibata
 
 - 2021-2022: Postdoctoral Researcher
-  - [Laboratory for Physical Biology](http://www.qbic.riken.jp/phb/), RIKEN BDR, Japan.
-  - Supervisor: Dr. Tatsuo Shibata
--->
-
-- 2021-Today: Postdoctoral Researcher
   - [Laboratory for Physical Biology](http://www.qbic.riken.jp/phb/), RIKEN BDR, Japan.
   - Supervisor: Dr. Tatsuo Shibata
 
