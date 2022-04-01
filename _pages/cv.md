@@ -12,6 +12,9 @@ redirect_from:
 {% include toc %}
 <!-- {% include mermaid.html %} -->
 
+{% include mermaid-cv.md %}
+
+<!--
 ```mermaid
 gantt
 section Education
@@ -42,6 +45,7 @@ section Awards
 section Grants
   Grant-in-Aid for JSPS Fellows : grant_DC1, 2016-04-22, 2019-03-31
 ```
+-->
 
 # Education
 
