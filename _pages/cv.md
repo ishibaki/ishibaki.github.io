@@ -12,6 +12,7 @@ redirect_from:
 {% include toc %}
 {% include mermaid.html %}
 
+<!--
 ```mermaid
 gantt
 section Education
@@ -25,6 +26,7 @@ section Work experience
   Post-doc @RIKEN        : RIKEN-postdoc, after KU-postdoc, 2022-03-31
   JSPS PD @RIKEN         : active, PD, after RIKEN-postdoc, 2025-03-31
 ```
+-->
 
 # Education
 
