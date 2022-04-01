@@ -11,6 +11,21 @@ redirect_from:
 {% include base_path %}
 {% include toc %}
 
+
+```mermaid
+gantt
+section Education
+  Bachelor : BS, 2010-04-01, 2014-03-25
+  Master   : MS, 2014-04-01, 2016-03-28
+  Ph.D.    : Ph.D., 2016-04-01, 2019-03-25
+section Work experience
+  Lab tech.@Osaka Univ.  : OU-tech, 2011-04-01, 2012-03-31
+  JSPS DC1 @Osaka Univ.  : DC1, 2016-04-01, 2019-03-31
+  Post-doc @Kyoto Univ.  : KU-postdoc, after DC1, 2021-04-30
+  Post-doc @RIKEN        : RIKEN-postdoc, after KU-postdoc, 2022-03-31
+  JSPS PD @RIKEN         : active, PD, after RIKEN-postdoc, 2025-03-31
+```
+
 # Education
 
 - [Ph.D.](../images/学位記.jpg), Department of Biological Sciences, Osaka University, March 25th, 2019
