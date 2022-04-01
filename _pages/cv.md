@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 {% include toc %}
-{% include mermaid.html %}
+<!-- {% include mermaid.html %} -->
 
 ```mermaid
 gantt
