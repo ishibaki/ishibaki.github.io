@@ -15,9 +15,9 @@ redirect_from:
 ```mermaid
 gantt
 section Education
-  Bachelor : BS, 2010-04-01, 2014-03-25
-  Master   : MS, 2014-04-01, 2016-03-28
-  Ph.D.    : Ph.D., 2016-04-01, 2019-03-25
+  Bachelor @Osaka Univ. : BS, 2010-04-01, 2014-03-25
+  Master @Osaka Univ.   : MS, 2014-04-01, 2016-03-28
+  Ph.D. @Osaka Univ.    : Ph.D., 2016-04-01, 2019-03-25
 section Work experience
   Lab tech.@Osaka Univ.  : OU-tech, 2011-04-01, 2012-03-31
   JSPS DC1 @Osaka Univ.  : DC1, 2016-04-01, 2019-03-31
