@@ -33,7 +33,7 @@ document.write("Contact: <"+"a h"+"re"+"f=\"mai"+"lto:"+em_shtml+"\">"+em_shtml+
 
 ---
 
-## Recent Publications
+## Recent Publications (3 of {{ site.publications | size }})
 
   <ul>{% assign publications = site.publications | reverse %}
   {% for post in publications limit:3 %}
@@ -62,10 +62,10 @@ document.write("Contact: <"+"a h"+"re"+"f=\"mai"+"lto:"+em_shtml+"\">"+em_shtml+
 
 ---
 
-## Recent Awards
+## Recent Awards (3 of {{ site.awards | size }})
 
   <ul>{% assign awards = site.awards | reverse %}
-  {% for post in awards limit:5 reversed %}
+  {% for post in awards limit:3 reversed %}
     {% include archive-single.html %}
   {% endfor %}</ul>
 
@@ -73,10 +73,10 @@ document.write("Contact: <"+"a h"+"re"+"f=\"mai"+"lto:"+em_shtml+"\">"+em_shtml+
 
 ---
 
-## Recent Presentations
+## Recent Presentations (3 of {{ site.talks | size }})
 
   <ul>{% assign talks = site.talks | reverse %}
-  {% for post in talks limit:5 reversed %}
+  {% for post in talks limit:3 reversed %}
     {% include archive-single.html %}
   {% endfor %}</ul>
 
