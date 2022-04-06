@@ -1,0 +1,186 @@
+var tasks = [
+    {
+        id: "BS",
+        name: "Bachelor @ Osaka Univ.",
+        start: "2010-04-01",
+        end: "2014-03-25",
+        progress: 100
+    },
+    {
+        id: "MS",
+        name: "Master @ Osaka Univ.",
+        start: "2014-04-01",
+        end: "2016-03-28",
+        progress: 100
+        dependencies: "BS"
+    },
+    {
+        id: "Ph.D.",
+        name: "Ph.D. @ Osaka Univ.",
+        start: "2016-04-01",
+        end: "2019-03-25",
+        progress: 100
+        dependencies: "MS"
+    },
+    {
+        id: "OU-tech",
+        name: "Lab tech. @ Osaka Univ.",
+        start: "2011-04-01",
+        end: "2012-03-31",
+        progress: 100
+    },
+    {
+        id: "DC1",
+        name: "JSPS DC1 @ Osaka Univ.",
+        start: "2016-04-01",
+        end: "2019-03-31",
+        progress: 100,
+        dependencies: "OU-tech"
+    },
+    {
+        id: "KU-postdoc",
+        name: "Post-doc @ Kyoto Univ.",
+        start: "2019-04-01",
+        end: "2021-04-30",
+        progress: 100,
+        dependencies: "DC1"
+    },
+    {
+        id: "RIKEN-postdoc",
+        name: "Post-doc @ RIKEN",
+        start: "2021-05-01",
+        end: "2022-03-31",
+        progress: 100,
+        dependencies: "KU-postdoc"
+    },
+    {
+        id: "PD",
+        name: "JSPS PD @ RIKEN",
+        start: "2022-04-01",
+        end: "2025-03-31",
+        progress: 0,
+        dependencies: "RIKEN-postdoc"
+    },
+    {
+        id: "nakayama2014",
+        name: "Nakayama et al. (2014) BMC Genet",
+        start: "2014-04-16",
+        end: "2014-04-17",
+        progress: 100
+    },
+    {
+        id: "inaki2018",
+        name: "Inaki et al. (2018) eLife.",
+        start: "2018-06-12",
+        end: "2018-06-13",
+        progress: 100,
+        dependencies: "nakayama2014"
+    },
+    {
+        id: "ishibashi2019",
+        name: "Ishibashi et al. (2019) Genes Cells",
+        start: "2019-01-09",
+        end: "2019-01-10",
+        progress: 100,
+        dependencies: "inaki2018"
+
+    },
+    {
+        id: "utsunomiya2019",
+        name: "Utsunomiya et al. (2019) Symmetry",
+        start: "2019-04-08",
+        end: "2019-04-09",
+        progress: 100,
+        dependencies: "ishibashi2019"
+
+    },
+    {
+        id: "doysabas2020",
+        name: "Doysabas et al. (2020) J. Vet. Med. Sci.",
+        start: "2020-02-12",
+        end: "2020-02-13",
+        progress: 100,
+        dependencies: "utsunomiya2019"
+
+    },
+    {
+        id: "ishibashi2020a",
+        name: "Ishibashi & Matsuno (2020) Ann. Rep. Res. Cent. Struct. Themodyn.",
+        start: "2020-04-01",
+        end: "2020-04-02",
+        progress: 100,
+        dependencies: "doysabas2020"
+
+    },
+    {
+        id: "takata2020",
+        name: "Takata et al. (2020) Insectes Sociaux",
+        start: "2020-09-22",
+        end: "2020-09-23",
+        progress: 100,
+        dependencies: "ishibashi2020a"
+
+    },
+    {
+        id: "ishibashi2020b",
+        name: "Ishibashi et al. (2020) Symmetry",
+        start: "2020-12-02",
+        end: "2020-12-03",
+        progress: 100,
+        dependencies: "takata2020"
+
+    },
+    {
+        id: "ishibashi2022",
+        name: "Ishibashi & Matsuno (2022) microPub Biol.",
+        start: "2022-03-18",
+        end: "2022-03-19",
+        progress: 100,
+        dependencies: "ishibashi2020b"
+
+    },
+    {
+        id: "aw_1",
+        name: "Best Presentation Award",
+        start: "2015-12-20",
+        end: "2015-12-21",
+        progress: 100
+
+    },
+    {
+        id: "aw_2",
+        name: "Best Popularity Award",
+        start: "2016-09-25",
+        end: "2016-09-25",
+        progress: 100,
+        dependencies: "aw_1"
+
+    },
+    {
+        id: "aw_3",
+        name: "Excellent Award",
+        start: "2016-09-25",
+        end: "2016-09-26",
+        progress: 100,
+        dependencies: "aw_2"
+
+    },
+    {
+        id: "aw_4",
+        name: "1st Place for Outstanding Presentation",
+        start: "2017-11-01",
+        end: "2017-11-02",
+        progress: 100,
+        dependencies: "aw_3"
+
+    },
+    {
+        id: "grant_DC1",
+        name: "Grant-in-Aid for JSPS Fellows",
+        start: "2016-04-22",
+        end: "2019-03-31",
+        progress: 100
+    },
+]
+
+var gantt = new Gantt("#gantt", tasks);
