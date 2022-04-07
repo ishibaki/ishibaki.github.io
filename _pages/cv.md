@@ -42,18 +42,6 @@ redirect_from:
   - Laboratory of Genome and Chromosome Functions, Institute for Protein Research, Osaka University
   - Supervisor: Prof. Akira Shinohara
 
-# Skills
-
-- Skills in *Drosophila melanogaster*
-  - Developmental biology
-  - Genetics
-  - Cell biology
-  - Molecular biology
-- Bioinformatics
-  - RNA-seq
-  - Whole genome sequencing
-  - ChIP-seq
-
 # Publications
 
 Total: {{ site.publications | size }}
@@ -93,3 +81,7 @@ Total: {{ site.teaching | size }}
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
+
+# Skills
+
+{% include skill-list.md %}
