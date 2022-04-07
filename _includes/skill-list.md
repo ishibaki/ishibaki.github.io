@@ -1,0 +1,13 @@
+- Skills in cultured cells & *D. melanogaster*
+  - Developmental biology
+  - Genetics
+  - Cell biology
+  - Molecular biology
+  - Imaging analysis
+- Bioinformatics
+  - RNA-seq
+  - Whole genome sequencing
+  - ChIP-seq
+- Ecological research in termite, *R. speratus*
+  - Behavioural analysis
+  - Field work
