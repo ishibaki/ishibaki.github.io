@@ -220,6 +220,12 @@
 .ai-kaken-square:before {
   content: "\e865";
 }
+.ai-academic-tree:before {
+  content: "\e866";
+}
+.ai-academic-tree:before {
+  content: "\e867";
+}
 /*  Duplication of the FontAwesome style classes using 'ai' in place of 'fa'. */
 .ai-lg {
   font-size: 1.33333333em;
