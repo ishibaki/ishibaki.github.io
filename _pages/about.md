@@ -44,24 +44,6 @@ document.write("Contact: <"+"a h"+"re"+"f=\"mai"+"lto:"+em_shtml+"\">"+em_shtml+
 
 ---
 
-## Skills
-
-- Skills for *Drosophila melanogaster*
-  - Developmental biology
-  - Genetics
-  - Cell biology
-  - Molecular biology
-  - Imaging
-- Skills for termites
-  - Ecology
-  - Mathematical modeling
-- Bioinformatics
-  - RNA-seq
-  - Whole genome sequencing
-  - ChIP-seq
-
----
-
 ## Recent Awards (3 of {{ site.awards | size }})
 
   <ul>{% assign awards = site.awards | reverse %}
@@ -72,7 +54,7 @@ document.write("Contact: <"+"a h"+"re"+"f=\"mai"+"lto:"+em_shtml+"\">"+em_shtml+
 [Full award list](https://ishibaki.github.io/awards/)
 
 ---
-
+  
 ## Recent Presentations (3 of {{ site.talks | size }})
 
   <ul>{% assign talks = site.talks | reverse %}
@@ -81,6 +63,12 @@ document.write("Contact: <"+"a h"+"re"+"f=\"mai"+"lto:"+em_shtml+"\">"+em_shtml+
   {% endfor %}</ul>
 
 [Full presentation list](https://ishibaki.github.io/talks/)
+
+---
+
+## Skills
+
+{% include skill-list.md %}
 
 ---
 
