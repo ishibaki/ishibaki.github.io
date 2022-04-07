@@ -51,7 +51,7 @@ section Grants
 - MS, Department of Biological Sciences, Osaka University, March 28th, 2016
 - BS, Department of Biological Sciences, Osaka University, March 25th, 2014
 
-# Work experience
+# Research Experiences
 
 - 2022-Today: Postdoctoral Fellow (PD), Research Fellowship for Young Scientists, JSPS
   - [Laboratory for Physical Biology](http://www.qbic.riken.jp/phb/), RIKEN BDR, Japan.
