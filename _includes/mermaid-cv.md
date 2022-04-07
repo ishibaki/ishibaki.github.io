@@ -12,20 +12,20 @@ section Work experience
   JSPS PD @RIKEN            : active, PD, after RIKEN-postdoc, 2025-03-31
   Visiting Scientist @RIKEN : active, PD, after RIKEN-postdoc, 2025-03-31
 section Publication
-  Nakayama et al. (2014) BMC Genet          : milestone, nakayama2014, 2014-04-16, 1w
-  Inaki et al. (2018) eLife.                : milestone, inaki2018, 2018-06-12, 1w
-  Ishibashi et al. (2019) Genes Cells       : milestone, ishibashi2019, 2019-01-09, 1w
-  Utsunomiya et al. (2019) Symmetry         : milestone, utsunomiya2019, 2019-04-08, 1w
-  Doysabas et al. (2020) J. Vet. Med. Sci.  : milestone, doysabas2020, 2020-02-12, 1w
-  Ishibashi & Matsuno (2020) Ann. Rep. Res. Cent. Struct. Themodyn. : milestone, ishibashi2020a, 2020-04-01, 1w
-  Takata et al. (2020) Insectes Sociaux     : milestone, takata2020, 2020-09-22, 1w
-  Ishibashi et al. (2020) Symmetry          : milestone, ishibashi2020b, 2020-12-02, 1w
-  Ishibashi & Matsuno (2022) microPub Biol. : milestone, ishibashi2022, 2022-03-18, 1w
+  Nakayama et al. (2014) BMC Genet          : crit, nakayama2014, 2014-04-16, 1w
+  Inaki et al. (2018) eLife.                : crit, inaki2018, 2018-06-12, 1w
+  Ishibashi et al. (2019) Genes Cells       : crit, ishibashi2019, 2019-01-09, 1w
+  Utsunomiya et al. (2019) Symmetry         : crit, utsunomiya2019, 2019-04-08, 1w
+  Doysabas et al. (2020) J. Vet. Med. Sci.  : crit, doysabas2020, 2020-02-12, 1w
+  Ishibashi & Matsuno (2020) Ann. Rep. Res. Cent. Struct. Themodyn. : crit, ishibashi2020a, 2020-04-01, 1w
+  Takata et al. (2020) Insectes Sociaux     : crit, takata2020, 2020-09-22, 1w
+  Ishibashi et al. (2020) Symmetry          : crit, ishibashi2020b, 2020-12-02, 1w
+  Ishibashi & Matsuno (2022) microPub Biol. : crit, ishibashi2022, 2022-03-18, 1w
 section Awards
-  Best Presentation Award                : milestone, aw_1, 2015-12-20, 1w
-  Best Popularity Award                  : milestone, aw_2, 2016-09-25, 1w
-  Excellent Award                        : milestone, aw_3, 2016-09-25, 1w
-  1st Place for Outstanding Presentation : milestone, aw_4, 2017-11-01, 1w
+  Best Presentation Award                : crit, aw_1, 2015-12-20, 1w
+  Best Popularity Award                  : crit, aw_2, 2016-09-25, 1w
+  Excellent Award                        : crit, aw_3, 2016-09-25, 1w
+  1st Place for Outstanding Presentation : crit, aw_4, 2017-11-01, 1w
 section Grants
   Grant-in-Aid for JSPS Fellows : done, grant_DC1, 2016-04-22, 2019-03-31
 ```
