@@ -16,11 +16,10 @@ redirect_from:
 
 <ul>{% for edu in site.education reversed %}
   {% if edu.certification %}
-    <a href="{{ edu.certification | prepend: "/images/" | prepend: base_path }}" class="image-popup">{{ edu.title }}</a>
+    <a href="{{ edu.certification | prepend: "/images/" | prepend: base_path }}" class="image-popup">{{ edu.title }}</a>, {{ edu.venue }}, {{ edu.date | default: "1900-01-01" | date: '%b %d, %Y' }}
   {% else %}
-    {{ edu.title }}
+    {{ edu.title }}, {{ edu.venue }}, {{ edu.date | default: "1900-01-01" | date: '%b %d, %Y' }}
   {% endif %}
-  , {{ edu.venue }}, {{ edu.date | default: "1900-01-01" | date_to_string: "ordinal", "US" }}
 {% endfor %}</ul>
 
 <!--
@@ -30,6 +29,17 @@ redirect_from:
 -->
 
 # Research Experiences
+
+<!--
+<ul>{% for exp in site.experiences reversed %}
+  {% if exp.end %}
+    {{ exp.start }} - Today:
+  {% else %}
+    {{ exp.start }} - {{ exp.end}}:
+  {% endif %}
+
+{% endfor %}</ul>
+-->
 
 - 2022-Today: Postdoctoral Fellow (PD), Research Fellowship for Young Scientists, JSPS
   - Also as a Visiting Scientist
