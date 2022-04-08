@@ -198,7 +198,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   education:
-    output: false
+    output: true
 
 
 # Defaults
@@ -280,6 +280,23 @@ defaults:
   - scope:
       path: ""
       type: grants
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _history
+  - scope:
+      path: ""
+      type: education
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  - scope:
+      path: ""
+      type: experiences
     values:
       layout: single
       author_profile: true
