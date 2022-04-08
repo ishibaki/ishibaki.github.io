@@ -6,7 +6,7 @@ excerpt: ''
 date: 2019-04-08
 author: Utsunomiya, S., Sakamura, S., Sasamura, T., <b><u>Ishibashi, T.</u></b>, Maeda, C., Inaki, M., Matsuno, K.
 venue: 'Symmetry'
-volume: <b>11</b>:4.
+volume: <b>11</b>:4
 paperurl: 'https://www.mdpi.com/2073-8994/11/4/505'
 citation: 'Utsunomiya, S., Sakamura, S., Sasamura, T., <b><u>Ishibashi, T.</u></b>, Maeda, C., Inaki, M., Matsuno, K. (2019) <i>Symmetry</i>, <b>11</b>:4.'
 ---
