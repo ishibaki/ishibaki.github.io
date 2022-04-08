@@ -1,5 +1,15 @@
 var addressPoints = [
   [
+    "RIKEN BDR, Hyogo, Japan",
+    34.6578541,
+    135.212728
+  ],
+  [
+    "Osaka University, Osaka, Japan",
+    34.8025754,
+    135.4528697
+  ],
+  [
     "Finlandia Hall, Helsinki, Finland",
     60.1758229,
     24.933560829716676
