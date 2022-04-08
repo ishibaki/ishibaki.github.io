@@ -4,13 +4,12 @@ collection: publications
 permalink: /publication/2020-09-22-Takata2020-Insectes-Sociaux
 excerpt: ''
 date: 2020-09-22
+author: Takata, M., Inagaki, T, <b><u>Ishibashi, T.</u></b>, Tasaki, E, Matsuura, K.
 venue: 'Insectes Sociaux'
+volume: <b>67</b>:487–493
 paperurl: 'http://link.springer.com/article/10.1007/s00040-020-00785-2'
-citation: 'Takata, M., Inagaki, T, <b><u>Ishibashi, T.</u></b>, Tasaki, E, Matsuura, K. &quot;A non-invasive method for sexing first and second instar larvae of termites using external morphology.&quot; <i>Insectes Sociaux</i> 2020 <b>67</b>:487–493.'
+citation: 'Takata, M., Inagaki, T, <b><u>Ishibashi, T.</u></b>, Tasaki, E, Matsuura, K. (2020) <i>Insectes Sociaux</i>, <b>67</b>:487–493.'
 ---
-
-Authors:  
-Mamoru Takata, Tatsuya Inagaki, **Tomoki Ishibashi**, Eisuke Tasaki, and Kenji Matsuura
 
 [Download paper here](https://link.springer.com/content/pdf/10.1007/s00040-020-00785-2.pdf)
 
