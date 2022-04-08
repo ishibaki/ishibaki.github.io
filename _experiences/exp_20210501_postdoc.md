@@ -8,5 +8,8 @@ end: 2022-03-31
 venue: 'Laboratory for Physical Biology, RIKEN BDR'
 venueurl: "http://www.qbic.riken.jp/phb/"
 superviser: 'Prof. Tatsuo Shibata'
+done: false
+toplist: true
+abbrev: a Post-doc in <a href="http://www.qbic.riken.jp/phb/">Shibata Lab</a>, RIKEN BDR, Japan
 ---
 

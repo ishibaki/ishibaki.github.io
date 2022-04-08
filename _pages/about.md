@@ -14,8 +14,14 @@ This is Tomoki Ishibashi's website.
 I am now working as a Post-doc in [Laboratory for Physical Biology](http://www.qbic.riken.jp/phb/), RIKEN BDR, Japan.
 
 Previously, I was  
-- a Post-doc in [Matsuura Lab](http://www.insecteco.kais.kyoto-u.ac.jp/englishpage.html), Kyoto University, Japan;
-- a student in [Matsuno Lab](http://www.bio.sci.osaka-u.ac.jp/bio_web/lab_page/matsuno/Etop.html), Osaka University, Japan.
+
+<ul>{% for exp in site.experiences reversed %}
+  {% if exp.done and exp.toplist %}
+  <li>
+    {{ exp.abbrev }}
+  </li>
+  {% endif %}
+</ul>
 
 <script type="text/javascript">
 function convertLetter5_shtml(t){
