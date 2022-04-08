@@ -37,9 +37,9 @@
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     {% if post.venue and post.volume %}
-      <p class="archive__item-excerpt" itemprop="description">{{ post.author }} ({{ post.date | default: "1900-01-01" | date: "%Y" }}) <i>{{ post.venue }}</i>, {{ post.volume }}</p>
+      <p class="archive__item-excerpt" itemprop="description">{{ post.author }} ({{ post.date | default: "1900-01-01" | date: "%Y" }}) <i>{{ post.venue }}</i>, {{ post.volume }}.</p>
     {% elsif post.venue %}
-      <p class="archive__item-excerpt" itemprop="description">{{ post.author }} ({{ post.date | default: "1900-01-01" | date: "%Y" }}) <i>{{ post.venue }}</i></p>
+      <p class="archive__item-excerpt" itemprop="description">{{ post.author }} ({{ post.date | default: "1900-01-01" | date: "%Y" }}) <i>{{ post.venue }}</i>.</p>
     {% endif %}
     </li>
  </article>
