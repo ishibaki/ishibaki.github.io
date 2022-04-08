@@ -17,18 +17,11 @@ redirect_from:
 <ul>{% for edu in site.education reversed %}
 <li>
   {% if edu.certification %}
-    <a href="{{ edu.certification | prepend: "/images/" | prepend: base_path }}" class="image-popup">{{ edu.title }}</a>
+    <a href="{{ edu.certification | prepend: "/images/" | prepend: base_path }}" class="image-popup">{{ edu.title }}</a> , {{ edu.venue }}, {{ edu.date | default: "1900-01-01" | date: '%b %d, %Y' }}</li>
   {% else %}
-    {{ edu.title }}
+    {{ edu.title }}, {{ edu.venue }}, {{ edu.date | default: "1900-01-01" | date: '%b %d, %Y' }}</li>
   {% endif %}
-, {{ edu.venue }}, {{ edu.date | default: "1900-01-01" | date: '%b %d, %Y' }}</li>
 {% endfor %}</ul>
-
-<!--
-- [Ph.D.](../images/学位記.jpg), Department of Biological Sciences, Osaka University, March 25th, 2019
-- MS, Department of Biological Sciences, Osaka University, March 28th, 2016
-- BS, Department of Biological Sciences, Osaka University, March 25th, 2014
--->
 
 # Research Experiences
 
@@ -59,30 +52,6 @@ redirect_from:
   </ul>
 </li>
 {% endfor %}</ul>
-
-<!--
-- 2022-Today: Postdoctoral Fellow (PD), Research Fellowship for Young Scientists, JSPS
-  - Also as a Visiting Scientist
-  - [Laboratory for Physical Biology](http://www.qbic.riken.jp/phb/), RIKEN BDR, Japan.
-  - Supervisor: Dr. Tatsuo Shibata
-
-
-- 2021-2022: Postdoctoral Researcher
-  - [Laboratory for Physical Biology](http://www.qbic.riken.jp/phb/), RIKEN BDR, Japan.
-  - Supervisor: Dr. Tatsuo Shibata
-
-- 2019-2021: Postdoctoral Researcher
-  - [Laboratory of Insect Ecology](http://www.insecteco.kais.kyoto-u.ac.jp/englishpage.html), Faulty of Agriculture, Kyoto University
-  - Supervisor: Prof. Kenji Matsuura
-
-- 2016-2019: [Research Fellowship for Young Scientists (DC1), JSPS](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-16J01027/)
-  - [Laboratory of Cell Biology](http://www.bio.sci.osaka-u.ac.jp/bio_web/lab_page/matsuno/Etop.html), Department of Biological Sciences, Osaka University
-  - Supervisor: Prof. Kenji Matsuno
-
-- 2011-2012: Lab technician
-  - Laboratory of Genome and Chromosome Functions, Institute for Protein Research, Osaka University
-  - Supervisor: Prof. Akira Shinohara
--->
 
 # Publications
 
