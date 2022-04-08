@@ -19,7 +19,7 @@ redirect_from:
   {% if edu.certification %}
     <a href="{{ edu.certification | prepend: "/images/" | prepend: base_path }}" class="image-popup">{{ edu.title }}</a>
   {% else %}
-    {{ edu.title }}, {{ edu.venue }}, {{ edu.date | default: "1900-01-01" | date: '%b %d, %Y' }}
+    {{ edu.title }}
   {% endif %}
 , {{ edu.venue }}, {{ edu.date | default: "1900-01-01" | date: '%b %d, %Y' }}</li>
 {% endfor %}</ul>
@@ -32,7 +32,6 @@ redirect_from:
 
 # Research Experiences
 
-<!--
 <ul>{% for exp in site.experiences reversed %}
   <li>
   {% if exp.end %}
@@ -40,11 +39,28 @@ redirect_from:
   {% else %}
     {{ exp.start }} - {{ exp.end}}: 
   {% endif %}
-  {{ exp.title }}
+  {% if exp.certification %}
+    <a href="{{ exp.certification }}">{ exp.title }}</a>
+  {% else %}
+    {{ exp.title }}
+  {% endif %}
+  <ul>
+    {% if exp.misc %}
+      <li> {{ exp.misc }} </li>
+    {% endif %}
+    {% if exp.venueurl %}
+      <li><a href="{{ exp.venueurl }}">{{ exp.venue }}</a></li>
+    {% else %}
+      <li>{{ exp.venue }}</li>
+    {% endif %}
+    {% if exp.superviser %}
+      <li>Supervisor: {{ exp.superviser }}</li>
+    {% endif %}
+  </ul>
 </li>
 {% endfor %}</ul>
--->
 
+<!--
 - 2022-Today: Postdoctoral Fellow (PD), Research Fellowship for Young Scientists, JSPS
   - Also as a Visiting Scientist
   - [Laboratory for Physical Biology](http://www.qbic.riken.jp/phb/), RIKEN BDR, Japan.
@@ -66,6 +82,7 @@ redirect_from:
 - 2011-2012: Lab technician
   - Laboratory of Genome and Chromosome Functions, Institute for Protein Research, Osaka University
   - Supervisor: Prof. Akira Shinohara
+-->
 
 # Publications
 
