@@ -26,9 +26,9 @@ document.write("Business p"+"hon"+"e nu"+"mbe"+"r: " + ph_shtml1 + "<br>");
 
 ---
 
-住所: [〒650-0047 神戸市中央区港島南町 2-2-3 理研BDR フィジカルバイオロジー研究チーム](https://www.google.com/maps/@34.6586016,135.2145191,19.25z?hl=ja)
+住所: [〒650-0047 神戸市中央区港島南町 2-2-3 理研BDR フィジカルバイオロジー研究チーム](https://www.google.com/maps/place/34°39'31.8%22N+135°12'53.3%22E/@34.6587842,135.214765,21z/data=!4m6!3m5!1s0x0:0xcdf74cd3fa4ff0d9!7e2!8m2!3d34.6588329!4d135.214818)
 
-Address: [Lab. for Physical Biology, RIKEN BDR, 2-2-3 Minatojima-minamimachi, Chuo-ku, Kobe, 650-0047, Japan](https://www.google.com/maps/@34.6586016,135.2145191,19.25z?hl=en)
+Address: [Lab. for Physical Biology, RIKEN BDR, 2-2-3 Minatojima-minamimachi, Chuo-ku, Kobe, 650-0047, Japan](https://www.google.com/maps/place/34°39'31.8%22N+135°12'53.3%22E/@34.6587842,135.214765,21z/data=!4m6!3m5!1s0x0:0xcdf74cd3fa4ff0d9!7e2!8m2!3d34.6588329!4d135.214818?hl=en)
 
 ---
 
