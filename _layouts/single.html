@@ -45,7 +45,7 @@ layout: default
         {% endif %}
              
         {% if page.citation and page.volume and page.paperurl %}
-          <p>Recommended citation: {{ page.author }} ({{ page.date | default: "1900-01-01" | date: "%Y" }}) "{{ page.title }}" <i>{{ page.venue }}</i>, <b>{{ page.volume }}</b>. <a href="{{ page.paperurl }}" target="_blank"><u>{{ page.paperurl }}</u></a></p>
+          <p>Recommended citation: {{ page.author }} ({{ page.date | default: "1900-01-01" | date: "%Y" }}) "{{ page.title }}" <i>{{ page.venue }}</i>, {{ page.volume }}. <a href="{{ page.paperurl }}" target="_blank"><u>{{ page.paperurl }}</u></a></p>
         {% elsif page.citation and page.paperurl %}
           <p>Recommended citation: {{ page.author }} ({{ page.date | default: "1900-01-01" | date: "%Y" }}) "{{ page.title }}" <i>{{ page.venue }}</i>. <a href="{{ page.paperurl }}" target="_blank"><u>{{ page.paperurl }}</u></a></p>
         {% elsif page.citation %}
