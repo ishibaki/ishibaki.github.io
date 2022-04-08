@@ -14,9 +14,20 @@ redirect_from:
 
 # Education
 
+<ul>{% for edu in site.education reversed %}
+  {% if edu.certification %}
+    <a href="{{ edu.certification | prepend: "/images/" | prepend: base_path }}" class="image-popup">{{ edu.title }}</a>
+  {% else %}
+    {{ edu.title }}
+  {% endif %}
+  , {{ edu.venue }}, {{ edu.date | default: "1900-01-01" | date_to_string: "ordinal", "US" }}
+{% endfor %}</ul>
+
+<!--
 - [Ph.D.](../images/学位記.jpg), Department of Biological Sciences, Osaka University, March 25th, 2019
 - MS, Department of Biological Sciences, Osaka University, March 28th, 2016
 - BS, Department of Biological Sciences, Osaka University, March 25th, 2014
+-->
 
 # Research Experiences
 
