@@ -35,12 +35,12 @@ redirect_from:
 <ul>{% for exp in site.experiences reversed %}
   <li>
   {% if exp.end %}
-    {{ exp.start }} - Today: 
+    {{ exp.start | date: '%Y' }} - {{ exp.end | date: '%Y' }}: 
   {% else %}
-    {{ exp.start }} - {{ exp.end}}: 
+    {{ exp.start | date: '%Y' }} - Today: 
   {% endif %}
   {% if exp.certification %}
-    <a href="{{ exp.certification }}">{ exp.title }}</a>
+    <a href="{{ exp.certification }}">{{ exp.title }}</a>
   {% else %}
     {{ exp.title }}
   {% endif %}
