@@ -1,16 +1,15 @@
 ---
-title: "A gain-of-function screen to identify genes that reduce lifespan in the adult of *Drosophila melanogaster*"
+title: "A gain-of-function screen to identify genes that reduce lifespan in the adult of <i>Drosophila melanogaster</i>"
 collection: publications
 permalink: /publication/2014-04-08-Nakamura2014-BMC-Genet
 excerpt: ''
 date: 2014-04-08
+author: Nakayama, M., <b><u>Ishibashi, T.</u></b>, Ishikawa, HO., Sato, H., Usui, T., Okuda, T., Yashiro, H., Ishikawa, H., Taikou, Y., Minami, A., Kato, K., Taki, M., Aigaki, T., Gunji, W., Ohtsu, M., Murakami, Y., Tanuma, S., Tsuboi, A., Adachi, M., Kuroda, J., Sasamura, T., Yamakawa, T., Matsuno, K.
 venue: 'BMC Genetics'
+volume: "<b>15</b>:46"
 paperurl: 'https://bmcgenet.biomedcentral.com/articles/10.1186/1471-2156-15-46'
-citation: 'Nakayama, M., <b><u>Ishibashi, T.</u></b>, Ishikawa, HO., Sato, H., Usui, T., Okuda, T., Yashiro, H., Ishikawa, H., Taikou, Y., Minami, A., Kato, K., Taki, M., Aigaki, T., Gunji, W., Ohtsu, M., Murakami, Y., Tanuma, S., Tsuboi, A., Adachi, M., Kuroda, J., Sasamura, T., Yamakawa, T., Matsuno, K. &quot;A gain-of-function screen to identify genes that reduce lifespan in the adult of <i>Drosophila melanogaster</i>.&quot; <i>BMC Genetics</i> 2014 <b>15</b>:46.'
+citation: 'Nakayama, M., <b><u>Ishibashi, T.</u></b>, Ishikawa, HO., Sato, H., Usui, T., Okuda, T., Yashiro, H., Ishikawa, H., Taikou, Y., Minami, A., Kato, K., Taki, M., Aigaki, T., Gunji, W., Ohtsu, M., Murakami, Y., Tanuma, S., Tsuboi, A., Adachi, M., Kuroda, J., Sasamura, T., Yamakawa, T., Matsuno, K. (2014) <i>BMC Genetics</i>.'
 ---
-
-Authors:  
-Minoru Nakayama, **Tomoki Ishibashi**, Hiroyuki O Ishikawa, Hiroyasu Sato, Takao Usui, Takayuki Okuda, Hiroyuki Yashiro, Hironori Ishikawa, Yoshie Taikou, Asako Minami, Kengo Kato, Masataka Taki, Toshiro Aigaki, Wataru Gunji, Masaya Ohtsu, Yasufumi Murakami, Sei-ichi Tanuma, Alice Tsuboi, Mai Adachi, Junpei Kuroda, Takeshi Sasamura, Tomoko Yamakawa and Kenji Matsuno
 
 [Download paper here](https://bmcgenet.biomedcentral.com/track/pdf/10.1186/1471-2156-15-46)
 
