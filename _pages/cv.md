@@ -14,12 +14,13 @@ redirect_from:
 
 # Education
 
-<ul>{% for edu in site.education reversed %}
+<ul><li>{% for edu in site.education reversed %}
   {% if edu.certification %}
-    <a href="{{ edu.certification | prepend: "/images/" | prepend: base_path }}" class="image-popup">{{ edu.title }}</a>, {{ edu.venue }}, {{ edu.date | default: "1900-01-01" | date: '%b %d, %Y' }}
+    <a href="{{ edu.certification | prepend: "/images/" | prepend: base_path }}" class="image-popup">{{ edu.title }}</a>
   {% else %}
     {{ edu.title }}, {{ edu.venue }}, {{ edu.date | default: "1900-01-01" | date: '%b %d, %Y' }}
   {% endif %}
+, {{ edu.venue }}, {{ edu.date | default: "1900-01-01" | date: '%b %d, %Y' }}</li>
 {% endfor %}</ul>
 
 <!--

@@ -200,6 +200,9 @@ collections:
   education:
     output: true
     permalink: /:collection/:path/
+  experiences:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
