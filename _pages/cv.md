@@ -17,7 +17,7 @@ redirect_from:
 <ul>{% for edu in site.education reversed %}
 <li>
   {% if edu.certification %}
-    <a href="{{ edu.certification | prepend: "/images/" | prepend: base_path }}" class="image-popup">{{ edu.title }}</a> , {{ edu.venue }}, {{ edu.date | default: "1900-01-01" | date: '%b %d, %Y' }}</li>
+    <a href="{{ edu.certification | prepend: "/images/" | prepend: base_path }}" class="image-popup">{{ edu.title }}</a>, {{ edu.venue }}, {{ edu.date | default: "1900-01-01" | date: '%b %d, %Y' }}</li>
   {% else %}
     {{ edu.title }}, {{ edu.venue }}, {{ edu.date | default: "1900-01-01" | date: '%b %d, %Y' }}</li>
   {% endif %}
