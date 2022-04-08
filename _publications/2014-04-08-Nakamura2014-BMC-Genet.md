@@ -9,6 +9,7 @@ venue: 'BMC Genetics'
 volume: "<b>15</b>:46"
 paperurl: 'https://bmcgenet.biomedcentral.com/articles/10.1186/1471-2156-15-46'
 citation: 'Nakayama, M., <b><u>Ishibashi, T.</u></b>, Ishikawa, HO., Sato, H., Usui, T., Okuda, T., Yashiro, H., Ishikawa, H., Taikou, Y., Minami, A., Kato, K., Taki, M., Aigaki, T., Gunji, W., Ohtsu, M., Murakami, Y., Tanuma, S., Tsuboi, A., Adachi, M., Kuroda, J., Sasamura, T., Yamakawa, T., Matsuno, K. (2014) <i>BMC Genetics</i>.'
+abbrev: "Nakayama et al. (2014) BMC Genet."
 ---
 
 [Download paper here](https://bmcgenet.biomedcentral.com/track/pdf/10.1186/1471-2156-15-46)
