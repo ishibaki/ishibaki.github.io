@@ -1,16 +1,15 @@
 ---
-title: "E and ID proteins regulate cell chirality and left–right asymmetric development in Drosophila"
+title: "E and ID proteins regulate cell chirality and left–right asymmetric development in <i>Drosophila</i>"
 collection: publications
 permalink: /publication/2019-01-09-Ishibashi2019-Genes-to-Cells
 excerpt: ''
 date: 2019-01-09
+author: <b><u>Ishibashi, T.</u></b>, Hatori, R., Maeda, R., Nakamura, M., Taguchi, T., Matsuyama, Y., Matusno, K.
 venue: 'Genes to Cells'
+volume: <b>24</b>:3.
 paperurl: 'https://onlinelibrary.wiley.com/doi/full/10.1111/gtc.12669'
-citation: '<b><u>Ishibashi, T.</u></b>, Hatori, R., Maeda, R., Nakamura, M., Taguchi, T., Matsuyama, Y., Matusno, K. &quot;E and ID proteins regulate cell chirality and left-right asymmetric development in <i>Drosphila</i>.&quot; <i>Genes to Cells</i> 2019 <b>24</b>:3.'
+citation: '<b><u>Ishibashi, T.</u></b>, Hatori, R., Maeda, R., Nakamura, M., Taguchi, T., Matsuyama, Y., Matusno, K. (2019) <i>Genes to Cells</i>, <b>24</b>:3.'
 ---
-
-Authors:  
-**Tomoki Ishibashi**, Ryo Hatori, Reo Maeda, Mitsutoshi Nakamura, Tomohiro Taguchi, Yoko Matsuyama, Kenji Matusno.
 
 [Download paper here](https://onlinelibrary.wiley.com/doi/epdf/10.1111/gtc.12669)
 
