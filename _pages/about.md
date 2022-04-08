@@ -11,7 +11,8 @@ redirect_from:
 
 This is Tomoki Ishibashi's website.
 
-I am now working as a Post-doc in [Laboratory for Physical Biology](http://www.qbic.riken.jp/phb/), RIKEN BDR, Japan.
+I am now working as
+{% assign experiences = site.experiences | reverse %}{% for exp in experiences limit:1 %}{{ exp.abbrev }}{% endfor %}.
 
 Previously, I was  
 
