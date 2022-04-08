@@ -1,5 +1,5 @@
 ---
-title: "Postdoctoral Researcher"
+title: "Research Scientist"
 collection: experiences
 permalink: /experiences/2021-05-01-postdoc
 excerpt: ''
@@ -10,6 +10,6 @@ venueurl: "http://www.qbic.riken.jp/phb/"
 superviser: 'Prof. Tatsuo Shibata'
 done: false
 toplist: true
-abbrev: a Post-doc in <a href="http://www.qbic.riken.jp/phb/">Shibata Lab</a>, RIKEN BDR, Japan
+abbrev: a Research Scientist in <a href="http://www.qbic.riken.jp/phb/">Shibata Lab</a>, RIKEN BDR, Japan
 ---
 
