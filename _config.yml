@@ -199,6 +199,7 @@ collections:
     permalink: /:collection/:path/
   education:
     output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
