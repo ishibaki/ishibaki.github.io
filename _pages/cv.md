@@ -15,8 +15,9 @@ redirect_from:
 # Education
 
 <ul>{% for edu in site.education reversed %}
+<li>
   {% if edu.certification %}
-    <li><a href="{{ edu.certification | prepend: "/images/" | prepend: base_path }}" class="image-popup">{{ edu.title }}</a>
+    <a href="{{ edu.certification | prepend: "/images/" | prepend: base_path }}" class="image-popup">{{ edu.title }}</a>
   {% else %}
     {{ edu.title }}, {{ edu.venue }}, {{ edu.date | default: "1900-01-01" | date: '%b %d, %Y' }}
   {% endif %}
@@ -32,12 +33,14 @@ redirect_from:
 # Research Experiences
 
 <!--
-<ul><li>{% for exp in site.experiences reversed %}
+<ul>{% for exp in site.experiences reversed %}
+  <li>
   {% if exp.end %}
-    {{ exp.start }} - Today:
+    {{ exp.start }} - Today: 
   {% else %}
-    {{ exp.start }} - {{ exp.end}}:
+    {{ exp.start }} - {{ exp.end}}: 
   {% endif %}
+  {{ exp.title }}
 </li>
 {% endfor %}</ul>
 -->
