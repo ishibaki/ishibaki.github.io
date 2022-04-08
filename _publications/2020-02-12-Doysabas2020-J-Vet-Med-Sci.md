@@ -6,7 +6,7 @@ excerpt: ''
 date: 2020-02-12
 author: Doysabas, KCC., Oba, M., <b><u>Ishibashi, T.</u></b>, Shibata, H., Takemae, H, Shimoda, H., Mizutani, T., Iida, A., Hondo, E.
 venue: 'Journal of Veterinary Medical Science'
-volume: <b>82</b>(3):387-393.
+volume: <b>82</b>(3):387-393
 paperurl: 'https://doi.org/10.1292/jvms.20-0021'
 citation: 'Doysabas, KCC., Oba, M., <b><u>Ishibashi, T.</u></b>, Shibata, H., Takemae, H, Shimoda, H., Mizutani, T., Iida, A., Hondo, E. (2020) <i>Journal of Veterinary Medical Science</i>, <b>82</b>(3):387-393.'
 ---
