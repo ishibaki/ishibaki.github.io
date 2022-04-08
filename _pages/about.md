@@ -48,7 +48,7 @@ document.write("Contact: <"+"a h"+"re"+"f=\"mai"+"lto:"+em_shtml+"\">"+em_shtml+
 
   <ul>{% assign awards = site.awards | reverse %}
   {% for post in awards limit:3 reversed %}
-    {% include archive-single.html %}
+    {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
 [Full award list](https://ishibaki.github.io/awards/)
@@ -59,7 +59,7 @@ document.write("Contact: <"+"a h"+"re"+"f=\"mai"+"lto:"+em_shtml+"\">"+em_shtml+
 
   <ul>{% assign talks = site.talks | reverse %}
   {% for post in talks limit:3 reversed %}
-    {% include archive-single.html %}
+    {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
 [Full presentation list](https://ishibaki.github.io/talks/)
