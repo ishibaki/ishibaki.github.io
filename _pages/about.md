@@ -12,7 +12,7 @@ redirect_from:
 This is Tomoki Ishibashi's website.
 
 I am now working as
-{% assign experiences = site.experiences | reverse %}{% for exp in experiences limit:1 reversed %}{{ exp.abbrev }}{% endfor %}.
+{% for experience in site.experiences %}{% if experience.toplist %}{% assign exp = experience %}{% endif %}{% endfor %}{{ exp.abbrev }}.
 
 Previously, I was  
 
