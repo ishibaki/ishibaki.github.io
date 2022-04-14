@@ -9,7 +9,7 @@ I am interested in Development.
 
 # Left-right asymmetric morphogenesis
 
-- I am elucidating mechanism by which the cell chirality emerges left-right asymmetric morphogenesis at the multi-cellular level.
+- I am elucidating mechanism by which the cell chirality emerges left-right asymmetric morphogenesis at the multi-cellular level by using cultured cell.
 - I had studied about LR-asymmetric development by using *Drosphila* embryo.
 
 ![Left-right asymmetry in *Drosophila*](../images/fig2.png)
