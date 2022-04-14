@@ -7,9 +7,10 @@ author_profile: true
 
 I am interested in Development.
 
-# Left-right asymmetric development in *Drosophila* embryo
+# Left-right asymmetric morphogenesis
 
-I had studied about embryonic development by using *Drosphila*.
+- I am elucidating mechanism by which the cell chirality emerges left-right asymmetric morphogenesis at the multi-cellular level.
+- I had studied about LR-asymmetric development by using *Drosphila* embryo.
 
 ![Left-right asymmetry in *Drosophila*](../images/fig2.png)
 
