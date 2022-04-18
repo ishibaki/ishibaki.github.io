@@ -42,9 +42,9 @@ redirect_from:
       <li> {{ exp.misc }} </li>
     {% endif %}
     {% if exp.venueurl %}
-      <li><a href="{{ exp.venueurl }}">{{ exp.venue }}</a></li>
+      <li><a href="{{ exp.venueurl }}">{{ exp.lab }}</a>, {{ exp.dept }}, {{ exp.institute }}, {{ exp.country }}</li>
     {% else %}
-      <li>{{ exp.venue }}</li>
+      <li>{{ exp.lab }}, {{ exp.dept }}, {{ exp.institute }}, {{ exp.country }}</li>
     {% endif %}
     {% if exp.superviser %}
       <li>Supervisor: {{ exp.superviser }}</li>
