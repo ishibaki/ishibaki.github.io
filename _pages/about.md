@@ -11,15 +11,15 @@ redirect_from:
 
 This is Tomoki Ishibashi's website.
 
-I am now working as
-{% for experience in site.experiences %}{% if experience.toplist %}{% assign exp = experience %}{% endif %}{% endfor %}{{ exp.abbrev }}.
+I am now working as a
+{% for experience in site.experiences %}{% if experience.toplist %}{% assign exp = experience %}{% endif %}{% endfor %}{{ exp.abbrev }} in {{ exp.lab }}, {{ exp.institute }}, {{ exp.country }}.
 
 Previously, I was  
 
 <ul>{% for exp in site.experiences reversed %}
   {% if exp.done and exp.toplist %}
   <li>
-    {{ exp.abbrev }}
+    a {{ exp.abbrev }} in {{ exp.lab }}, {{ exp.institute }}, {{ exp.country }}
   </li>
   {% endif %}
 {% endfor %}
