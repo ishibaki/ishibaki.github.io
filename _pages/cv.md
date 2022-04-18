@@ -33,7 +33,7 @@ redirect_from:
     {{ exp.start | date: '%Y' }} - Today: 
   {% endif %}
   {% if exp.certification %}
-    <a href="{{ exp.certification }}">{{ exp.title }}</a>
+    <a href="{{ exp.certification }}" target="_blank" rel="noopener noreferrer">{{ exp.title }}</a>
   {% else %}
     {{ exp.title }}
   {% endif %}
@@ -42,7 +42,7 @@ redirect_from:
       <li> {{ exp.misc }} </li>
     {% endif %}
     {% if exp.venueurl %}
-      <li><a href="{{ exp.venueurl }}">{{ exp.lab }}</a>, {{ exp.dept }}, {{ exp.institute }}, {{ exp.country }}</li>
+      <li><a href="{{ exp.venueurl }}" target="_blank" rel="noopener noreferrer">{{ exp.lab }}</a>, {{ exp.dept }}, {{ exp.institute }}, {{ exp.country }}</li>
     {% else %}
       <li>{{ exp.lab }}, {{ exp.dept }}, {{ exp.institute }}, {{ exp.country }}</li>
     {% endif %}
