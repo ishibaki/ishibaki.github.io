@@ -5,11 +5,11 @@ permalink: /experiences/2021-05-01-postdoc
 excerpt: ''
 start: 2021-05-01
 end: 2022-03-31
-venue: 'Laboratory for Physical Biology, RIKEN BDR'
+venue: 'Laboratory for Physical Biology, RIKEN BDR, Japan'
 venueurl: "http://www.qbic.riken.jp/phb/"
 superviser: 'Prof. Tatsuo Shibata'
 done: false
 toplist: true
-abbrev: a Research Scientist in <a href="http://www.qbic.riken.jp/phb/">Shibata Lab</a>, RIKEN BDR, Japan
+abbrev: a Research Scientist
 ---
 
