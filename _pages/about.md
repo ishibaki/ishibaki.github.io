@@ -19,7 +19,7 @@ Previously, I was
 <ul>{% for exp in site.experiences reversed %}
   {% if exp.done and exp.toplist %}
   <li>
-    a {{ exp.abbrev }} in {{ exp.lab }}, {{ exp.institute }}, {{ exp.country }}
+    a {{ exp.abbrev }} in <a href='{{ exp.venueurl }}' >{{ exp.lab }}</a>, {{ exp.institute }}, {{ exp.country }}
   </li>
   {% endif %}
 {% endfor %}
