@@ -12,7 +12,7 @@ country: 'Japan'
 venueurl: "http://www.qbic.riken.jp/phb/"
 superviser: 'Prof. Tatsuo Shibata'
 done: false
-toplist: true
+toplist: false
 abbrev: Research Scientist
 ---
 
