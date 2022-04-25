@@ -25,10 +25,12 @@ document.write("Business p"+"hon"+"e nu"+"mbe"+"r: " + ph_shtml1 + "<br>");
 <noscript><img src="/images/mailto.png"></noscript>
 
 ---
+ 
+{% for experience in site.experiences %}{% assign exp=experience %}{% endfor %}
 
-住所: [〒650-0047 神戸市中央区港島南町 2-2-3 理研BDR フィジカルバイオロジー研究チーム](https://www.google.com/maps/place/34°39'31.8%22N+135°12'53.3%22E/@34.6587842,135.214765,21z/data=!4m6!3m5!1s0x0:0xcdf74cd3fa4ff0d9!7e2!8m2!3d34.6588329!4d135.214818)
+住所: [{{ exp.address_j }}]({{ exp.address_url_j }})
 
-Address: [Lab. for Physical Biology, RIKEN BDR, 2-2-3 Minatojima-minamimachi, Chuo-ku, Kobe, 650-0047, Japan](https://www.google.com/maps/place/34°39'31.8%22N+135°12'53.3%22E/@34.6587842,135.214765,21z/data=!4m6!3m5!1s0x0:0xcdf74cd3fa4ff0d9!7e2!8m2!3d34.6588329!4d135.214818?hl=en)
+Address: [{{ exp.address }}]({{ exp.address_url }})
 
 ---
 
@@ -44,21 +46,21 @@ Degree: [Ph.D.](../images/学位記.jpg)
 
 ---
 
-所属: [理化学研究所 生命機能科学研究センター フィジカルバイオロジー研究チーム](http://www.qbic.riken.jp/phb/)
+所属: [{{ exp.institute_j }} {{ exp.dept_j }} {{ exp.lab_j }}]({{ exp.venueurl }})
 
-Affiliation: [Laboratory for Physical Biology, RIKEN Center for Biosystems Dynamics Research](http://www.qbic.riken.jp/phb/)
+Affiliation: [{{ exp.lab }}, {{exp.dept }}, {{exp.institute }}]( {{ exp.venueurl }})
 
 ---
 
-職位: 日本学術振興会 特別研究員 (PD)
+職位: {{ exp.title_j }}
 
-Position: Postdoctoral Fellow (PD), Research Fellowships for Young Researchers, JSPS
+Position: {{ exp.title }}
 
 ---
 
 名刺からジャンプいただきありがとうございます!
 
-理化学研究所で研究員をやっております．
+理化学研究所で特別研究員(PD)をやっております．
 今後とも，よろしくお願い申し上げます!!!
 
 ---
