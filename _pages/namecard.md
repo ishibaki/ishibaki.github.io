@@ -28,9 +28,9 @@ document.write("Business p"+"hon"+"e nu"+"mbe"+"r: " + ph_shtml1 + "<br>");
  
 {% for experience in site.experiences %}{% assign exp=experience %}{% endfor %}
 
-住所: [{{ exp.address_j }}]({{ exp.address_url_j }})
+住所: <a href="{{ exp.address_url_j }}" target="_blank" rel="noopener noreferrer">{{ exp.address_j }}</a>
 
-Address: [{{ exp.address }}]({{ exp.address_url }})
+Address: <a href="{{ exp.address_url }}" target="_blank" rel="noopener noreferrer">{{ exp.address }}</a>
 
 ---
 
@@ -46,9 +46,9 @@ Degree: [Ph.D.](../images/学位記.jpg)
 
 ---
 
-所属: [{{ exp.institute_j }} {{ exp.dept_j }} {{ exp.lab_j }}]({{ exp.venueurl }})
+所属: <a href="{{ exp.venueurl }}" target="_blank" rel="noopener noreferrer">{{ exp.institute_j }} {{ exp.dept_j }} {{ exp.lab_j }}</a>
 
-Affiliation: [{{ exp.lab }}, {{exp.dept }}, {{exp.institute }}]( {{ exp.venueurl }})
+Affiliation: <a href="{{ exp.venueurl }}" target="_blank" rel="noopener noreferrer">{{ exp.lab }}, {{exp.dept }}, {{exp.institute }}</a>
 
 ---
 
