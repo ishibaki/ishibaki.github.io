@@ -10,6 +10,7 @@ volume: <b>24</b>:3
 paperurl: 'https://onlinelibrary.wiley.com/doi/full/10.1111/gtc.12669'
 citation: '<b><u>Ishibashi, T.</u></b>, Hatori, R., Maeda, R., Nakamura, M., Taguchi, T., Matsuyama, Y., Matusno, K. (2019) <i>Genes to Cells</i>, <b>24</b>:3.'
 abbrev: "Ishibashi et al. (2019) Genes Cells"
+is_peer: "true"
 ---
 
 [Download paper here](https://onlinelibrary.wiley.com/doi/epdf/10.1111/gtc.12669)
