@@ -55,7 +55,8 @@ redirect_from:
 
 # Publications
 
-Total: {{ site.publications | size }}
+Total: {{ site.publications | size }}  
+● signs indicate peer reviewed paper
 
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
