@@ -10,6 +10,7 @@ volume: <b>12</b>(12):1991
 paperurl: 'https://doi.org/10.3390/sym12121991'
 citation: '<b><u>Ishibashi, T.</u></b>, Inaki, M., Matusno, K. (2020) <i>Symmetry</i>, <b>12</b>(12):1991.'
 abbrev: "Ishibashi et al. (2020) Symmetry"
+is_peer: "true"
 ---
 
 [Download paper here](https://www.mdpi.com/2073-8994/12/12/1991/pdf)
