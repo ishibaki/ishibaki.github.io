@@ -9,6 +9,7 @@ venue: 'microPublication Biology'
 paperurl: "https://doi.org/10.17912/micropub.biology.000526"
 citation: '<b><u>Ishibashi, T.</u></b>, Matusno, K. (2022) <i>microPublication Biology</i>'
 abbrev: "Ishibashi &amp; Matsuno (2022) microPubl. Biol."
+is_peer: "true"
 ---
 
 [Download paper here](https://www.micropublication.org/static/pdf/micropub-biology-000526.pdf)
