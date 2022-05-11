@@ -42,14 +42,13 @@ document.write("Contact: <"+"a h"+"re"+"f=\"mai"+"lto:"+em_shtml+"\">"+em_shtml+
 ---
 
 ## Recent Publications (3 of {{ site.publications | size }})
-  
-◎ sign indicates that the paper is peer reviewed.
 
   <ul>{% assign publications = site.publications | reverse %}
   {% for post in publications limit:3 %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
+◎ sign indicates that the paper is peer reviewed.  
 [Full publication list](https://ishibaki.github.io/cv/#publications)
 
 ---
