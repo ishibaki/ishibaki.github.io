@@ -10,6 +10,7 @@ volume: <b>67</b>:487–493
 paperurl: 'http://link.springer.com/article/10.1007/s00040-020-00785-2'
 citation: 'Takata, M., Inagaki, T, <b><u>Ishibashi, T.</u></b>, Tasaki, E, Matsuura, K. (2020) <i>Insectes Sociaux</i>, <b>67</b>:487–493.'
 abbrev: "Takata et al. (2020) Insectes Soc."
+is_peer: "true"
 ---
 
 [Download paper here](https://link.springer.com/content/pdf/10.1007/s00040-020-00785-2.pdf)
