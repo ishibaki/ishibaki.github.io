@@ -10,5 +10,6 @@ volume: <b>40</b>:82-83
 paperurl: 'http://www.chem.sci.osaka-u.ac.jp/lab/micro/report/rctes/2019/index.html.en'
 citation: '<b><u>Ishibashi, T.</u></b>, Matsuno, K. (2020) <i>Annual Report of Research Center for Structural Thermodynamics</i>, <b>40</b>:82-83.'
 abbrev: "Ishibashi &amp; Matsuno (2014) Ann. Rep. Res. Cent. Struct. Themodyn."
+is_peer: "true"
 ---
 
