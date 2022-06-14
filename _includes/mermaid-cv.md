@@ -1,7 +1,7 @@
 ```mermaid
 gantt
 section Education
-  Bachelor<br /> @Osaka Univ. : BS, 2010-04-01, 2014-03-25
+  Bachelor<br/> @Osaka Univ. : BS, 2010-04-01, 2014-03-25
   Master @Osaka Univ.   : MS, 2014-04-01, 2016-03-28
   Ph.D. @Osaka Univ.    : Ph.D., 2016-04-01, 2019-03-25
 section Work experience
