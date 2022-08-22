@@ -1,6 +1,6 @@
 var addressPoints = [
   [
-    "Palais Universitaire, Strasbourg"
+    "Palais Universitaire, Strasbourg",
     48.585132327976886,
     7.762459876713905
   ],
