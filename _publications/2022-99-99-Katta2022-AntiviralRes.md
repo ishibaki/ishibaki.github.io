@@ -8,7 +8,7 @@ date: 2022-99-99
 author: Katta, T., Sato, A., Kadofusa, N., <b><u>Ishibashi, T.</u></b>, Shimoda, H., Iida, A., Hondo, E.
 venue: 'Antiviral Research'
 paperurl: ""
-citation: 'Katta, T., Sato, A., Kadofusa, N., <b><u>Ishibashi, T.</u></b>, Shimoda, H., Iida, A., Hondo, E. (2022) <i>Antiviral Research</i>'
+citation: 'Katta, T., Sato, A., Kadofusa, N., <b><u>Ishibashi, T.</u></b>, Shimoda, H., Iida, A., Hondo, E. (2022) "FDA-approved drug screening identified micafungin as an antiviral agent against bat-borne emerging zoonotic Pteropine orthoreovirus" <i>Antiviral Research</i>.'
 abbrev: "Katta et al. (2022) Antiviral Res."
 is_peer: "true"
 ---
