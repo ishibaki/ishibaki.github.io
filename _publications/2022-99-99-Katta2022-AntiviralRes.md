@@ -1,6 +1,6 @@
 <!--
 ---
-title: "Micafungin is an antiviral agent against bat-borne emerging zoonotic Pteropine orthoreovirus"
+title: "FDA-approved drug screening identified micafungin as an antiviral agent against bat-borne emerging zoonotic Pteropine orthoreovirus"
 collection: publications
 permalink: /publication/2022-99-99-Katta2022-AntiviralRes
 excerpt: ''
