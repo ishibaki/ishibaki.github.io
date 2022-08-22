@@ -1,5 +1,10 @@
 var addressPoints = [
   [
+    "Palais Universitaire, Strasbourg"
+    48.585132327976886,
+    7.762459876713905
+  ],
+  [
     "Kanazawa Bunka Hall, Ishikawa, Japan",
     36.56654114882263,
     136.65259531361352
