@@ -12,7 +12,7 @@ section Work experience
   JSPS PD @RIKEN            : active, PD, after RIKEN-postdoc, 2025-03-31
   Visiting Scientist @RIKEN : active, PD, after RIKEN-postdoc, 2025-03-31
 section Publication
-  Nakayama et al. (2014) BMC Genet          : crit, nakayama2014, 2014-04-16, 1w
+  Nakayama et al. (2014) BMC Genet.         : crit, nakayama2014, 2014-04-16, 1w
   Inaki et al. (2018) eLife.                : crit, inaki2018, 2018-06-12, 1w
   Ishibashi et al. (2019) Genes Cells       : crit, ishibashi2019, 2019-01-09, 1w
   Utsunomiya et al. (2019) Symmetry         : crit, utsunomiya2019, 2019-04-08, 1w
@@ -21,7 +21,7 @@ section Publication
   Takata et al. (2020) Insectes Sociaux     : crit, takata2020, 2020-09-22, 1w
   Ishibashi et al. (2020) Symmetry          : crit, ishibashi2020b, 2020-12-02, 1w
   Ishibashi & Matsuno (2022) microPub Biol. : crit, ishibashi2022, 2022-03-18, 1w
-  Lai et al. (2022) bioRxiv. : crit, Lai2022, 2022-08-20, 1w
+  Lai et al. (2022) bioRxiv : crit, Lai2022, 2022-08-20, 1w
 section Awards
   Best Presentation Award                : crit, aw_1, 2015-12-20, 1w
   Best Popularity Award                  : crit, aw_2, 2016-09-25, 1w
