@@ -60,7 +60,7 @@ document.write("Contact: <"+"a h"+"re"+"f=\"mai"+"lto:"+em_shtml+"\">"+em_shtml+
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
-[Full award list](https://ishibaki.github.io/awards/)
+[Full award list](https://ishibaki.github.io/cv/#awards)
 
 ---
   
