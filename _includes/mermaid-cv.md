@@ -31,4 +31,6 @@ section Awards
 section Grants
   Grant-in-Aid for JSPS Fellows : done, grant_DC1, 2016-04-22, 2019-03-31
   Grant-in-Aid for JSPS Fellows : active, grant_PD, 2022-04-22, 2025-03-31
+  DGD Fellowship:                 crit, dgd_fellowship, 2022-11-04, 2022-11-12
+  Yazaki Fellowship:              crit, yazaki_fellowship, 2022-11-04, 2022-11-12
 ```
