@@ -64,7 +64,7 @@ Position: {{ exp.title }}
 
 <img src="/images/heavens_tombo.png" alt="超極楽トンボの図" width="50%">
 
-あと，とても重要なことなのですが，好きなバンドは[鈴木実貴子ズ](https://www.youtube.com/watch?v=uQkddcoMLbg&list=PLGFcgF89YT2L1YgQZt4k31XLdYKWKQfES)です．学生時代からずっと応援しているバンドで，鈴木実貴子ズの話を聴いて彼女らの話さえしてもらえれば私はだいたいゴキゲンになります．
+あと，とても重要なことなのですが，好きなバンドは[鈴木実貴子ズ](https://www.youtube.com/watch?v=uQkddcoMLbg&list=PLGFcgF89YT2L1YgQZt4k31XLdYKWKQfES)です．学生時代からずっと応援しているバンドで，鈴木実貴子ズの曲を聴いて彼女らの話さえしてもらえれば私はだいたいゴキゲンになります．
 
 今後とも，よろしくお願い申し上げます．
 
