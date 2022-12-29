@@ -52,9 +52,9 @@ Affiliation: <a href="{{ exp.venueurl }}" target="_blank" rel="noopener noreferr
 
 ---
 
-職位: {{ exp.title_j }}
+職位: <a href="{{ exp.certification }}" target="_blank" rel="noopener noreferrer">{ exp.title_j }}</a>
 
-Position: {{ exp.title }}
+Position: <a href="{{ exp.certification }}" target="_blank" rel="noopener noreferrer">{{ exp.title }}</a>
 
 ---
 
