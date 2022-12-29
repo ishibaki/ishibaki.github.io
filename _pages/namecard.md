@@ -40,9 +40,9 @@ Name: <b><u>Tomoki Ishibashi</u></b>
 
 ---
 
-学位: [博士(理学)](../images/学位記.jpg)
+学位: [博士(理学), 2019年3月 大阪大学](../images/学位記.jpg)
 
-Degree: [Ph.D.](../images/学位記.jpg)
+Degree: [Ph.D., March 2019, Osaka University](../images/学位記.jpg)
 
 ---
 
@@ -60,11 +60,13 @@ Position: {{ exp.title }}
 
 名刺からジャンプいただきありがとうございます．
 
+ <!--
 最近，「もっとキツい性格の人だと思っていた」と言われることが増えてきたのですが，実際のところ，浮かれポンチの超極楽トンボ (極楽のさらに上，「超極楽」の運動場を整地するために使われるトンボのこと) として生きているので警戒は不要です．
 
 <img src="/images/heavens_tombo.png" alt="超極楽トンボの図" width="50%">
 
 あと，とても重要なことなのですが，好きなバンドは[鈴木実貴子ズ](https://www.youtube.com/watch?v=uQkddcoMLbg&list=PLGFcgF89YT2L1YgQZt4k31XLdYKWKQfES)です．学生時代からずっと応援しているバンドで，鈴木実貴子ズの曲を聴いて彼女らの話さえしてもらえれば私はだいたいゴキゲンになります．
+-->
 
 今後とも，よろしくお願い申し上げます．
 
