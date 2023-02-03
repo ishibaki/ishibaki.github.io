@@ -33,4 +33,5 @@ section Grants
   Grant-in-Aid for JSPS Fellows : active, grant_PD, 2022-04-22, 2025-03-31
   DGD Fellowship:                 crit, dgd_fellowship, 2022-11-04, 2w
   Yazaki Fellowship:              crit, yazaki_fellowship, 2022-11-04, 2w
+  click yazaki_fellowship href "https://ishibaki.github.io/files/acceptance-Yazaki.pdf"
 ```
