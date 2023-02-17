@@ -15,7 +15,8 @@ author_profile: true
 - a [Pandoc Manual Translation Team member](https://pandoc-doc-ja.readthedocs.io/ja/latest/users-guide.html)
 - a [Python](https://www.python.org) user
 - a contributor of [Mark Text](https://github.com/marktext/marktext)
-- an author of [Awesome ImageJ Plugins](https://github.com/ishibaki/awesome-imagej-plugins)
+
+<!-- - an author of [Awesome ImageJ Plugins](https://github.com/ishibaki/awesome-imagej-plugins)-->
 
 ---
 
