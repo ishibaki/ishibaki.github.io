@@ -1,7 +1,7 @@
 ---
 title: "生存報告と鈴木実貴子ズのライブに行ったという自慢"
 collection: blog
-permalink: /blog/20230217-SuzukiMikikos-Chikusaza.md
+permalink: /blog/20230217-SuzukiMikikos-Chikusaza
 description: 鈴木実貴子ズのライブ@ちくさ座が良かったという話
 excerpt: ''
 date: 2023-02-18
