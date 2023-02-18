@@ -84,7 +84,7 @@ tags:
 <br>
 <br>
 
-<img src="../../images/20230218_Chikusa-za_SuzukiMikikos.png" width=30%>
+<img src="https://ishibaki.github.io/images/20230218_Chikusa-za_SuzukiMikikos.png" width=30%>
 
 とか何とかゴチャゴチャ言っているわりに，やっぱり鈴木実貴子ズと一緒に写真を撮っちゃいました，というオチである．
 
