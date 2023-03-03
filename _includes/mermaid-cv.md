@@ -9,8 +9,9 @@ section Work experience
   JSPS DC1 @Osaka Univ.     : done, DC1, 2016-04-01, 2019-03-31
   Post-doc @Kyoto Univ.     : done, KU-postdoc, after DC1, 2021-04-30
   Post-doc @RIKEN           : done, RIKEN-postdoc, after KU-postdoc, 2022-03-31
-  JSPS PD @RIKEN            : active, PD, after RIKEN-postdoc, 2025-03-31
-  Visiting Scientist @RIKEN : active, PD, after RIKEN-postdoc, 2025-03-31
+  JSPS PD @RIKEN            : active, PD, after RIKEN-postdoc, 2023-03-31
+  Visiting Scientist @RIKEN : active, Visit-Sci, after RIKEN-postdoc, 2023-03-31
+  SPDR @RIKEN               : SPDR, after VisitSci, 2026-03-31
 section Publication
   Nakayama et al. (2014) BMC Genet.         : crit, nakayama2014, 2014-04-16, 2w
   Inaki et al. (2018) eLife.                : crit, inaki2018, 2018-06-12, 2w
