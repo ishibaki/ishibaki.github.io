@@ -21,8 +21,8 @@ section Publication
   Takata et al. (2020) Insectes Sociaux     : crit, takata2020, 2020-09-22, 2w
   Ishibashi et al. (2020) Symmetry          : crit, ishibashi2020b, 2020-12-02, 2w
   Ishibashi & Matsuno (2022) microPub Biol. : crit, ishibashi2022, 2022-03-18, 2w
-  Lai et al. (2022) bioRxiv                 : crit, Lai2022, 2022-08-20, 2w
   Katta et al. (2022) bioRxiv               : crit, Katta2022, 2022-09-22, 2w
+  Lai et al. (2023) Development             : crit, Lai2023, 2023-03-02, 2w
 section Awards
   Best Presentation Award                : crit, aw_1, 2015-12-20, 2w
   Best Popularity Award                  : crit, aw_2, 2016-09-25, 2w
