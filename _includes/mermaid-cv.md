@@ -34,4 +34,5 @@ section Grants
   Grant-in-Aid for JSPS Fellows : active, grant_PD, 2022-04-22, 2025-03-31
   DGD Fellowship:                 crit, dgd_fellowship, 2022-11-04, 2w
   Yazaki Fellowship:              crit, yazaki_fellowship, 2022-11-04, 2w
+  Grant-in-Aid for Early-Career Scientists : grant_ecs2023, 2023-04-01, 2026-03-31
 ```
