@@ -18,8 +18,8 @@ I am interested in Development.
 - [Statistical Validation Verifies That Enantiomorphic States of Chiral Cells Are Determinant Dictating the Left- or Right-Handed Direction of the Hindgut Rotation in *Drosophila*](https://www.mdpi.com/2073-8994/12/12/1991/htm)
 - [*extra macrochaetae*, encoding *Drosophila* Id, controls apical cell shape in the hindgut epithelium](https://doi.org/10.17912/micropub.biology.000526)
 - [Chiral cell sliding drives left-right asymmetric organ twisting](https://elifesciences.org/articles/32506)
-- [The *Drosophila* AWP1 ortholog Doctor No regulates JAK/STAT signaling for left-right asymmetry in the gut by promoting receptor endocytosis](https://doi.org/10.1101/2022.08.20.504629)
 - [Cells with Broken Left–Right Symmetry: Roles of Intrinsic Cell Chirality in Left–Right Asymmetric Epithelial Morphogenesis](https://www.mdpi.com/2073-8994/11/4/505)
+- [The *Drosophila* AWP1 ortholog Doctor No regulates JAK/STAT signaling for left-right asymmetry in the gut by promoting receptor endocytosis](https://doi.org/10.1242/dev.201224)
 
 # Post-embryonic development, caste differentiation, in termite
 
