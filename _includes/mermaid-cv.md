@@ -9,9 +9,9 @@ section Work experience
   JSPS DC1 @Osaka Univ.     : done, DC1, 2016-04-01, 2019-03-31
   Post-doc @Kyoto Univ.     : done, KU-postdoc, after DC1, 2021-04-30
   Post-doc @RIKEN           : done, RIKEN-postdoc, after KU-postdoc, 2022-03-31
-  JSPS PD @RIKEN            : active, PD, after RIKEN-postdoc, 2023-03-31
-  Visiting Scientist @RIKEN : active, Visit-Sci, after RIKEN-postdoc, 2023-03-31
-  SPDR @RIKEN               : SPDR, after VisitSci, 2026-03-31
+  JSPS PD @RIKEN            : done, PD, after RIKEN-postdoc, 2023-03-31
+  Visiting Scientist @RIKEN : done, Visit-Sci, after RIKEN-postdoc, 2023-03-31
+  SPDR @RIKEN               : active, SPDR, after VisitSci, 2026-03-31
 section Publication
   Nakayama et al. (2014) BMC Genet.         : crit, nakayama2014, 2014-04-16, 2w
   Inaki et al. (2018) eLife.                : crit, inaki2018, 2018-06-12, 2w
@@ -34,5 +34,5 @@ section Grants
   Grant-in-Aid for JSPS Fellows : active, grant_PD, 2022-04-22, 2025-03-31
   DGD Fellowship:                 crit, dgd_fellowship, 2022-11-04, 2w
   Yazaki Fellowship:              crit, yazaki_fellowship, 2022-11-04, 2w
-  Grant-in-Aid for Early-Career Scientists : grant_ecs2023, 2023-04-01, 2026-03-31
+  Grant-in-Aid for Early-Career Scientists : active, grant_ecs2023, 2023-04-01, 2026-03-31
 ```
