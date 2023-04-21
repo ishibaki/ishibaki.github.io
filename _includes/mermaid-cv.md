@@ -25,10 +25,10 @@ section Publication
   Katta et al. (2022) bioRxiv               : crit, Katta2022, 2022-09-22, 2w
   Lai et al. (2023) Development             : crit, Lai2023, 2023-03-02, 2w
 section Awards
-  Best Presentation Award                : crit, aw_1, 2015-12-20, 2w
-  Best Popularity Award                  : crit, aw_2, 2016-09-25, 2w
-  Excellent Award                        : crit, aw_3, 2016-09-25, 2w
-  1st Place for Outstanding Presentation : crit, aw_4, 2017-11-01, 2w
+  Best Presentation Award                  : crit, aw_1, 2015-12-20, 2w
+  Best Popularity Award                    : crit, aw_2, 2016-09-25, 2w
+  Excellent Award                          : crit, aw_3, 2016-09-25, 2w
+  1st Place for Outstanding Presentation   : crit, aw_4, 2017-11-01, 2w
 section Grants
   Grant-in-Aid for JSPS Fellows : done, grant_DC1, 2016-04-22, 2019-03-31
   Grant-in-Aid for JSPS Fellows : active, grant_PD, 2022-04-22, 2025-03-31
@@ -36,3 +36,7 @@ section Grants
   Yazaki Fellowship:              crit, yazaki_fellowship, 2022-11-04, 2w
   Grant-in-Aid for Early-Career Scientists : active, grant_ecs2023, 2023-04-01, 2026-03-31
 ```
+
+<!--
+  Presentation Award for Young Researchers : crit, aw_5, 2023-06-29, 2w
+-->
