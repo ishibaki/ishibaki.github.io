@@ -11,7 +11,7 @@ section Work experience
   Post-doc @RIKEN           : done, RIKEN-postdoc, after KU-postdoc, 2022-03-31
   JSPS PD @RIKEN            : done, PD, after RIKEN-postdoc, 2023-03-31
   Visiting Scientist @RIKEN : done, Visit-Sci, after RIKEN-postdoc, 2023-03-31
-  SPDR @RIKEN               : active, SPDR, after VisitSci, 2026-03-31
+  SPDR @RIKEN               : active, SPDR, after PD, 2026-03-31
 section Publication
   Nakayama et al. (2014) BMC Genet.         : crit, nakayama2014, 2014-04-16, 2w
   Inaki et al. (2018) eLife.                : crit, inaki2018, 2018-06-12, 2w
