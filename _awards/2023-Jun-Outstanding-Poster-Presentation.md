@@ -9,6 +9,6 @@ venue: 'The 3rd Area Conference of the Transformative Research Areas (A): Mechan
 
 [Talk information](/talks/2023-06-15-poster)
 
-![Photo of the Award Ceremony](/images/20230615_Award/jpeg)
+![Photo of the Award Ceremony](/images/20230615_Award.jpeg)
 
 ![Certification](/images/20230615_PosterAward.pdf)
