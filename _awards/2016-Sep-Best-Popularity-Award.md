@@ -7,4 +7,6 @@ date: 2016-09-25
 venue: '2016 National Tsing-Hua University - Osaka University Life Science Student Symposium'
 ---
 
+![](/images/TsingHua-Duck.jpg)
+
 ![Certification](/images/20160925-BestPopularityAwardCert.jpg)
