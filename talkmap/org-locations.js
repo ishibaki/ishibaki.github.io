@@ -1,5 +1,10 @@
 var addressPoints = [
   [
+    "Nara Prefectural Convention Center",
+    34.68555085375852,
+    135.8054535988884
+  ],
+  [
     "Nagoya University, Aichi, Japan",
     35.154787034514435,
     136.96856870429377
