@@ -16,6 +16,8 @@ gem "github-pages", group: :jekyll_plugins
 
 # gem "jekyll"
 
+gem 'jekyll-font-awesome-sass'
+
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # If you have any plugins, put them here!
