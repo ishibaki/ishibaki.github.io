@@ -121,6 +121,8 @@ author:
   academic_tree    : "https://academictree.org/flytree/tree.php?pid=792306"
   research_er      : "https://research-er.jp/researchers/view/955929"
 
+gems:
+  - jekyll-font-awesome-sass
 
 # Reading Files
 include:
