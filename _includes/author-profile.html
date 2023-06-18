@@ -45,8 +45,14 @@
       {% if author.researchmap %}
         <li><a href="{{ author.researchmap }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-caret-square-right" aria-hidden="true"></i> Researchmap</a></li>
       {% endif %}
+      {% if author.orcid %}
+        <li><a href="{{ author.orcid }}" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
+      {% endif %}
       {% if author.kaken %}
         <li><a href="{{ author.kaken }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-yen-sign" aria-hidden="true"></i> GRANTS</a></li>
+      {% endif %}
+      {% if author.research_er %}
+        <li><a href="{{ author.research_er }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-chart-line"></i> Research-er</a></li>
       {% endif %}
       {% if author.twitter %}
         <li><a href="https://twitter.com/{{ author.twitter }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
@@ -116,9 +122,6 @@
       {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}" target="_blank" rel="noopener noreferrer"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>
-      {% endif %}
-      {% if author.orcid %}
-        <li><a href="{{ author.orcid }}" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
       {% endif %}
       {% if author.academic_tree %}
         <li><a href="{{ author.academic_tree }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-tree" aria-hidden="true"></i> Academic Tree</a></li>
