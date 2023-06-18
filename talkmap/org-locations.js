@@ -1,6 +1,6 @@
 var addressPoints = [
   [
-    "Nara Prefectural Convention Center",
+    "Nara Prefectural Convention Center, Nara, Japan",
     34.68555085375852,
     135.8054535988884
   ],
