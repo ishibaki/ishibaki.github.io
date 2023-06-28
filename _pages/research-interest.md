@@ -28,4 +28,5 @@ I am interested in Development.
 I had studied about the molecular mechanism of the caste differentiation by using termites.
 Importantly, this is the developmental biology of the **Superorganism**.
 
+- [Plastic brain structure changes associated with the division of labour and ageing in termites](https://doi.org/10.1111/dgd.12873)
 - [A non-invasive method for sexing first and second instar larvae of termites using external morphology](http://link.springer.com/article/10.1007/s00040-020-00785-2)
