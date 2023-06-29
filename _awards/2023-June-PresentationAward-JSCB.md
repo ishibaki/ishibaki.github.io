@@ -1,5 +1,5 @@
 ---
-title: "Presentation Award for Young Researchers"
+title: "Young Scientist Award for Presentation"
 collection: awards
 permalink: /awards/2023-June-PresentationAward-JSCB
 excerpt: ''
