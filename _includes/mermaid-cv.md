@@ -31,7 +31,7 @@ section Awards
   Excellent Award                          : crit, aw_3, 2016-09-25, 2w
   1st Place for Outstanding Presentation   : crit, aw_4, 2017-11-01, 2w
   Outstanding Poster Presentation Award    : crit, aw_5, 2023-06-15, 2w
-  Presentation Award for Young Researchers : crit, aw_6, 2023-06-29, 2w
+  Young Scientist Award for Presentation   : crit, aw_6, 2023-06-29, 2w
 section Grants
   Grant-in-Aid for JSPS Fellows : done, grant_DC1, 2016-04-22, 2019-03-31
   Grant-in-Aid for JSPS Fellows : active, grant_PD, 2022-04-22, 2025-03-31
