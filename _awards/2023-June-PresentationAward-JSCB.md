@@ -11,4 +11,4 @@ venue: 'The 75th Annual Meeting of the Japanese Society for Cell Biology'
 
 ![](/images/20230629_JSCB-award.png)
 
-![](/images/20230629_award_cert.png)
+![](/images/20230629_award_cert.webp)
