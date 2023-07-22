@@ -56,7 +56,7 @@ redirect_from:
 # Publications
 
 Total: {{ site.publications | size }}  
-◎ sign indicates that the paper is peer reviewed.
+◎ signs indicate peer reviewed papers.
 
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
