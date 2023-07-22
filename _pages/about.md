@@ -48,7 +48,7 @@ document.write("Contact: <"+"a h"+"re"+"f=\"mai"+"lto:"+em_shtml+"\">"+em_shtml+
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-◎ sign indicates that the paper is peer reviewed.  
+◎ signs indicate peer reviewed papers.  
 [Full publication list](https://ishibaki.github.io/cv/#publications)
 
 ---
