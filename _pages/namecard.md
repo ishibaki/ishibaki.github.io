@@ -62,7 +62,7 @@ Position: <a href="{{ exp.certification }}" target="_blank" rel="noopener norefe
 
 最近，「もっとキツい性格の人だと思っていた」と言われることが増えてきたのですが，実際のところ，浮かれポンチの超極楽トンボ (極楽のさらに上，「超極楽」の運動場を整地するために使われるトンボのこと) として生きているので警戒は不要です．
 
-<img src="/images/heavens_tombo.png" alt="超極楽トンボの図" width="50%">
+<img src="/images/heavens_tombo.webp" alt="超極楽トンボの図" width="50%">
 <!-- なお上図のトンボは完全に描き下ろしであるところが一番の笑いドコロである．-->
 
 あと，とても重要なことなのですが，好きなバンドは[鈴木実貴子ズ](https://www.youtube.com/watch?v=uQkddcoMLbg&list=PLGFcgF89YT2L1YgQZt4k31XLdYKWKQfES)です．学生時代からずっと応援しているバンドで，鈴木実貴子ズの曲を聴いて彼女らの話さえしてもらえれば私はだいたいゴキゲンになります．
