@@ -1,9 +1,9 @@
 ---
 title: "Epithelial cell chirality emerges through the dynamic concentric pattern of actomyosin"
 collection: publications
-permalink: /publication/2023-08-17-Yamamoto2023-bioRxiv
+permalink: /publication/2023-08-16-Yamamoto2023-bioRxiv
 excerpt: ''
-date: 2023-08-17
+date: 2023-08-16
 author: Yamamoto, T<sup>†</sup>., <b><u>Ishibashi, T.<sup>†</sup></u></b>, Kiyosue-Mimori, Y., Hiver, S., Tokushige, N., Tarama, M., Takeichi, M., Shibata, T.
 venue: 'bioRxiv'
 paperurl: "https://doi.org/10.1101/2023.08.16.553476"
