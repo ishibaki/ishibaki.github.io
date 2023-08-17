@@ -4,11 +4,11 @@ collection: publications
 permalink: /publication/2020-09-22-Takata2020-Insectes-Sociaux
 excerpt: ''
 date: 2020-09-22
-author: Takata, M., Inagaki, T, <b><u>Ishibashi, T.</u></b>, Tasaki, E, Matsuura, K.
+author: Takata, M.<sup>*</sup>, Inagaki, T, <b><u>Ishibashi, T.</u></b>, Tasaki, E, Matsuura, K.
 venue: 'Insectes Sociaux'
 volume: <b>67</b>:487–493
 paperurl: 'http://link.springer.com/article/10.1007/s00040-020-00785-2'
-citation: 'Takata, M., Inagaki, T, <b><u>Ishibashi, T.</u></b>, Tasaki, E, Matsuura, K. (2020) <i>Insectes Sociaux</i>, <b>67</b>:487–493.'
+citation: 'Takata, M.<sup>*</sup>, Inagaki, T, <b><u>Ishibashi, T.</u></b>, Tasaki, E, Matsuura, K. (2020) <i>Insectes Sociaux</i>, <b>67</b>:487–493.'
 abbrev: "Takata et al. (2020) Insectes Soc."
 is_peer: "true"
 ---
