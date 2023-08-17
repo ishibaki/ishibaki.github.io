@@ -4,11 +4,11 @@ collection: publications
 permalink: /publication/2020-02-12-Doysabas2020-J-Vet-Med-Sci
 excerpt: ''
 date: 2020-02-12
-author: Doysabas, KCC., Oba, M., <b><u>Ishibashi, T.</u></b>, Shibata, H., Takemae, H, Shimoda, H., Mizutani, T., Iida, A., Hondo, E.
+author: Doysabas, KCC., Oba, M., <b><u>Ishibashi, T.</u></b>, Shibata, H., Takemae, H, Shimoda, H., Mizutani, T., Iida, A., Hondo, E.<sup>*</sup>
 venue: 'Journal of Veterinary Medical Science'
 volume: <b>82</b>(3):387-393
 paperurl: 'https://doi.org/10.1292/jvms.20-0021'
-citation: 'Doysabas, KCC., Oba, M., <b><u>Ishibashi, T.</u></b>, Shibata, H., Takemae, H, Shimoda, H., Mizutani, T., Iida, A., Hondo, E. (2020) <i>Journal of Veterinary Medical Science</i>, <b>82</b>(3):387-393.'
+citation: 'Doysabas, KCC., Oba, M., <b><u>Ishibashi, T.</u></b>, Shibata, H., Takemae, H, Shimoda, H., Mizutani, T., Iida, A., Hondo, E.<sup>*</sup> (2020) <i>Journal of Veterinary Medical Science</i>, <b>82</b>(3):387-393.'
 abbrev: "Doysabas et al. (2020) J. Vet. Med. Sci."
 is_peer: "true"
 ---
