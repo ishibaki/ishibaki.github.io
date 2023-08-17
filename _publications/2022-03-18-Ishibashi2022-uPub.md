@@ -4,10 +4,10 @@ collection: publications
 permalink: /publication/2022-03-18-Ishibashi2022-uPubBiol
 excerpt: ''
 date: 2022-03-18
-author: <b><u>Ishibashi, T.</u></b>, Matusno, K.
+author: <b><u>Ishibashi, T.</u></b>, Matusno, K.<sup>*</sup>
 venue: 'microPublication Biology'
 paperurl: "https://doi.org/10.17912/micropub.biology.000526"
-citation: '<b><u>Ishibashi, T.</u></b>, Matusno, K. (2022) <i>microPublication Biology</i>'
+citation: '<b><u>Ishibashi, T.</u></b>, Matusno, K.<sup>*</sup> (2022) <i>microPublication Biology</i>'
 abbrev: "Ishibashi &amp; Matsuno (2022) microPubl. Biol."
 is_peer: "true"
 ---
