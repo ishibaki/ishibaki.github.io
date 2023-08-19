@@ -4,11 +4,11 @@ collection: publications
 permalink: /publication/2019-04-08-Utsunomiya2019-Symmetry
 excerpt: ''
 date: 2019-04-08
-author: Utsunomiya, S., Sakamura, S., Sasamura, T., <b><u>Ishibashi, T.</u></b>, Maeda, C., Inaki, M.<sup>*</sup>, Matsuno, K.<sup>*</sup>
+author: Utsunomiya, S., Sakamura, S., Sasamura, T., <b><u>Ishibashi, T.</u></b>, Maeda, C., Inaki, M.<sup>†</sup>, Matsuno, K.<sup>†</sup>
 venue: 'Symmetry'
 volume: <b>11</b>:4
 paperurl: 'https://www.mdpi.com/2073-8994/11/4/505'
-citation: 'Utsunomiya, S., Sakamura, S., Sasamura, T., <b><u>Ishibashi, T.</u></b>, Maeda, C., Inaki, M.<sup>*</sup>, Matsuno, K.<sup>*</sup> (2019) <i>Symmetry</i>, <b>11</b>:4.'
+citation: 'Utsunomiya, S., Sakamura, S., Sasamura, T., <b><u>Ishibashi, T.</u></b>, Maeda, C., Inaki, M.<sup>†</sup>, Matsuno, K.<sup>†</sup> (2019) <i>Symmetry</i>, <b>11</b>:4.'
 abbrev: "Utsunomiya et al. (2019) Symmetry"
 is_peer: "true"
 ---
