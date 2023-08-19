@@ -4,11 +4,11 @@ collection: publications
 permalink: /publication/2020-12-02-Ishibashi2020-Symmetry
 excerpt: ''
 date: 2020-12-02
-author: <b><u>Ishibashi, T.</u></b>, Inaki, M., Matusno, K.<sup>*</sup>
+author: <b><u>Ishibashi, T.</u></b>, Inaki, M., Matusno, K.<sup>†</sup>
 venue: 'Symmetry'
 volume: <b>12</b>(12):1991
 paperurl: 'https://doi.org/10.3390/sym12121991'
-citation: '<b><u>Ishibashi, T.</u></b>, Inaki, M., Matusno, K.<sup>*</sup> (2020) <i>Symmetry</i>, <b>12</b>(12):1991.'
+citation: '<b><u>Ishibashi, T.</u></b>, Inaki, M., Matusno, K.<sup>†</sup> (2020) <i>Symmetry</i>, <b>12</b>(12):1991.'
 abbrev: "Ishibashi et al. (2020) Symmetry"
 is_peer: "true"
 ---
