@@ -70,7 +70,7 @@ Total: {{ site.awards | size }}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
-# Grants
+# Funding
 
 Total: {{ site.grants | size }}
 
@@ -78,7 +78,7 @@ Total: {{ site.grants | size }}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
-# Talks
+# Presentations
 
 Total: {{ site.talks | size }}
 
