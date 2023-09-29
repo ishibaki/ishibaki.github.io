@@ -6,8 +6,9 @@ excerpt: ''
 date: 2023-03-21
 author: Lai, YT., Sasamura, T., Kuroda, J., Maeda, R., Nakamura, M., Hatori, R., <b><u>Ishibashi, T.</u></b>, Taniguchi, K., Ooike, M., Taguchi, T., Nakazawa, N., Hozumi, S., Okumura, T., Aigaki, T., Inaki, M.<sup>†</sup>, Matsuno, K.<sup>†</sup> 
 venue: 'Development'
+volume: "<b>150</b> (6)"
 paperurl: "https://doi.org/10.1242/dev.201224"
-citation: 'Lai, YT., Sasamura, T., Kuroda, J., Maeda, R., Nakamura, M., Hatori, R., <b><u>Ishibashi, T.</u></b>, Taniguchi, K., Ooike, M., Taguchi, T., Nakazawa, N., Hozumi, S., Okumura, T., Aigaki, T., Inaki, M.<sup>†</sup>, Matsuno, K.<sup>†</sup> (2023) "The <i>Drosophila</i> AWP1 ortholog Doctor No regulates JAK/STAT signaling for left-right asymmetry in the gut by promoting receptor endocytosis" <i>Development</i>, <b>150</b> (6).'
+citation: 'Lai, YT., Sasamura, T., Kuroda, J., Maeda, R., Nakamura, M., Hatori, R., <b><u>Ishibashi, T.</u></b>, Taniguchi, K., Ooike, M., Taguchi, T., Nakazawa, N., Hozumi, S., Okumura, T., Aigaki, T., Inaki, M.<sup>†</sup>, Matsuno, K.<sup>†</sup> (2023) "The <i>Drosophila</i> AWP1 ortholog Doctor No regulates JAK/STAT signaling for left-right asymmetry in the gut by promoting receptor endocytosis" <i>Development</i>.'
 abbrev: "Lai et al. (2023) Development"
 is_peer: true
 ---
