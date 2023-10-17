@@ -55,7 +55,9 @@ redirect_from:
 
 # Publications
 
-Total: {{ site.publications | size }}  
+{% assign peer_pubs = site.publications | where: "is_peer" %}
+
+{{ peer_pubs | size }} of peer-reviewed papers in total {{ site.publications | size }}  
 ◎ signs indicate peer reviewed papers.
 
   <ul>{% for post in site.publications reversed %}
