@@ -48,7 +48,7 @@ document.write("Contact: <"+"a h"+"re"+"f=\"mai"+"lto:"+em_shtml+"\">"+em_shtml+
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-◎ signs indicate peer reviewed papers.  
+◎: peer reviewed papers; *: equally contributed authors; †: corresponding authors.  
 [Full publication list](https://ishibaki.github.io/cv/#publications)
 
 ---
