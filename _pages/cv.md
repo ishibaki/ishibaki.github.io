@@ -57,11 +57,14 @@ redirect_from:
 
 {% assign peer_pubs = site.publications | where: "is_peer", true %}
 Total: {{ site.publications | size }}, Peer-reviewed: {{ peer_pubs | size }}  
-◎ signs indicate peer reviewed papers.
 
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+- ◎ signs indicate peer reviewed papers.
+- <sup>*</sup> signs indicate equally contributed authors.
+- <sup>†</sup> signs indicate corresponding authors.
 
 # Awards
 
