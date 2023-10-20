@@ -9,7 +9,6 @@ author_profile: true
 # I am ...
 
 - a [cat lover](https://scrapbox.io/cat-lover/)
-- a Technical Advisor of [BugMo Ltd.](https://bugmo.jp)
 - a [Vimmer](https://www.vim.org)
 - a [Keyboard developer](https://www.google.co.jp/search?q=keyboard%20diy)
 - a [Pandoc](https://pandoc.org) user
@@ -18,6 +17,7 @@ author_profile: true
 - a contributor of [Mark Text](https://github.com/marktext/marktext)
 
 <!-- - an author of [Awesome ImageJ Plugins](https://github.com/ishibaki/awesome-imagej-plugins)-->
+<!-- - a Technical Advisor of [BugMo Ltd.](https://bugmo.jp)-->
 
 ---
 
