@@ -22,10 +22,10 @@ section Publications
   Takata et al. (2020) Insectes Soc.          :       takata2020, 2020-09-22, 2w
   Ishibashi et al. (2020) Symmetry            : crit, ishibashi2020b, 2020-12-02, 2w
   Ishibashi & Matsuno (2022) microPubl. Biol. : crit, ishibashi2022, 2022-03-18, 2w
-  Katta et al. (2022) bioRχiv                 :       katta2022, 2022-09-22, 2w
   Lai et al. (2023) Development               :       lai2023, 2023-03-02, 2w
   Ishibashi et al. (2023) Dev. Growth Differ. : crit, ishibashi2023, 2023-06-25, 2w
-  Yamamoto et al. (2023) bioRχiv              : crit, Yamamoto2023, 2023-08-16, 2w 
+  Yamamoto et al. (2023) bioRχiv              : crit, yamamoto2023, 2023-08-16, 2w
+  Katta et al. (2022) Virus Res.              :       katta2023, 2022-11-08, 2w
 section Awards
   Best Presentation Award                  : crit, aw_1, 2015-12-20, 2w
   Best Popularity Award                    : crit, aw_2, 2016-09-25, 2w
