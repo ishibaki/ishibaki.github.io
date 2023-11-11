@@ -1,7 +1,7 @@
 ---
 title: "Antiviral effects of micafungin against pteropine orthoreovirus, an emerging zoonotic virus carried by bats"
 collection: publications
-permalink: /publication/2023-11-08-Hondo2023-VirusRes
+permalink: /publication/2023-11-10-Hondo2023-VirusRes
 excerpt: ''
 date: 2023-11-10
 author: Hondo, E.<sup>*†</sup>, Katta, T.<sup>*</sup>, Sato, A., Kadofusa, N., <b><u>Ishibashi, T.</u></b>, Shimoda, H., Katoh, H., Iida, A.
