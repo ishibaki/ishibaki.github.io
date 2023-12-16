@@ -25,6 +25,7 @@ section Publications
   Lai et al. (2023) Development               :       lai2023, 2023-03-02, 2w
   Ishibashi et al. (2023) Dev. Growth Differ. : crit, ishibashi2023, 2023-06-25, 2w
   Yamamoto et al. (2023) bioRχiv              : crit, yamamoto2023, 2023-08-16, 2w
+  Katoh et al. (2023) Microscopy              : crit, katoh2023, 2023-12-15, 2w
   Hondo et al. (2023) Virus Res.              :       hondo2024, 2024-01-02, 2w
 section Awards
   Best Presentation Award                  : crit, aw_1, 2015-12-20, 2w
