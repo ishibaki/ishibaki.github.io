@@ -7,4 +7,6 @@ date: 2023-12-08
 venue: 'The 46th Annual Meeting of the Molecular Biology Society of Japan'
 ---
 
-[3SP-05-07 Tomoki Ishibashi & Tatsuo Shibata "Cell chirality induces collective rotation via the left-right asymmetric formation of lamellipodia and focal adhesions"](/talks/2023-12-08-oral)
+[**3SP-05-07 Tomoki Ishibashi & Tatsuo Shibata "Cell chirality induces collective rotation via the left-right asymmetric formation of lamellipodia and focal adhesions"**](/talks/2023-12-08-oral)
+
+- [Awardees List](https://www2.aeplan.co.jp/mbsj2023/pdf/sp_excellence_award_en.pdf)
