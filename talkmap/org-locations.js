@@ -1,5 +1,10 @@
 var addressPoints = [
   [
+    "Kobe International Conference Center",
+    34.66468056240149,
+    135.2118102823267
+  ],
+  [
     "Sendai International Center, Miyagi, Japan",
     38.25923451314368,
     140.85773488465722
