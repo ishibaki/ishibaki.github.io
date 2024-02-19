@@ -9,7 +9,7 @@ lab: 'Laboratory of Insect Ecology'
 dept: 'Graduate School of Agriculture'
 institute: 'Kyoto University'
 country: 'Japan'
-venueurl: "http://www.insecteco.kais.kyoto-u.ac.jp/englishpage.html"
+venueurl: "https://sites.google.com/view/insecteco"
 superviser: 'Prof. Kenji Matsuura'
 done: true
 toplist: true
