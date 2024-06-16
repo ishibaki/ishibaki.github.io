@@ -1,5 +1,15 @@
 var addressPoints = [
   [
+    "Kyoto International Conference Center",
+    35.06215607790317,
+    135.78299390668806
+  ],
+  [
+    "Miyako Messe",
+    35.013050205787344,
+    135.78102516920399
+  ],
+  [
     "Kobe International Conference Center",
     34.66468056240149,
     135.2118102823267
