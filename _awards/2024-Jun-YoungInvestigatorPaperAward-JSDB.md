@@ -8,3 +8,5 @@ venue: 'The 75th Annual Meeting of the Japanese Society of Developmental Biologi
 ---
 
 Awarded for [Ishibashi, T. *et al*. (2023) "Plastic brain structure changes associated with the division of labor and aging in termites" *Dev. Growth Differ.*](https://ishibaki.github.io/publication/2023-07-18-Ishibashi2023-DGD)
+
+![](/images/20240621_DGD-YIA.webp)
