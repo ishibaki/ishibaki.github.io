@@ -28,8 +28,8 @@ section Publications
   Hondo et al. (2023) Virus Res.              :       hondo2024, 2024-01-02, 2w
 section Awards
   Best Presentation Award                  : crit, aw_1, 2015-12-20, 2w
-  Best Popularity Award                    : crit, aw_2, 2016-09-25, 2w
-  Excellent Award                          : crit, aw_3, 2016-09-25, 2w
+  Best Popularity Award & Excellent Award  : crit, aw_2, 2016-09-25, 2w
+%%  Excellent Award                          : crit, aw_3, 2016-09-25, 2w
   1st Place for Outstanding Presentation   : crit, aw_4, 2017-11-01, 2w
   Outstanding Poster Presentation Award    : crit, aw_5, 2023-06-15, 2w
   Young Scientist Award for Presentation   : crit, aw_6, 2023-06-29, 2w
