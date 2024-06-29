@@ -3,13 +3,13 @@ title: "Optical microscopic imaging, manipulation, and analysis methods for morp
 collection: publications
 permalink: /publication/2023-12-15-Katoh2023-Microscopy
 excerpt: ''
-date: 2023-12-15
+date: 2024-06-01
 author: Katoh, A. T.<sup>*†</sup>, Fukai, T. Y.<sup>*†</sup>, <b><u>Ishibashi, T.<sup>*†</sup></u></b>.
 venue: 'Microscopy'
 volume: "<b>73</b> (3):226-242"
 paperurl: "https://doi.org/10.1093/jmicro/dfad059"
-citation: 'Katoh, A. T.<sup>*†</sup>, Fukai, T. Y.<sup>*†</sup>, <b><u>Ishibashi, T.<sup>*†</sup></u></b>. (2023) "Optical microscopic imaging, manipulation, and analysis methods for morphogenesis research" <i>Microscopy</i>, <b>73 (3)</b>: 226-242.'
-abbrev: "Katoh et al. (2023) Microscopy."
+citation: 'Katoh, A. T.<sup>*†</sup>, Fukai, T. Y.<sup>*†</sup>, <b><u>Ishibashi, T.<sup>*†</sup></u></b>. (2024) "Optical microscopic imaging, manipulation, and analysis methods for morphogenesis research" <i>Microscopy</i>, <b>73 (3)</b>: 226-242.'
+abbrev: "Katoh et al. (2024) Microscopy."
 is_peer: true
 ---
 
