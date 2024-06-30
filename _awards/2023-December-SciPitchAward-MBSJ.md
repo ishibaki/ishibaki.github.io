@@ -4,6 +4,7 @@ collection: awards
 permalink: /awards/2023-December-SciPitchAward-MBSJ
 excerpt: ''
 date: 2023-12-08
+author: Tomoki Ishibashi
 venue: 'The 46th Annual Meeting of the Molecular Biology Society of Japan'
 ---
 
