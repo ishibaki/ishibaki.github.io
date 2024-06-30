@@ -1,6 +1,7 @@
 ---
 title: "DGD Young Investigator Paper Award"
 collection: awards
+author: Tomoki Ishibashi
 permalink: /awards/2024-Jun-YoungInvestigatorPaperAward-JSDB
 excerpt: ''
 date: 2024-06-21
