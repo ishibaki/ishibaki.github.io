@@ -4,6 +4,7 @@ collection: awards
 permalink: /awards/2015-Dec-Best-Presentation-Award
 excerpt: ''
 date: 2015-12-20
+author: Tomoki Ishibashi
 venue: 'The 5th Annual Meeting for Whole-Organism Science Society'
 ---
 
