@@ -41,5 +41,6 @@ section Funding
   DGD Fellowship                            : crit, dgd_fellowship, 2022-11-04, 2w
   Yazaki Fellowship                         : crit, yazaki_fellowship, 2022-11-04, 2w
   Grant-in-Aid for Early-Career Scientists  : active, grant_ecs2023, 2023-04-01, 2026-03-31
+  ACT-X                                     : active, ACT-X2024, 2024-10-01, 2027-03-31
 ```
 
