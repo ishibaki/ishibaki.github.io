@@ -11,7 +11,7 @@ granttype: 'ACT-X, Japan Science and Technology Agency'
 
 - Project Period: 2024-10-01 - 2027-03-31
 
-- ¥6,000,000 (Direct Cost: ¥6,000,000; Indirect Cost: ¥0,000,000)
-    - Fiscal Year 2024: ¥3,000,000 (Direct Cost: ¥3,000,000; Indirect Cost: ¥000,000)
-    - Fiscal Year 2025: ¥1,500,000 (Direct Cost: ¥1,500,000; Indirect Cost: ¥000,000)
-    - Fiscal Year 2026: ¥1,500,000 (Direct Cost: ¥1,500,000; Indirect Cost: ¥000,000)
+- ¥7,800,000 (Direct Cost: ¥6,000,000; Indirect Cost: ¥1,800,000)
+    - Fiscal Year 2024: ¥3,900,000 (Direct Cost: ¥3,000,000; Indirect Cost: ¥900,000)
+    - Fiscal Year 2025: ¥1,950,000 (Direct Cost: ¥1,500,000; Indirect Cost: ¥450,000)
+    - Fiscal Year 2026: ¥1,950,000 (Direct Cost: ¥1,500,000; Indirect Cost: ¥450,000)
