@@ -30,4 +30,5 @@ I had studied about the molecular mechanism of the caste differentiation by usin
 Importantly, this is the developmental biology of the **Superorganism**.
 
 - [Plastic brain structure changes associated with the division of labour and ageing in termites](https://doi.org/10.1111/dgd.12873)
+- [Transgenerational epigenetic effect of kings’ aging on offspring’s caste fate mediated by sperm DNA methylation in termites](https://www.pnas.org/doi/epub/10.1073/pnas.2509506122)
 - [A non-invasive method for sexing first and second instar larvae of termites using external morphology](http://link.springer.com/article/10.1007/s00040-020-00785-2)
