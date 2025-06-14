@@ -26,7 +26,7 @@ section Publications
   Yamamoto et al. (2023) bioRχiv              : crit, yamamoto2023, 2023-08-16, 2w
   Hondo et al. (2024) Virus Res.              :       hondo2024, 2024-01-02, 2w
   Katoh et al. (2024) Microscopy              : crit, katoh2024, 2024-06-01, 2w
-%% Takata et al. (2025) PNAS                    :       takata2025,2025-99-99, 1w
+  Takata et al. (2025) PNAS                   :       takata2025,2025-06-13, 1w
 %% Comment
 section Awards
   Best Presentation Award                  : crit, aw_1, 2015-12-20, 2w
