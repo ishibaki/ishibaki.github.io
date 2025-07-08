@@ -23,10 +23,10 @@ section Publications
   Ishibashi & Matsuno (2022) microPubl. Biol. : crit, ishibashi2022, 2022-03-18, 2w
   Lai et al. (2023) Development               :       lai2023, 2023-03-02, 2w
   Ishibashi et al. (2023) Dev. Growth Differ. : crit, ishibashi2023, 2023-06-25, 2w
-  Yamamoto et al. (2023) bioRχiv              : crit, yamamoto2023, 2023-08-16, 2w
   Hondo et al. (2024) Virus Res.              :       hondo2024, 2024-01-02, 2w
   Katoh et al. (2024) Microscopy              : crit, katoh2024, 2024-06-01, 2w
   Takata et al. (2025) PNAS                   :       takata2025,2025-06-13, 1w
+  Yamamoto et al. (2025) eLife                : crit, yamamoto2025, 2025-07-08, 2w
 %% Comment
 section Awards
   Best Presentation Award                  : crit, aw_1, 2015-12-20, 2w
