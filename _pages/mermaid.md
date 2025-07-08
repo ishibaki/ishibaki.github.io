@@ -24,8 +24,8 @@ section Selected Publications
   Ishibashi et al. (2020) Symmetry            : crit, ishibashi2020b, 2020-12-02, 2w
   Ishibashi & Matsuno (2022) microPubl. Biol. : crit, ishibashi2022, 2022-03-18, 2w
   Ishibashi et al. (2023) Dev. Growth Differ. : crit, ishibashi2023, 2023-06-25, 2w
-  Yamamoto et al. (2023) bioRχiv              : crit, yamamoto2023, 2023-08-16, 2w
   Katoh et al. (2024) Microscopy              : crit, katoh2024, 2024-06-01, 2w
+  Yamamoto et al. (2025) eLife                : crit, yamamoto2025, 2025-07-08, 2w
 section Awards
   Best Presentation Award                  : crit, aw_1, 2015-12-20, 2w
   Best Popularity Award & Excellent Award  : crit, aw_2, 2016-09-25, 2w
