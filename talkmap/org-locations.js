@@ -1,5 +1,10 @@
 var addressPoints = [
   [
+    "WINC AICHI",
+    35.17074184211246,
+    136.8861669865086
+  ],
+  [
     "Les Diablerets Conference Center",
     46.34714139929015,
     7.158454346463532
