@@ -82,7 +82,7 @@ Total: {{ site.grants | size }}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
-[Grant History](https://ishibaki.github.io/grant-history/)
+[Grant History](https://ishibaki.github.io/funding-history/)
 
 # Presentations
 
