@@ -1,15 +1,4 @@
 ```mermaid
----
-config:
-  theme: 'base'
-  themeVariables:
-    primaryColor: '#7aadff'
-    primaryTextColor: '#000'
-    primaryBorderColor: '#fff'
-    lineColor: '#fff'
-    secondaryColor: '#7a7fff'
-    tertiaryColor: '#ff7abd'
----
 gantt
 section Education
   Bachelor @Osaka Univ. : BS, 2010-04-01, 2014-03-25
