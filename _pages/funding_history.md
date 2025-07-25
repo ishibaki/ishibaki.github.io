@@ -1,6 +1,6 @@
 ---
-permalink: /grant-history/
-title: "Grant History"
+permalink: /funding-history/
+title: "Funding History"
 author_profile: true
 ---
 
@@ -10,7 +10,7 @@ author_profile: true
       "width": 600,
       "height": 400,
       "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-      "description": "Grant history",
+      "description": "Funding history",
       "data": {
         "values": [
           {"date": "2022-04-01", "type": "Indirect fee", "value": 360},
@@ -61,12 +61,12 @@ author_profile: true
           "timeUnit": "year",
           "field": "date",
           "type": "ordinal",
-          "title": "Year"
+          "title": "Fiscal year"
         },
         "y": {
           "field": "value",
           "type": "quantitative",
-          "title": "Grant (thousand yen)",
+          "title": "Amount of grant (thousand yen)",
           "axis": {
             "titlePadding": 10
           }
@@ -120,15 +120,9 @@ author_profile: true
             "title": "Grant Type"
           },
           {
-            "timeUnit": "year",
-            "field": "date",
-            "type": "ordinal",
-            "title": "Year"
-          },
-          {
             "field": "value",
             "type": "quantitative",
-            "title": "Amount (thousand yen)",
+            "title": "Amount of grant (thousand yen)",
             "format": ",.1f"
           }
         ]
