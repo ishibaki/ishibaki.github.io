@@ -8,6 +8,10 @@ author_profile: false
 {% include base_path %}
 
 ```mermaid
+---
+config:
+  theme: 'default'
+---
 gantt
 section Education
   Bachelor @Osaka Univ. : BS, 2010-04-01, 2014-03-25
