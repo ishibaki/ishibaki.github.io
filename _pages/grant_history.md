@@ -4,6 +4,7 @@ title: "Grant History"
 author_profile: true
 ---
 
+<!--
 ```mermaid
 timeline
     title Grant Histoty
@@ -37,10 +38,14 @@ xychart-beta
     bar [1000, 900, 900, 0, 0, 0, 1721, 4711, 7500, 3969, 1500]
     line [0, 0, 0, 0, 0, 0, 360, 990, 1350, 720, 450]
 ```
+-->
+
 
 <div id="vis"></div>
 <script>
     const spec = {
+        "width": 640,
+        "height": 640,
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
         "description": "Grant history.",
         "data": {
