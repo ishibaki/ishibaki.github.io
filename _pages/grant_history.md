@@ -7,23 +7,8 @@ author_profile: true
 <div id="vis"></div>
 <script>
     const spec = {
-        "width": 720,
-        "height": 512,
-        "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-        "description": "Grant history",
-        "data": {
-            "values": [
-                {"date": "2022-04-01", "type": "Indirect fee", "value": 360},
-                {"date": "2023-04-01", "type": "Indirect fee", "value": 990},
-                {"date": "2024-04-01", "type": "Indirect fee", "value": 1350},
-                {"date": "2025-04-01", "type": "Indirect fee", "value": 720},
-                {"date": "2026-04-01", "type": "Indirect fee", "value": 450},
-<div id="vis"></div>
-<script>
-    const spec = {
-      "width": "container",
-      "height": "container",
-      "padding": {"top": 20, "right": 50, "bottom": 20, "left": 20},
+      "width": 600,
+      "height": 400,
       "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
       "description": "Grant history",
       "data": {
@@ -128,20 +113,6 @@ author_profile: true
           },
           "value": 0.8
         },
-        "stroke": {
-          "condition": {
-            "param": "highlight",
-            "value": "#333"
-          },
-          "value": "white"
-        },
-        "strokeWidth": {
-          "condition": {
-            "param": "highlight",
-            "value": 2
-          },
-          "value": 1
-        },
         "tooltip": [
           {
             "field": "type",
@@ -164,5 +135,4 @@ author_profile: true
       }
     };
     vegaEmbed('#vis', spec);
-</script>
 </script>
