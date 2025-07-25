@@ -53,7 +53,8 @@ author_profile: true
           "y": {
             "field": "value",
             "type": "quantitative",
-            "title": "Grant (thousand yen)"
+            "title": "Grant (thousand yen)",
+            "axis": {"titlePadding": 10}
           },
           "color": {
             "field": "type",
@@ -74,7 +75,9 @@ author_profile: true
                         "tomato",
                         "lavender"]
             },
-            "title": "Grant name"
+            "title": "Grant name",
+            "legend": {"orient": "bottom",
+                       "columns": 4},
           }
         }
     };
