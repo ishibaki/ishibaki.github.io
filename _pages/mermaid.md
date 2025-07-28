@@ -3,6 +3,7 @@ layout: archive
 title: "mermaid"
 permalink: /mermaid
 author_profile: false
+displayMode: compact
 ---
 
 {% include base_path %}
