@@ -4,7 +4,7 @@ title: "Career History"
 author_profile: true
 ---
 
-div id="vis"></div>
+<div id="vis"></div>
 <script>
     const spec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
