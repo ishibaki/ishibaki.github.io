@@ -1,12 +1,12 @@
 ---
-permalink: /careef-history/
+permalink: /career-history/
 title: "Career History"
 author_profile: true
 ---
 
-<div id="vis"></div>
-<script type="text/javascript">
-const spec = {
+div id="vis"></div>
+<script>
+    const spec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "width": 1000,
   "height": 550,
@@ -275,7 +275,5 @@ const spec = {
     },
   }
 };
-vegaEmbed('#vis', spec, {actions: false})
-  .then(result => {/* 成功 */})
-  .catch(console.error);
+    vegaEmbed('#vis', spec);
 </script>
