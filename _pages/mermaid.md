@@ -8,9 +8,6 @@ author_profile: false
 {% include base_path %}
 
 ```mermaid
----
-displayMode: compact
----
 gantt
 title Tomoki Ishibashi's CV
 dateFormat  YYYY-MM-DD
@@ -25,7 +22,7 @@ section Work history
   JSPS PD @RIKEN            : done, PD, after RIKEN-postdoc, 2023-03-31
   SPDR @RIKEN               : active, SPDR, after PD, 2026-03-31
 section Selected Publications
-  Ishibashi et al. (2019) Genes Cells         : crit, ishibashi2019, 2019-01-09, 2w
+  <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/gtc.12669" target="_blank">Ishibashi et al. (2019) Genes Cells</a>         : crit, ishibashi2019, 2019-01-09, 2w
   Ishibashi et al. (2020) Symmetry            : crit, ishibashi2020b, 2020-12-02, 2w
   Ishibashi & Matsuno (2022) microPubl. Biol. : crit, ishibashi2022, 2022-03-18, 2w
   Ishibashi et al. (2023) Dev. Growth Differ. : crit, ishibashi2023, 2023-06-25, 2w
