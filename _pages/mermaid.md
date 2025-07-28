@@ -3,12 +3,14 @@ layout: archive
 title: "mermaid"
 permalink: /mermaid
 author_profile: false
-displayMode: compact
 ---
 
 {% include base_path %}
 
 ```mermaid
+---
+displayMode: compact
+---
 gantt
 title Tomoki Ishibashi's CV
 dateFormat  YYYY-MM-DD
