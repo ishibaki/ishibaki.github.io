@@ -402,7 +402,5 @@ author_profile: true
     },
   }
 };
-    vegaEmbed('#vis', spec{
-      renderer:'svg'
-});
+    vegaEmbed('#vis', spec);
 </script>
