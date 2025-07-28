@@ -131,6 +131,7 @@ author_profile: true
     vegaEmbed('#vis', spec);
 </script>
 
+<!--
 <div id="vis"></div>
 <script>
     const spec = {
@@ -404,3 +405,4 @@ author_profile: true
 };
     vegaEmbed('#vis', spec);
 </script>
+-->
