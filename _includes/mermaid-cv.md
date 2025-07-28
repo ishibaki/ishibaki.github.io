@@ -1,5 +1,6 @@
 ```mermaid
 gantt
+dateFormat  YYYY-MM-DD
 section Education
   Bachelor @Osaka Univ. : BS, 2010-04-01, 2014-03-25
   Master @Osaka Univ.   : MS, 2014-04-01, 2016-03-28
@@ -39,7 +40,7 @@ section Awards
   DGD Young Investigator Paper Award       : crit, aw_8, 2024-06-21, 2w
 section Funding
   Grant-in-Aid for JSPS Fellows             : done, grant_DC1, 2016-04-22, 2019-03-31
-  Grant-in-Aid for JSPS Fellows             : active, grant_PD, 2022-04-22, 2025-03-31
+  Grant-in-Aid for JSPS Fellows             : done, grant_PD, 2022-04-22, 2025-03-31
   DGD Fellowship                            : crit, dgd_fellowship, 2022-11-04, 2w
   Yazaki Fellowship                         : crit, yazaki_fellowship, 2022-11-04, 2w
   Grant-in-Aid for Early-Career Scientists  : active, grant_ecs2023, 2023-04-01, 2026-03-31
