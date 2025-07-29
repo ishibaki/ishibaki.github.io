@@ -10,7 +10,7 @@ author_profile: true
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
-<script type="text/javascript>
+<script type="text/javascript">
     console.log('▶︎ career-history script start');   // ① これが出るか？
     console.log('vegaEmbed:', typeof vegaEmbed);     // ② vegaEmbed が定義されているか？
     const spec = {
