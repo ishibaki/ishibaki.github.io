@@ -294,19 +294,32 @@ document.addEventListener('DOMContentLoaded', function() {
     };
     
     vegaEmbed('#vis', spec, {
-        renderer: 'svg',
+        renderer: 'svg', 
         actions: false
     }).then(function(result) {
         console.log('✅ Vega-Lite chart rendered successfully');
-        const svg = result.view.container().querySelector('svg');
-        if (svg) {
-            const links = svg.querySelectorAll('a');
-            links.forEach(link => {
-                link.setAttribute('target', '_blank');
-                link.setAttribute('rel', 'noopener noreferrer'); // セキュリティ対策
-            });
-            console.log(`✅ ${links.length} links set to open in new tab`);
-        }
+        setTimeout(() => {
+            try {
+                const container = result.view.container();
+                console.log('Container:', container);
+                
+                const svg = container.querySelector('svg');
+                console.log('SVG found:', !!svg);
+                
+                if (svg) {
+                    const links = svg.querySelectorAll('a');
+                    console.log('Links found:', links.length);
+                    
+                    links.forEach(link => {
+                        link.setAttribute('target', '_blank');
+                        link.setAttribute('rel', 'noopener noreferrer');
+                    });
+                    console.log(`✅ ${links.length} links set to open in new tab`);
+                }
+            } catch (error) {
+                console.error('SVG processing error:', error);
+            }
+        }, 100);
     }).catch(function(error) {
         console.error('❌ Error rendering chart:', error);
     });
