@@ -5,7 +5,14 @@ author_profile: true
 ---
 
 <div id="vis"></div>
-<script>
+
+{% raw %}
+
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+<script type="text/javascript>
     const spec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "width": 1000,
@@ -647,3 +654,4 @@ author_profile: true
 };
     vegaEmbed('#vis', spec);
 </script>
+{% endraw %}
