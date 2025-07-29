@@ -6,10 +6,6 @@ author_profile: true
 
 <div id="vis" style="width: 100%; height: 600px;"></div>
 
-<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-
 <script type="text/javascript">
 document.addEventListener('DOMContentLoaded', function() {
     console.log('▶︎ career-history script start');
@@ -297,18 +293,10 @@ document.addEventListener('DOMContentLoaded', function() {
     };
     
     vegaEmbed('#vis', spec, {
-        renderer: 'svg',  // ベクター描画
+        renderer: 'canvas', 
         actions: false
     }).then(function(result) {
         console.log('✅ Vega-Lite chart rendered successfully');
-        
-        // Safari対応：SVGの描画完了後に追加調整
-        const svg = result.view.container().querySelector('svg');
-        if (svg) {
-            svg.style.overflow = 'visible';
-            svg.style.width = '100%';
-            svg.style.height = 'auto';
-        }
     }).catch(function(error) {
         console.error('❌ Error rendering chart:', error);
     });
