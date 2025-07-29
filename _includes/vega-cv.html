@@ -341,22 +341,11 @@ document.addEventListener('DOMContentLoaded', function() {
     };
     
     vegaEmbed('#vis', spec, {
-        renderer: 'svg',
+        renderer: 'svg', 
         actions: false
-    })
-    .then(function({view}) {
+    }).then(function(result) {
         console.log('✅ Vega-Lite chart rendered successfully');
-        // 既存の Vega のクリック処理を削除
-        view.removeAllListeners('click');
-        // 自前でクリックをハンドルし、新規タブで開く
-        view.addEventListener('click', function(event, item) {
-            if (item && item.datum && item.datum.url) {
-                event.event.preventDefault();
-                window.open(item.datum.url, '_blank');
-            }
-        });
-    })
-    .catch(function(error) {
+    }).catch(function(error) {
         console.error('❌ Error rendering chart:', error);
     });
 });
