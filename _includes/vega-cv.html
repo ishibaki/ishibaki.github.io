@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const today = new Date().toISOString().split('T')[0];
     const spec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-        "width": 1000,
+        "width": 800,
         "height": 550,
         "padding": {"left": 20, "top": 10, "right": 10, "bottom": 10},
         "config": {
@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "mark": {"type": "rect", "opacity": 0.5, "stroke": null, "strokeWidth": 1},
                 "encoding": {
                     "x": {"value": 0},
-                    "x2": {"value": 1000},
+                    "x2": {"value": 800},
                     "y": {"field": "bgY", "type": "quantitative"},
                     "y2": {"field": "bgY2", "type": "quantitative"},
                     "color": {"field": "section", "type": "nominal", "scale": {"range": ["#f9fad7", "#e1f5fe", "#e8f5e8", "#dddddd", "#f7d7cb", "#f3e5f5"]}}
@@ -133,6 +133,39 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             },
             {
+              "description": "Today line",
+              "data": {"values": [{"today": "2025-07-29", "y": 0.3, "y2": -28}]},
+              "mark": {
+                "type": "rule",
+                "color": "orangered",
+                "strokeWidth":2,
+                "strokeDash": [2, 2],
+                "opacity": 0.6
+              },
+              "encoding": {
+                "x": {
+                  "field": "today",
+                  "type": "temporal"
+                },
+                "y": {"field": "y", "type": "quantitative"},
+                "y2": {"field": "y2", "type": "quantitative"}
+              }
+            },
+            {
+              "description": "Today text",
+              "data": {"values": [{"today": "2025-07-29", "y": 0.6, "text": "today"}]},
+              "mark": {"type": "text"},
+              "encoding": {
+                "x": {
+                  "field": "today",
+                  "type": "temporal"
+                },
+                "y": {"field": "y", "type": "quantitative"},
+                "text": {"field": "text"},
+                "color": {"value": "orangered"},
+              }
+            },
+            {
                 "description": "Period events (rectangles)",
                 "transform": [{"filter": "datum.end != null && datum.end != ''"}],
                 "mark": {"type": "rect", "stroke": "#000", "strokeWidth": 1},
@@ -144,7 +177,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     "color": {
                         "field": "section",
                         "type": "nominal",
-                        "scale": {"range": ["#90caf9", "#ce93d8", "#a5d6a7", "#ffcc02", "#ffab91"]}
+                        "scale": {"range": ["#f9fad7", "#e1f5fe", "#e8f5e8", "#dddddd", "#f7d7cb", "#f3e5f5"]}
                     },
                     "tooltip": [
                         {"field": "title", "type": "nominal"},
@@ -271,24 +304,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     "y": {"field": "y", "type": "quantitative"},
                     "text": {"field": "title", "type": "nominal"}
                 }
-            },
-            {
-              "description": "Today line",
-              "data": {"values": [{"today": today}]},
-              "mark": {
-                "type": "rule",
-                "color": "orangered",
-                "strokeWidth":2,
-                "strokeDash": [3, 3],
-                "opacity": 0.6
-              },
-              "encoding": {
-                "x": {
-                  "field": "today",
-                  "type": "temporal"
-                },
-                "y": {}
-              }
             }
         ],
         "encoding": {
@@ -335,4 +350,3 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
-
