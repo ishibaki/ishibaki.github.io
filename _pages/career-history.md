@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         "data": {
             "name": "myCV",
-            "url": "/_data/career.csv"
+            "url": "https://raw.githubusercontent.com/ishibaki/ishibaki.github.io/refs/heads/master/_data/career.csv"
         },
         "transform": [
             {
