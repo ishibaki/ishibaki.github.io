@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
         "width": 1000,
         "height": 550,
+        "padding": {"left": 20, "top": 10, "right": 10, "bottom": 10},
         "config": {
             "legend": {"disable": true}
         },
