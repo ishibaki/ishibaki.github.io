@@ -6,22 +6,6 @@ author_profile: true
 
 <div id="vis"></div>
 
-<script>
-  // ── ここが出るか見てみる ──
-  console.log('▶ career-history script start');
-  console.log('typeof vegaEmbed =', typeof vegaEmbed);
-
-  document.addEventListener('DOMContentLoaded', () => {
-    console.log('DOM ready, calling vegaEmbed');
-    vegaEmbed('#vis', spec, { renderer: 'canvas', actions: false })
-      .then(result => console.log('vegaEmbed succeeded', result))
-      .catch(err    => console.error('vegaEmbed error', err));
-  });
-</script>
-
-<!--
-<div id="vis"></div>
-
 <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
@@ -670,4 +654,3 @@ author_profile: true
 };
     vegaEmbed('#vis', spec, {renderer:'canvas', actions:false});
 </script>
--->
