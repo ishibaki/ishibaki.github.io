@@ -6,11 +6,144 @@ description: これまでの発表リスト
 author_profile: true
 ---
 
+<!--
 <iframe src="/talkmap/map.html" height="700" width="850" style="border:none;"></iframe>
 
 {% if site.talkmap_link == true %}
 
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+-->
+
+<div id="vis" style="width: 100%; height: 600px;"></div>
+
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('▶︎ career-history script start');
+    console.log('vegaEmbed:', typeof vegaEmbed);
+    const spec = {
+        "$schema":"https://vega.github.io/schema/vega-lite/v6.json",
+        "width":600,
+        "height":600,
+        "projection":{
+           "type":"orthographic",
+           "rotate":{
+              "expr":"[WestEast, NorthSouth, 0]"
+           }
+        },
+        "params":[
+           {
+              "name":"WestEast",
+              "value":-129,
+              "bind":{
+                 "input":"range",
+                 "min":-180,
+                 "max":180,
+                 "step":1
+              }
+           },
+           {
+              "name":"NorthSouth",
+              "value":-31,
+              "bind":{
+                 "input":"range",
+                 "min":-180,
+                 "max":180,
+                 "step":1
+              }
+           }
+        ],
+        "layer":[
+           {
+              "data":{
+                 "url":"https://vega.github.io/vega-datasets/data/world-110m.json",
+                 "format":{
+                    "type":"topojson",
+                    "feature":"countries"
+                 }
+              },
+              "mark":{
+                 "type":"geoshape",
+                 "fill":"lightgray",
+                 "stroke":"white"
+              }
+           },
+           {
+              "data":{
+                 "url":"https://raw.githubusercontent.com/ishibaki/ishibaki.github.io/refs/heads/master/talkmap/talkmap.csv"
+              },
+              "transform":[
+                 {
+                    "filter":"(WestEast * -1) - 111 < datum.longitude && datum.longitude < (WestEast * -1) + 109 && (NorthSouth * -1) - 111 < datum.latitude && datum.latitude < (NorthSouth * -1) + 109"
+                 }
+              ],
+              "mark":{
+                 "type":"circle",
+                 "size":100,
+                 "color":"crimson",
+                 "opacity":0.5
+              },
+              "encoding":{
+                 "longitude":{
+                    "field":"longitude",
+                    "type":"quantitative"
+                 },
+                 "latitude":{
+                    "field":"latitude",
+                    "type":"quantitative"
+                 },
+                 "tooltip":[
+                    {
+                       "field":"name",
+                       "type":"nominal"
+                    }
+                 ]
+              }
+           },
+           {
+              "data":{
+                 "url":"https://raw.githubusercontent.com/ishibaki/ishibaki.github.io/refs/heads/master/talkmap/talkmap.csv"
+              },
+              "transform":[
+                 {
+                    "filter":"(WestEast * -1) - 111 >= datum.longitude || datum.longitude >= (WestEast * -1) + 109 || (NorthSouth * -1) - 111 >= datum.latitude || datum.latitude >= (NorthSouth * -1) + 109"
+                 }
+              ],
+              "mark":{
+                 "type":"circle",
+                 "size":100,
+                 "color":"crimson",
+                 "opacity":0.05
+              },
+              "encoding":{
+                 "longitude":{
+                    "field":"longitude",
+                    "type":"quantitative"
+                 },
+                 "latitude":{
+                    "field":"latitude",
+                    "type":"quantitative"
+                 },
+                 "tooltip":[
+                    {
+                       "field":"name",
+                       "type":"nominal"
+                    }
+                 ]
+              }
+           }
+        ]
+     };
+    
+    vegaEmbed('#vis', spec, {
+        renderer: 'svg', 
+        actions: false
+    }).then(function(result) {
+        console.log('✅ Vega-Lite chart rendered successfully');
+    }).catch(function(error) {
+        console.error('❌ Error rendering chart:', error);
+    });
+});
+</script>
 
 {% endif %}
 
