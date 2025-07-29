@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "as": "sectionID"
             },
             {
-                "calculate": "datum.section === 'Institution' ? 0: datum.section === 'Education' ? -(+datum.order_id % 2)+1 + 1: datum.section === 'Work History' ? -(+datum.order_id % 2)+1 + 3: datum.section === 'Publications' ? (+datum.order_id-1) + 5: datum.section === 'Awards' ? (+datum.order_id-1) + 19: (+datum.order_id-1) + 26", 
+                "calculate": "datum.section === 'Institution' ? 0: datum.section === 'Education' ? -(+datum.order_id % 2)+1 + 1: datum.section === 'Work History' ? -(+datum.order_id % 2)+1 + 3: datum.section === 'Publications' ? (+datum.order_id-1)%10 + 5: datum.section === 'Awards' ? (+datum.order_id-1)%5 + 15: (+datum.order_id-1)%8 + 20", 
                 "as": "contentBase"
             },
             {
