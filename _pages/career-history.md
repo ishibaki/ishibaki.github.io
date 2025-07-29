@@ -294,7 +294,7 @@ document.addEventListener('DOMContentLoaded', function() {
     };
     
     vegaEmbed('#vis', spec, {
-        renderer: 'canvas', 
+        renderer: 'svg', 
         actions: false
     }).then(function(result) {
         console.log('✅ Vega-Lite chart rendered successfully');
