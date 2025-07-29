@@ -7,338 +7,666 @@ document.addEventListener('DOMContentLoaded', function() {
     
     const today = new Date().toISOString().split('T')[0];
     const spec = {
-        "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-        "width": 800,
-        "height": 550,
-        "padding": {"left": 20, "top": 10, "right": 10, "bottom": 10},
-        "config": {
-            "legend": {"disable": true}
+        "$schema":"https://vega.github.io/schema/vega-lite/v6.json",
+        "width":800,
+        "height":550,
+        "padding":{
+           "left":10,
+           "top":10,
+           "right":10,
+           "bottom":10
         },
-        "data": {
-            "name": "myCV",
-            "url": "https://raw.githubusercontent.com/ishibaki/ishibaki.github.io/refs/heads/master/_data/career.csv"
+        "config":{
+           "legend":{
+              "disable":true
+           }
         },
-        "transform": [
-            {
-                "window": [{"op": "row_number", "as": "row_index"}]
-            },
-            {
-                "joinaggregate": [
-                    {
-                        "op": "count",
-                        "field": "*",
-                        "as": "content_num"
-                    }
-                ],
-                "groupby": ["section"]
-            },
-            {
-                "calculate": "datum.section === 'Institution' ? 0: datum.section === 'Education' ? 1: datum.section === 'Work History' ? 2: datum.section === 'Publications' ? 3: datum.section === 'Awards' ? 4: 5", 
-                "as": "sectionID"
-            },
-            {
-                "calculate": "datum.section === 'Institution' ? 0: datum.section === 'Education' ? -(+datum.order_id % 2)+1 + 1: datum.section === 'Work History' ? -(+datum.order_id % 2)+1 + 3: datum.section === 'Publications' ? (+datum.order_id-1)%10 + 5: datum.section === 'Awards' ? (+datum.order_id-1)%5 + 15: (+datum.order_id-1)%8 + 20", 
-                "as": "contentBase"
-            },
-            {
-                "joinaggregate": [
-                    {
-                        "op": "min",
-                        "field": "contentBase",
-                        "as": "min_cBase"
-                    },
-                    {
-                        "op": "max",
-                        "field": "contentBase",
-                        "as": "max_cBase"
-                    }
-                ],
-                "groupby": ["section"]
-            },
-            {
-                "calculate": "+datum.max_cBase + 1",
-                "as": "max_cBase"
-            },
-            {
-                "calculate": "-(+datum.min_cBase + +datum.max_cBase)/2",
-                "as": "sectionBase"
-            },
-            {
-                "calculate": "datum.end != null && datum.end != '' ? (datum.start + datum.end)/2 : datum.start",
-                "as": "midpoint"
-            },
-            {
-                "calculate": "(datum.end === null || datum.end === '') ? -datum.contentBase - 0.6 : -datum.contentBase",
-                "as": "y"
-            },
-            {
-                "calculate": "-datum.contentBase-1",
-                "as": "y2"
-            },
-            {
-                "calculate": "(datum.y + datum.y2)/2-0.2",
-                "as": "y_midpoint"
-            },
-            {
-              "joinaggregate": [
-                {"op": "max", "field": "start", "as": "max_start"},
-                {"op": "max", "field": "end", "as": "max_end"}
+        "data":{
+           "name":"myCV",
+           "url":"https://raw.githubusercontent.com/ishibaki/ishibaki.github.io/refs/heads/master/_data/career.csv"
+        },
+        "transform":[
+           {
+              "window":[
+                 {
+                    "op":"row_number",
+                    "as":"row_index"
+                 }
               ]
-            },
-            {
-              "calculate": "max(datum.max_start, datum.max_end)", "as": "overall_max"
-            },
-            {
-              "calculate": "datetime(year(datum.overall_max) + 1, 0, 1)",
-              "as": "domain_end"
-            }
+           },
+           {
+              "joinaggregate":[
+                 {
+                    "op":"count",
+                    "field":"*",
+                    "as":"content_num"
+                 }
+              ],
+              "groupby":[
+                 "section"
+              ]
+           },
+           {
+              "calculate":"datum.section === 'Institution' ? 0: datum.section === 'Education' ? 1: datum.section === 'Work History' ? 2: datum.section === 'Publications' ? 3: datum.section === 'Awards' ? 4: 5",
+              "as":"sectionID"
+           },
+           {
+              "calculate":"datum.section === 'Institution' ? 0: datum.section === 'Education' ? -(+datum.order_id % 2)+1 + 1: datum.section === 'Work History' ? -(+datum.order_id % 2)+1 + 3: datum.section === 'Publications' ? (+datum.order_id-1)%10 + 5: datum.section === 'Awards' ? (+datum.order_id-1)%5 + 15: (+datum.order_id-1)%8 + 20",
+              "as":"contentBase"
+           },
+           {
+              "joinaggregate":[
+                 {
+                    "op":"min",
+                    "field":"contentBase",
+                    "as":"min_cBase"
+                 },
+                 {
+                    "op":"max",
+                    "field":"contentBase",
+                    "as":"max_cBase"
+                 }
+              ],
+              "groupby":[
+                 "section"
+              ]
+           },
+           {
+              "calculate":"+datum.max_cBase + 1",
+              "as":"max_cBase"
+           },
+           {
+              "calculate":"-(+datum.min_cBase + +datum.max_cBase)/2",
+              "as":"sectionBase"
+           },
+           {
+              "calculate":"datum.end != null && datum.end != '' ? (datum.start + datum.end)/2 : datum.start",
+              "as":"midpoint"
+           },
+           {
+              "calculate":"(datum.end === null || datum.end === '') ? -datum.contentBase - 0.6 : -datum.contentBase",
+              "as":"y"
+           },
+           {
+              "calculate":"-datum.contentBase-1",
+              "as":"y2"
+           },
+           {
+              "calculate":"(datum.y + datum.y2)/2-0.2",
+              "as":"y_midpoint"
+           },
+           {
+              "joinaggregate":[
+                 {
+                    "op":"max",
+                    "field":"start",
+                    "as":"max_start"
+                 },
+                 {
+                    "op":"max",
+                    "field":"end",
+                    "as":"max_end"
+                 }
+              ]
+           },
+           {
+              "calculate":"max(datum.max_start, datum.max_end)",
+              "as":"overall_max"
+           },
+           {
+              "calculate":"datetime(year(datum.overall_max) + 1, 0, 1)",
+              "as":"domain_end"
+           }
         ],
-        "layer": [
-            {
-                "description": "Section backgrounds",
-                "transform": [
-                    {
-                        "aggregate": [
-                            {
-                                "op": "min", "field": "contentBase", "as": "bgY"
-                            },
-                            {
-                                "op": "max", "field": "contentBase", "as": "bgY2"
-                            }
-                        ],
-                        "groupby": ["section"]
-                    },
-                    {"calculate": "-datum.bgY", "as": "bgY"},
-                    {"calculate": "-datum.bgY2-1", "as": "bgY2"}
-                ],
-                "mark": {"type": "rect", "opacity": 0.5, "stroke": null, "strokeWidth": 1},
-                "encoding": {
-                    "x": {"value": 0},
-                    "x2": {"value": 800},
-                    "y": {"field": "bgY", "type": "quantitative"},
-                    "y2": {"field": "bgY2", "type": "quantitative"},
-                    "color": {"field": "section", "type": "nominal", "scale": {"range": ["#f9fad7", "#e1f5fe", "#e8f5e8", "#dddddd", "#f7d7cb", "#f3e5f5"]}}
-                }
-            },
-            {
-                "description": "Section labels",
-                "transform": [
-                    {"aggregate": [{"op": "mean", "field": "sectionBase", "as": "labelY"}], "groupby": ["section"]}
-                ],
-                "mark": {"type": "text", "align": "right", "baseline": "middle", "fontSize": 12, "fontWeight": "bold", "dx": -10},
-                "encoding": {
-                    "x": {"value": 0},
-                    "y": {"field": "labelY", "type": "quantitative"},
-                    "text": {"field": "section", "type": "nominal"}
-                }
-            },
-            {
-              "description": "Today line",
-              "data": {"values": [{"today": today, "y": 0.3, "y2": -28}]},
-              "mark": {
-                "type": "rule",
-                "color": "orangered",
-                "strokeWidth":2,
-                "strokeDash": [2, 2],
-                "opacity": 0.6
+        "layer":[
+           {
+              "description":"Section backgrounds",
+              "transform":[
+                 {
+                    "aggregate":[
+                       {
+                          "op":"min",
+                          "field":"contentBase",
+                          "as":"bgY"
+                       },
+                       {
+                          "op":"max",
+                          "field":"contentBase",
+                          "as":"bgY2"
+                       }
+                    ],
+                    "groupby":[
+                       "section"
+                    ]
+                 },
+                 {
+                    "calculate":"-datum.bgY",
+                    "as":"bgY"
+                 },
+                 {
+                    "calculate":"-datum.bgY2-1",
+                    "as":"bgY2"
+                 }
+              ],
+              "mark":{
+                 "type":"rect",
+                 "opacity":0.5,
+                 "stroke":null,
+                 "strokeWidth":1
               },
-              "encoding": {
-                "x": {
-                  "field": "today",
-                  "type": "temporal"
-                },
-                "y": {"field": "y", "type": "quantitative"},
-                "y2": {"field": "y2", "type": "quantitative"}
-              }
-            },
-            {
-              "description": "Today text",
-              "data": {"values": [{"today": today, "y": 0.6, "text": "today"}]},
-              "mark": {"type": "text"},
-              "encoding": {
-                "x": {
-                  "field": "today",
-                  "type": "temporal"
-                },
-                "y": {"field": "y", "type": "quantitative"},
-                "text": {"field": "text"},
-                "color": {"value": "orangered"},
-              }
-            },
-            {
-                "description": "Period events (rectangles)",
-                "transform": [{"filter": "datum.end != null && datum.end != ''"}],
-                "mark": {"type": "rect", "stroke": "#000", "strokeWidth": 1},
-                "encoding": {
-                    "x": {"field": "start", "type": "temporal", "title": "Year"},
-                    "x2": {"field": "end", "type": "temporal"},
-                    "y": {"field": "y", "type": "quantitative"},
-                    "y2": {"field": "y2", "type": "quantitative"},
-                    "color": {
-                        "field": "section",
-                        "type": "nominal",
-                        "scale": {"range": ["#f9fad7", "#e1f5fe", "#e8f5e8", "#dddddd", "#f7d7cb", "#f3e5f5"]}
-                    },
-                    "tooltip": [
-                        {"field": "title", "type": "nominal"},
-                        {"field": "start", "type": "temporal", "format": "%Y-%m-%d"},
-                        {"field": "end", "type": "temporal", "format": "%Y-%m-%d"}
-                    ]
-                }
-            },
-            {
-                "description": "Period event labels",
-                "transform": [{"filter": "datum.end != null && datum.end != ''"}],
-                "mark": {"type": "text", "align": "center", "baseline": "center", "fontSize": 9},
-                "encoding": {
-                    "x": {"field": "midpoint", "type": "temporal"},
-                    "y": {"field": "y_midpoint", "type": "quantitative"},
-                    "text": {"field": "title", "type": "nominal"}
-                }
-            },
-            {
-                "description": "Point events, Publication",
-                "transform": [{"filter": "(datum.end === null || datum.end === '') && datum.section === 'Publications'"}],
-                "mark": {"type": "point", "size": 100, "strokeWidth": 2},
-                "encoding": {
-                    "x": {"field": "start", "type": "temporal"},
-                    "y": {"field": "y", "type": "quantitative"},
-                    "shape": {
-                        "condition": {"test": "datum.crit === 'true'", "value": "diamond"},
-                        "value": "circle"
-                    },
-                    "color": {
-                        "condition": {"test": "datum.crit === 'true'", "value": "#f00"},
-                        "value": "#00f"
-                    },
-                    "stroke": {
-                        "condition": {"test": "datum.crit === 'true'", "value": "#f00"},
-                        "value": "#000"
-                    },
-                    "tooltip": [
-                        {"field": "title", "type": "nominal"},
-                        {"field": "start", "type": "temporal", "format": "%Y-%m-%d"},
-                        {"field": "url", "type":"nominal"}
-                    ]
-                }
-            },
-            {
-                "description": "Point event labels, Publication",
-                "transform": [{"filter": "(datum.end === null || datum.end === '') && datum.section === 'Publications'"}],
-                "mark": {"type": "text", "align": "right", "baseline": "middle", "fontSize": 8, "dx": -8},
-                "encoding": {
-                    "x": {"field": "start", "type": "temporal"},
-                    "y": {"field": "y", "type": "quantitative"},
-                    "text": {"field": "title", "type": "nominal"},
-                    "href": {
-                        "condition": {
-                            "test": "datum.url != null && datum.url != ''",
-                            "field": "url",
-                            "type": "nominal"
-                        }
+              "encoding":{
+                 "x":{
+                    "value":0
+                 },
+                 "x2":{
+                    "value":800
+                 },
+                 "y":{
+                    "field":"bgY",
+                    "type":"quantitative"
+                 },
+                 "y2":{
+                    "field":"bgY2",
+                    "type":"quantitative"
+                 },
+                 "color":{
+                    "field":"section",
+                    "type":"nominal",
+                    "scale":{
+                       "range":[
+                          "#f9fad7",
+                          "#e1f5fe",
+                          "#e8f5e8",
+                          "#dddddd",
+                          "#f7d7cb",
+                          "#f3e5f5"
+                       ]
                     }
-                }
-            },
-            {
-                "description": "Point events, Awards",
-                "transform": [{"filter": "(datum.end === null || datum.end === '') && datum.section === 'Awards'"}],
-                "mark": {"type": "point", "size": 100, "strokeWidth": 2},
-                "encoding": {
-                    "x": {"field": "start", "type": "temporal"},
-                    "y": {"field": "y", "type": "quantitative"},
-                    "shape": {
-                        "value": "square"
-                    },
-                    "stroke": {
-                        "value": "#000"
-                    },
-                    "tooltip": [
-                        {"field": "title", "type": "nominal"},
-                        {"field": "start", "type": "temporal", "format": "%Y-%m-%d"},
-                        {"field": "url"}
+                 }
+              }
+           },
+           {
+              "description":"Section labels",
+              "transform":[
+                 {
+                    "aggregate":[
+                       {
+                          "op":"mean",
+                          "field":"sectionBase",
+                          "as":"labelY"
+                       }
+                    ],
+                    "groupby":[
+                       "section"
                     ]
-                }
-            },
-            {
-                "description": "Point event labels, Awards",
-                "transform": [{"filter": "(datum.end === null || datum.end === '') && datum.section === 'Awards'"}],
-                "mark": {"type": "text", "align": "right", "baseline": "middle", "fontSize": 8, "dx": -8},
-                "encoding": {
-                    "x": {"field": "start", "type": "temporal"},
-                    "y": {"field": "y", "type": "quantitative"},
-                    "text": {"field": "title", "type": "nominal"},
-                    "href": {
-                        "condition": {
-                            "test": "datum.url != null && datum.url != ''",
-                            "field": "url",
-                            "type": "nominal"
-                        }
+                 }
+              ],
+              "mark":{
+                 "type":"text",
+                 "align":"right",
+                 "baseline":"middle",
+                 "fontSize":12,
+                 "fontWeight":"bold",
+                 "dx":-10
+              },
+              "encoding":{
+                 "x":{
+                    "value":0
+                 },
+                 "y":{
+                    "field":"labelY",
+                    "type":"quantitative"
+                 },
+                 "text":{
+                    "field":"section",
+                    "type":"nominal"
+                 }
+              }
+           },
+           {
+              "description":"Today line",
+              "data":{
+                 "values":[
+                    {
+                       "today":"2025-07-29",
+                       "y":0.3,
+                       "y2":-28
                     }
-                }
-            },
-            {
-                "description": "Point events, Funding",
-                "transform": [{"filter": "(datum.end === null || datum.end === '') && datum.section === 'Funding'"}],
-                "mark": {"type": "point", "size": 100, "strokeWidth": 2},
-                "encoding": {
-                    "x": {"field": "start", "type": "temporal"},
-                    "y": {"field": "y", "type": "quantitative"},
-                    "shape": {
-                        "value": "triangle-down"
+                 ]
+              },
+              "mark":{
+                 "type":"rule",
+                 "color":"orangered",
+                 "strokeWidth":2,
+                 "strokeDash":[
+                    2,
+                    2
+                 ],
+                 "opacity":0.6
+              },
+              "encoding":{
+                 "x":{
+                    "field":"today",
+                    "type":"temporal"
+                 },
+                 "y":{
+                    "field":"y",
+                    "type":"quantitative"
+                 },
+                 "y2":{
+                    "field":"y2",
+                    "type":"quantitative"
+                 }
+              }
+           },
+           {
+              "description":"Today text",
+              "data":{
+                 "values":[
+                    {
+                       "today":"2025-07-29",
+                       "y":0.6,
+                       "text":"today"
+                    }
+                 ]
+              },
+              "mark":{
+                 "type":"text"
+              },
+              "encoding":{
+                 "x":{
+                    "field":"today",
+                    "type":"temporal"
+                 },
+                 "y":{
+                    "field":"y",
+                    "type":"quantitative"
+                 },
+                 "text":{
+                    "field":"text"
+                 },
+                 "color":{
+                    "value":"orangered"
+                 }
+              }
+           },
+           {
+              "description":"Period events (rectangles)",
+              "transform":[
+                 {
+                    "filter":"datum.end != null && datum.end != ''"
+                 }
+              ],
+              "mark":{
+                 "type":"rect",
+                 "stroke":"#000",
+                 "strokeWidth":1
+              },
+              "encoding":{
+                 "x":{
+                    "field":"start",
+                    "type":"temporal",
+                    "title":"Year"
+                 },
+                 "x2":{
+                    "field":"end",
+                    "type":"temporal"
+                 },
+                 "y":{
+                    "field":"y",
+                    "type":"quantitative"
+                 },
+                 "y2":{
+                    "field":"y2",
+                    "type":"quantitative"
+                 },
+                 "color":{
+                    "field":"section",
+                    "type":"nominal",
+                    "scale":{
+                       "range":[
+                          "#f9fad7",
+                          "#e1f5fe",
+                          "#e8f5e8",
+                          "#dddddd",
+                          "#f7d7cb",
+                          "#f3e5f5"
+                       ]
+                    }
+                 },
+                 "tooltip":[
+                    {
+                       "field":"title",
+                       "type":"nominal"
                     },
-                    "stroke": {
-                        "value": "#000"
+                    {
+                       "field":"start",
+                       "type":"temporal",
+                       "format":"%Y-%m-%d"
                     },
-                    "tooltip": [
-                        {"field": "title", "type": "nominal"},
-                        {"field": "start", "type": "temporal", "format": "%Y-%m-%d"}
-                    ]
-                }
-            },
-            {
-                "description": "Point event labels, Funding",
-                "transform": [{"filter": "(datum.end === null || datum.end === '') && datum.section === 'Funding'"}],
-                "mark": {"type": "text", "align": "right", "baseline": "middle", "fontSize": 8, "dx": -8},
-                "encoding": {
-                    "x": {"field": "start", "type": "temporal"},
-                    "y": {"field": "y", "type": "quantitative"},
-                    "text": {"field": "title", "type": "nominal"}
-                }
-            }
+                    {
+                       "field":"end",
+                       "type":"temporal",
+                       "format":"%Y-%m-%d"
+                    }
+                 ]
+              }
+           },
+           {
+              "description":"Period event labels",
+              "transform":[
+                 {
+                    "filter":"datum.end != null && datum.end != ''"
+                 }
+              ],
+              "mark":{
+                 "type":"text",
+                 "align":"center",
+                 "baseline":"center",
+                 "fontSize":9
+              },
+              "encoding":{
+                 "x":{
+                    "field":"midpoint",
+                    "type":"temporal"
+                 },
+                 "y":{
+                    "field":"y_midpoint",
+                    "type":"quantitative"
+                 },
+                 "text":{
+                    "field":"title",
+                    "type":"nominal"
+                 }
+              }
+           },
+           {
+              "description":"Point events, Publication",
+              "transform":[
+                 {
+                    "filter":"(datum.end === null || datum.end === '') && datum.section === 'Publications'"
+                 }
+              ],
+              "mark":{
+                 "type":"point",
+                 "size":100,
+                 "strokeWidth":2,
+                 "filled":true
+              },
+              "encoding":{
+                 "x":{
+                    "field":"start",
+                    "type":"temporal"
+                 },
+                 "y":{
+                    "field":"y",
+                    "type":"quantitative"
+                 },
+                 "shape":{
+                    "condition":{
+                       "test":"datum.crit === 'true'",
+                       "value":"diamond"
+                    },
+                    "value":"circle"
+                 },
+                 "color":{
+                    "condition":{
+                       "test":"datum.crit === 'true'",
+                       "value":"#f00"
+                    },
+                    "value":"#fff"
+                 },
+                 "fillOpacity":{
+                    "condition":{
+                       "test":"datum.crit === 'true'",
+                       "value":1
+                    },
+                    "value":0
+                 },
+                 "stroke":{
+                    "condition":{
+                       "test":"datum.crit === 'true'",
+                       "value":"#f00"
+                    },
+                    "value":"#000"
+                 },
+                 "tooltip":[
+                    {
+                       "field":"title",
+                       "type":"nominal"
+                    },
+                    {
+                       "field":"start",
+                       "type":"temporal",
+                       "format":"%Y-%m-%d"
+                    },
+                    {
+                       "field":"url",
+                       "type":"nominal"
+                    }
+                 ]
+              }
+           },
+           {
+              "description":"Point event labels, Publication",
+              "transform":[
+                 {
+                    "filter":"(datum.end === null || datum.end === '') && datum.section === 'Publications'"
+                 }
+              ],
+              "mark":{
+                 "type":"text",
+                 "align":"right",
+                 "baseline":"middle",
+                 "fontSize":8,
+                 "dx":-8
+              },
+              "encoding":{
+                 "x":{
+                    "field":"start",
+                    "type":"temporal"
+                 },
+                 "y":{
+                    "field":"y",
+                    "type":"quantitative"
+                 },
+                 "text":{
+                    "field":"title",
+                    "type":"nominal"
+                 },
+                 "href":{
+                    "condition":{
+                       "test":"datum.url != null && datum.url != ''",
+                       "field":"url",
+                       "type":"nominal"
+                    }
+                 }
+              }
+           },
+           {
+              "description":"Point events, Awards",
+              "transform":[
+                 {
+                    "filter":"(datum.end === null || datum.end === '') && datum.section === 'Awards'"
+                 }
+              ],
+              "mark":{
+                 "type":"point",
+                 "size":100,
+                 "strokeWidth":2
+              },
+              "encoding":{
+                 "x":{
+                    "field":"start",
+                    "type":"temporal"
+                 },
+                 "y":{
+                    "field":"y",
+                    "type":"quantitative"
+                 },
+                 "shape":{
+                    "value":"square"
+                 },
+                 "stroke":{
+                    "value":"#000"
+                 },
+                 "tooltip":[
+                    {
+                       "field":"title",
+                       "type":"nominal"
+                    },
+                    {
+                       "field":"start",
+                       "type":"temporal",
+                       "format":"%Y-%m-%d"
+                    },
+                    {
+                       "field":"url"
+                    }
+                 ]
+              }
+           },
+           {
+              "description":"Point event labels, Awards",
+              "transform":[
+                 {
+                    "filter":"(datum.end === null || datum.end === '') && datum.section === 'Awards'"
+                 }
+              ],
+              "mark":{
+                 "type":"text",
+                 "align":"right",
+                 "baseline":"middle",
+                 "fontSize":8,
+                 "dx":-8
+              },
+              "encoding":{
+                 "x":{
+                    "field":"start",
+                    "type":"temporal"
+                 },
+                 "y":{
+                    "field":"y",
+                    "type":"quantitative"
+                 },
+                 "text":{
+                    "field":"title",
+                    "type":"nominal"
+                 },
+                 "href":{
+                    "condition":{
+                       "test":"datum.url != null && datum.url != ''",
+                       "field":"url",
+                       "type":"nominal"
+                    }
+                 }
+              }
+           },
+           {
+              "description":"Point events, Funding",
+              "transform":[
+                 {
+                    "filter":"(datum.end === null || datum.end === '') && datum.section === 'Funding'"
+                 }
+              ],
+              "mark":{
+                 "type":"point",
+                 "size":100,
+                 "strokeWidth":2
+              },
+              "encoding":{
+                 "x":{
+                    "field":"start",
+                    "type":"temporal"
+                 },
+                 "y":{
+                    "field":"y",
+                    "type":"quantitative"
+                 },
+                 "shape":{
+                    "value":"triangle-down"
+                 },
+                 "stroke":{
+                    "value":"#000"
+                 },
+                 "tooltip":[
+                    {
+                       "field":"title",
+                       "type":"nominal"
+                    },
+                    {
+                       "field":"start",
+                       "type":"temporal",
+                       "format":"%Y-%m-%d"
+                    }
+                 ]
+              }
+           },
+           {
+              "description":"Point event labels, Funding",
+              "transform":[
+                 {
+                    "filter":"(datum.end === null || datum.end === '') && datum.section === 'Funding'"
+                 }
+              ],
+              "mark":{
+                 "type":"text",
+                 "align":"right",
+                 "baseline":"middle",
+                 "fontSize":8,
+                 "dx":-8
+              },
+              "encoding":{
+                 "x":{
+                    "field":"start",
+                    "type":"temporal"
+                 },
+                 "y":{
+                    "field":"y",
+                    "type":"quantitative"
+                 },
+                 "text":{
+                    "field":"title",
+                    "type":"nominal"
+                 }
+              }
+           }
         ],
-        "encoding": {
-            "x": {
-                "field": "start",
-                "type": "temporal",
-                "scale": {
-                    "domain": [
-                      "2009-12-31",
-                      {
-                        "expr": "data('myCV')[0].domain_end"
-                      }
-                      ]
-                },
-                "axis": {"format": "%Y"}
-            },
-            "y": {
-                "field": "y",
-                "type": "quantitative",
-                "scale": {
-                    "domain": {
-                        "data": "myCV",
-                        "field": "y"
+        "encoding":{
+           "x":{
+              "field":"start",
+              "type":"temporal",
+              "scale":{
+                 "domain":[
+                    "2009-12-31",
+                    {
+                       "expr":"data('myCV')[0].domain_end"
                     }
-                },
-                "axis": {
-                    "ticks": false,
-                    "labels": false,
-                    "domain": false,
-                    "title": false,
-                    "grid": false
-                }
-            }
+                 ]
+              },
+              "axis":{
+                 "format":"%Y"
+              }
+           },
+           "y":{
+              "field":"y",
+              "type":"quantitative",
+              "scale":{
+                 "domain":{
+                    "data":"myCV",
+                    "field":"y"
+                 }
+              },
+              "axis":{
+                 "ticks":false,
+                 "labels":false,
+                 "domain":false,
+                 "title":false,
+                 "grid":false
+              }
+           }
         }
-    };
+     };
     
     vegaEmbed('#vis', spec, {
         renderer: 'svg', 
