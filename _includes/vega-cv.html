@@ -345,6 +345,11 @@ document.addEventListener('DOMContentLoaded', function() {
         actions: false
     }).then(function(result) {
         console.log('✅ Vega-Lite chart rendered successfully');
+        const container = document.getElementById('vis');
+        container.querySelectorAll('a').forEach(a => {
+            a.setAttribute('target', '_blank');
+            a.setAttribute('rel', 'noopener noreferrer');
+        });
     }).catch(function(error) {
         console.error('❌ Error rendering chart:', error);
     });
