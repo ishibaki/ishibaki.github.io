@@ -16,7 +16,7 @@ author_profile: true
 {% endif %}
 -->
 
-<div id="vis" style="width: 100%; height: 400px;"></div>
+<div id="vis" style="width: 500px; height: 500px;"></div>
 
 <script type="text/javascript">
 document.addEventListener('DOMContentLoaded', function() {
@@ -24,10 +24,13 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('vegaEmbed:', typeof vegaEmbed);
     const spec = {
         "$schema":"https://vega.github.io/schema/vega-lite/v6.json",
-        "width":400,
-        "height":400,
+        "width":500,
+        "height":500,
         "projection":{
            "type":"orthographic",
+           "scale":{
+              "expr":"ZoomLevel"
+           },
            "rotate":{
               "expr":"[WestEast, NorthSouth, 0]"
            }
@@ -35,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "params":[
            {
               "name":"WestEast",
-              "value":-129,
+              "value":-136,
               "bind":{
                  "input":"range",
                  "min":-180,
@@ -45,12 +48,23 @@ document.addEventListener('DOMContentLoaded', function() {
            },
            {
               "name":"NorthSouth",
-              "value":-31,
+              "value":-35,
               "bind":{
                  "input":"range",
                  "min":-180,
                  "max":180,
                  "step":1
+              }
+           },
+           {
+              "name":"ZoomLevel",
+              "value":300,
+              "bind":{
+                 "input":"range",
+                 "min":100,
+                 "max":8000,
+                 "step":100,
+                 "name":"Zoom Level"
               }
            }
         ],
