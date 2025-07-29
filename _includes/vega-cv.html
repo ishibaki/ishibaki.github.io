@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('▶︎ career-history script start');
     console.log('vegaEmbed:', typeof vegaEmbed);
     
+    const today = new Date().toISOString().split('T')[0];
     const spec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
         "width": 1000,
@@ -77,6 +78,19 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 "calculate": "(datum.y + datum.y2)/2-0.2",
                 "as": "y_midpoint"
+            },
+            {
+              "joinaggregate": [
+                {"op": "max", "field": "start", "as": "max_start"},
+                {"op": "max", "field": "end", "as": "max_end"}
+              ]
+            },
+            {
+              "calculate": "max(datum.max_start, datum.max_end)", "as": "overall_max"
+            },
+            {
+              "calculate": "datetime(year(datum.overall_max) + 1, 0, 1)",
+              "as": "domain_end"
             }
         ],
         "layer": [
@@ -257,6 +271,24 @@ document.addEventListener('DOMContentLoaded', function() {
                     "y": {"field": "y", "type": "quantitative"},
                     "text": {"field": "title", "type": "nominal"}
                 }
+            },
+            {
+              "description": "Today line",
+              "data": {"values": [{"today": today}]},
+              "mark": {
+                "type": "rule",
+                "color": "orangered",
+                "strokeWidth":2,
+                "strokeDash": [3, 3],
+                "opacity": 0.6
+              },
+              "encoding": {
+                "x": {
+                  "field": "today",
+                  "type": "temporal"
+                },
+                "y": {}
+              }
             }
         ],
         "encoding": {
@@ -264,7 +296,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 "field": "start",
                 "type": "temporal",
                 "scale": {
-                    "domain": ["2009-12-31", "2028-01-01"]
+                    "domain": [
+                      "2009-12-31",
+                      {
+                        "expr": "data('myCV')[0].domain_end"
+                      }
+                      ]
                 },
                 "axis": {"format": "%Y"}
             },
@@ -281,7 +318,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     "ticks": false,
                     "labels": false,
                     "domain": false,
-                    "title": false
+                    "title": false,
+                    "grid": false
                 }
             }
         }
@@ -297,3 +335,4 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
+
