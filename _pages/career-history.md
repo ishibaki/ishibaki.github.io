@@ -297,10 +297,18 @@ document.addEventListener('DOMContentLoaded', function() {
     };
     
     vegaEmbed('#vis', spec, {
-        renderer: 'canvas', 
+        renderer: 'svg',  // ベクター描画
         actions: false
     }).then(function(result) {
         console.log('✅ Vega-Lite chart rendered successfully');
+        
+        // Safari対応：SVGの描画完了後に追加調整
+        const svg = result.view.container().querySelector('svg');
+        if (svg) {
+            svg.style.overflow = 'visible';
+            svg.style.width = '100%';
+            svg.style.height = 'auto';
+        }
     }).catch(function(error) {
         console.error('❌ Error rendering chart:', error);
     });
