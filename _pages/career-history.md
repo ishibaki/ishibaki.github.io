@@ -298,36 +298,6 @@ document.addEventListener('DOMContentLoaded', function() {
         actions: false
     }).then(function(result) {
         console.log('✅ Vega-Lite chart rendered successfully');
-        setTimeout(() => {
-            try {
-                const container = result.view.container();
-                const svg = container.querySelector('svg');
-                
-                if (svg) {
-                    const links = svg.querySelectorAll('a[href], a[xlink\\:href]');
-                    console.log('Links found:', links.length);
-                    
-                    // 属性設定とクリックイベント両方
-                    links.forEach((link, index) => {
-                        // 属性設定
-                        link.setAttribute('target', '_blank');
-                        link.setAttribute('rel', 'noopener noreferrer');
-                        
-                        // クリックイベントで確実に新しいタブで開く
-                        link.addEventListener('click', function(e) {
-                            e.preventDefault();
-                            const url = this.getAttribute('href') || this.getAttribute('xlink:href');
-                            if (url) {
-                                window.open(url, '_blank', 'noopener,noreferrer');
-                            }
-                        });
-                    });
-                    console.log(`✅ ${links.length} links set to open in new tab`);
-                }
-            } catch (error) {
-                console.error('SVG processing error:', error);
-            }
-        }, 200);
     }).catch(function(error) {
         console.error('❌ Error rendering chart:', error);
     });
