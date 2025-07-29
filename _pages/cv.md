@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-{% include toc %}
+<!-- {% include toc %} -->
 {% include vega-cv.html %}
 
 # Education
