@@ -287,7 +287,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     "ticks": false,
                     "labels": false,
                     "domain": false,
-                    "title": false
+                    "title": false,
+                    "grid": false
                 }
             }
         }
