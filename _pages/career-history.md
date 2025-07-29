@@ -294,10 +294,19 @@ document.addEventListener('DOMContentLoaded', function() {
     };
     
     vegaEmbed('#vis', spec, {
-        renderer: 'svg', 
+        renderer: 'svg',
         actions: false
     }).then(function(result) {
         console.log('✅ Vega-Lite chart rendered successfully');
+        const svg = result.view.container().querySelector('svg');
+        if (svg) {
+            const links = svg.querySelectorAll('a');
+            links.forEach(link => {
+                link.setAttribute('target', '_blank');
+                link.setAttribute('rel', 'noopener noreferrer'); // セキュリティ対策
+            });
+            console.log(`✅ ${links.length} links set to open in new tab`);
+        }
     }).catch(function(error) {
         console.error('❌ Error rendering chart:', error);
     });
