@@ -1,42 +1,42 @@
-order_id,section,title,start,end,crit,url
-1,Institution,Osaka University,2010-04-01,2019-03-31,false,
-2,Institution,Kyoto University,2019-04-01,2021-04-30,false,
-3,Institution,RIKEN BDR,2021-05-01,2026-03-31,false,
-1,Education,B.S.,2010-04-01,2014-03-25,false,
-2,Education,M.S.,2014-04-01,2016-03-28,false,
-3,Education,Ph.D.,2016-04-01,2019-03-25,false,
-1,Work History,Lab tech.,2011-04-01,2012-03-31,false,
-2,Work History,JSPS DC1,2016-04-01,2019-03-31,false,
-3,Work History,Post-doc,2019-04-01,2021-04-30,false,
-4,Work History,Researcher,2021-05-01,2022-03-31,false,
-5,Work History,JSPS PD,2022-04-01,2023-03-31,false,
-6,Work History,SPDR,2023-04-01,2026-03-31,false,
-1,Publications,Nakayama et al. (2014) BMC Genet.,2014-04-16,,false,https://doi.org/10.1186/1471-2156-15-46
-2,Publications,Inaki et al. (2018) eLife,2018-06-12,,false,https://doi.org/10.7554/eLife.32506
-3,Publications,Ishibashi et al. (2019) Genes Cells,2019-01-09,,true,https://doi.org/10.1111/gtc.12669
-4,Publications,Utsunomiya et al. (2019) Symmetry,2019-04-08,,false,https://doi.org/10.3390/sym11040505
-5,Publications,Doysabas et al. (2020) J. Vet. Med. Sci.,2020-02-12,,false,https://doi.org/10.1292/jvms.20-0021
-6,Publications,Takata et al. (2020) Insectes Soc.,2020-09-22,,false,https://doi.org/10.1007/s00040-020-00785-2
-7,Publications,Ishibashi et al. (2020) Symmetry,2020-12-02,,true,https://doi.org/10.3390/sym12121991
-8,Publications,Ishibashi & Matsuno (2022) microPubl. Biol.,2022-03-18,,true,https://doi.org/10.17912/micropub.biology.000526
-9,Publications,Lai et al. (2023) Development,2023-03-02,,false,https://doi.org/10.1242/dev.201224
-10,Publications,Ishibashi et al. (2023) Dev. Growth Differ.,2023-06-25,,true,https://doi.org/10.1111/dgd.12873
-11,Publications,Hondo et al. (2024) Virus Res.,2024-01-02,,false,https://doi.org/10.1016/j.virusres.2023.199248
-12,Publications,Katoh et al. (2024) Microscopy,2024-06-01,,true,https://doi.org/10.1093/jmicro/dfad059
-13,Publications,Takata et al. (2025) PNAS,2025-06-13,,false,https://doi.org/10.1073/pnas.2509506122
-14,Publications,Yamamoto et al. (2025) eLife,2025-07-08,,true,https://doi.org/10.7554/eLife.102296
-1,Awards,Best Presentation Award,2015-12-20,,false,https://ishibaki.github.io/awards/2015-Dec-Best-Presentation-Award
-2,Awards,Best Popularity Award & Excellent Award,2016-09-25,,false,https://ishibaki.github.io/awards/2016-Nov-Excellent-Award
-3,Awards,1st Place for Outstanding Presentation,2017-11-01,,false,https://ishibaki.github.io/awards/2017-Oct-First-Place-for-Outstanding-Presentation
-4,Awards,Outstanding Poster Presentation Award,2023-06-15,,false,https://ishibaki.github.io/awards/2023-Jun-Outstanding-Poster-Presentation
-5,Awards,Young Scientist Award for Presentation,2023-06-29,,false,https://ishibaki.github.io/awards/2023-June-PresentationAward-JSCB
-6,Awards,Best Science Pitch Award,2023-12-08,,false,https://ishibaki.github.io/awards/2023-December-SciPitchAward-MBSJ
-7,Awards,DGD Young Investigator Paper Award,2024-06-21,,false,https://ishibaki.github.io/awards/2024-Jun-YoungInvestigatorPaperAward-JSDB
-1,Funding,JSPS Fellows (DC1),2016-04-22,2019-03-31,false,
-2,Funding,JSPS Fellows (PD),2022-04-22,2025-03-31,false,
-3,Funding,DGD Fellowship,2022-11-04,,false,
-4,Funding,Yazaki Fellowship,2022-11-04,,false,
-5,Funding,JSPS Grant-in-Aid for ECS,2023-04-01,2026-03-31,false,
-6,Funding,RIKEN Organoid PJ,2024-04-01,2025-03-31,false,
-7,Funding,ACT-X,2024-10-01,2027-03-31,false,
-8,Funding,Kato Kinen Fellowhip,2025-04-03,,false,
+order_id,section,title,Start,End,crit,URL,Lab,Journal
+1,Institution,Osaka University,2010-04-01,2019-03-31,false,,,
+2,Institution,Kyoto University,2019-04-01,2021-04-30,false,,,
+3,Institution,RIKEN BDR,2021-05-01,2026-03-31,false,,,
+1,Education,B.S.,2010-04-01,2014-03-25,false,,Laboratory of Cell Biology,
+2,Education,M.S.,2014-04-01,2016-03-28,false,,Laboratory of Cell Biology,
+3,Education,Ph.D.,2016-04-01,2019-03-25,false,,Laboratory of Cell Biology,
+1,Work History,Lab tech.,2011-04-01,2012-03-31,false,,Laboratory of Cell Biology,
+2,Work History,JSPS DC1,2016-04-01,2019-03-31,false,,Laboratory of Genome-Chromosome Functions,
+3,Work History,Post-doc,2019-04-01,2021-04-30,false,,Laboratory of Insect Ecology,
+4,Work History,Researcher,2021-05-01,2022-03-31,false,,Laboratory for Physical Biology,
+5,Work History,JSPS PD,2022-04-01,2023-03-31,false,,Laboratory for Physical Biology,
+6,Work History,SPDR,2023-04-01,2026-03-31,false,,Laboratory for Physical Biology,
+1,Publications,Nakayama et al. (2014) BMC Genet.,2014-04-16,,false,https://doi.org/10.1186/1471-2156-15-46,,BMC Genetics
+2,Publications,Inaki et al. (2018) eLife,2018-06-12,,false,https://doi.org/10.7554/eLife.32506,,eLife
+3,Publications,Ishibashi et al. (2019) Genes Cells,2019-01-09,,true,https://doi.org/10.1111/gtc.12669,,Genes to Cells
+4,Publications,Utsunomiya et al. (2019) Symmetry,2019-04-08,,false,https://doi.org/10.3390/sym11040505,,Symmetry
+5,Publications,Doysabas et al. (2020) J. Vet. Med. Sci.,2020-02-12,,false,https://doi.org/10.1292/jvms.20-0021,,Journal of Veterinary Medical Science
+6,Publications,Takata et al. (2020) Insectes Soc.,2020-09-22,,false,https://doi.org/10.1007/s00040-020-00785-2,,Insectes Sociaux
+7,Publications,Ishibashi et al. (2020) Symmetry,2020-12-02,,true,https://doi.org/10.3390/sym12121991,,Symmetry
+8,Publications,Ishibashi & Matsuno (2022) microPubl. Biol.,2022-03-18,,true,https://doi.org/10.17912/micropub.biology.000526,,microPublication Biology
+9,Publications,Lai et al. (2023) Development,2023-03-02,,false,https://doi.org/10.1242/dev.201224,,Development
+10,Publications,Ishibashi et al. (2023) Dev. Growth Differ.,2023-06-25,,true,https://doi.org/10.1111/dgd.12873,,Development&#44; Growth&#44; and Differentiation
+11,Publications,Hondo et al. (2024) Virus Res.,2024-01-02,,false,https://doi.org/10.1016/j.virusres.2023.199248,,Virus Research
+12,Publications,Katoh et al. (2024) Microscopy,2024-06-01,,true,https://doi.org/10.1093/jmicro/dfad059,,Microscopy
+13,Publications,Takata et al. (2025) PNAS,2025-06-13,,false,https://doi.org/10.1073/pnas.2509506122,,Proceedings of the National Academy of Sciences
+14,Publications,Yamamoto et al. (2025) eLife,2025-07-08,,true,https://doi.org/10.7554/eLife.102296,,eLife
+1,Awards,Best Presentation Award,2015-12-20,,false,https://ishibaki.github.io/awards/2015-Dec-Best-Presentation-Award,,
+2,Awards,Best Popularity Award & Excellent Award,2016-09-25,,false,https://ishibaki.github.io/awards/2016-Nov-Excellent-Award,,
+3,Awards,1st Place for Outstanding Presentation,2017-11-01,,false,https://ishibaki.github.io/awards/2017-Oct-First-Place-for-Outstanding-Presentation,,
+4,Awards,Outstanding Poster Presentation Award,2023-06-15,,false,https://ishibaki.github.io/awards/2023-Jun-Outstanding-Poster-Presentation,,
+5,Awards,Young Scientist Award for Presentation,2023-06-29,,false,https://ishibaki.github.io/awards/2023-June-PresentationAward-JSCB,,
+6,Awards,Best Science Pitch Award,2023-12-08,,false,https://ishibaki.github.io/awards/2023-December-SciPitchAward-MBSJ,,
+7,Awards,DGD Young Investigator Paper Award,2024-06-21,,false,https://ishibaki.github.io/awards/2024-Jun-YoungInvestigatorPaperAward-JSDB,,
+1,Funding,JSPS Fellows (DC1),2016-04-22,2019-03-31,false,,,
+2,Funding,JSPS Fellows (PD),2022-04-22,2025-03-31,false,,,
+3,Funding,DGD Fellowship,2022-11-04,,false,,,
+4,Funding,Yazaki Fellowship,2022-11-04,,false,,,
+5,Funding,JSPS Grant-in-Aid for ECS,2023-04-01,2026-03-31,false,,,
+6,Funding,RIKEN Organoid PJ,2024-04-01,2025-03-31,false,,,
+7,Funding,JST ACT-X,2024-10-01,2027-03-31,false,,,
+8,Funding,Kato Kinen Fellowhip,2025-04-03,,false,,,
