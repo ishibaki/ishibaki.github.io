@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 <!-- {% include toc %} -->
-{% include vega-cv.html %}
+{% include cv-tuned.html %}
 
 # Education
 
