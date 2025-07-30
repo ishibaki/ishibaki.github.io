@@ -35,10 +35,6 @@ document.addEventListener('DOMContentLoaded', function() {
               ]
            },
            {
-              "calculate": "datum.Lab === '' ? null : datum.Lab",
-              "as": "Lab_clean"
-           },
-           {
               "joinaggregate":[
                  {
                     "op":"count",
@@ -341,8 +337,7 @@ document.addEventListener('DOMContentLoaded', function() {
                        ]
                     }
                  },
-                 "tooltip":{
-                    "condition": {}
+                 "tooltip":[
                     {
                        "field":"title",
                        "type":"nominal",
@@ -360,7 +355,7 @@ document.addEventListener('DOMContentLoaded', function() {
                        "format":"%Y-%m-%d",
                        "title":"End Date"
                     }
-                 }
+                 ]
               }
            },
            {
