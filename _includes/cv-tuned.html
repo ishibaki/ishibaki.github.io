@@ -341,30 +341,59 @@ document.addEventListener('DOMContentLoaded', function() {
                        ]
                     }
                  },
-                 "tooltip":[
-                    {
-                       "field":"title",
-                       "type":"nominal",
-                       "title":"Title"
+                 "tooltip": {
+                    "condition": {
+                       "test": "datum.Lab_clean != null && datum.Lab_clean != ''",
+                       "value": [
+                          {
+                              "field": "title",
+                              "type": "nominal",
+                              "title": "Title"
+                          },
+                          {
+                              "field": "Start",
+                              "type": "temporal",
+                              "format": "%Y-%m-%d",
+                              "title": "Start Date"
+                          },
+                          {
+                              "field": "End",
+                              "type": "temporal",
+                              "format": "%Y-%m-%d",
+                              "title": "End Date"
+                          },
+                          {
+                              "field": "Lab_clean",
+                              "type": "nominal",
+                              "title": "Laboratory"
+                          }
+                       ]
                     },
-                    {
-                       "field":"Start",
-                       "type":"temporal",
-                       "format":"%Y-%m-%d",
-                       "title":"Start Date"
-                    },
-                    {
-                       "field":"End",
-                       "type":"temporal",
-                       "format":"%Y-%m-%d",
-                       "title":"End Date"
-                    },
-                    {
-                       "field":"Lab_clean",
-                       "type":"nominal",
-                       "title":"Laboratory"
-                    }
-                 ]
+                       "value": [
+                       {
+                           "field": "title",
+                           "type": "nominal",
+                           "title": "Title"
+                       },
+                       {
+                           "field": "Start",
+                           "type": "temporal",
+                           "format": "%Y-%m-%d",
+                           "title": "Start Date"
+                       },
+                       {
+                           "field": "End",
+                           "type": "temporal",
+                           "format": "%Y-%m-%d",
+                           "title": "End Date"
+                       },
+                       {
+                           "field": "Lab_clean",
+                           "type": "nominal",
+                           "title": "Laboratory"
+                       }
+                    ]
+                 }
               }
            },
            {
