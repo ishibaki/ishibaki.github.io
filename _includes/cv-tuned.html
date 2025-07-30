@@ -35,6 +35,10 @@ document.addEventListener('DOMContentLoaded', function() {
               ]
            },
            {
+              "calculate": "datum.Lab === '' ? null : datum.Lab",
+              "as": "Lab_clean"
+           },
+           {
               "joinaggregate":[
                  {
                     "op":"count",
@@ -356,7 +360,7 @@ document.addEventListener('DOMContentLoaded', function() {
                        "title":"End Date"
                     },
                     {
-                       "field":"Lab",
+                       "field":"Lab_clean",
                        "type":"nominal",
                        "title":"Laboratory"
                     }
