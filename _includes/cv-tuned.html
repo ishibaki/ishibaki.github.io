@@ -340,24 +340,25 @@ document.addEventListener('DOMContentLoaded', function() {
                  "tooltip":[
                     {
                        "field":"title",
-                       "type":"nominal"
+                       "type":"nominal",
+                       "title":"Title"
                     },
                     {
                        "field":"Start",
                        "type":"temporal",
-                       "format":"%Y-%m-%d"
+                       "format":"%Y-%m-%d",
+                       "title":"Start Date"
                     },
                     {
                        "field":"End",
                        "type":"temporal",
-                       "format":"%Y-%m-%d"
+                       "format":"%Y-%m-%d",
+                       "title":"End Date"
                     },
                     {
-                       "condition":{
-                           "test":"datum.Lab != null && datum.Lab != ''",
-                           "field":"Lab",
-                           "type":"nominal"
-                       }
+                       "field":"Lab",
+                       "type":"nominal",
+                       "title":"Laboratory"
                     }
                  ]
               }
@@ -443,16 +444,19 @@ document.addEventListener('DOMContentLoaded', function() {
                  "tooltip":[
                     {
                        "field":"title",
-                       "type":"nominal"
+                       "type":"nominal",
+                       "title":"Paper Title"
                     },
                     {
                        "field":"Start",
                        "type":"temporal",
-                       "format":"%Y-%m-%d"
+                       "format":"%Y-%m-%d",
+                       "title":"Published Date"
                     },
                     {
                        "field":"Journal",
-                       "type":"nominal"
+                       "type":"nominal",
+                       "title":"Published Date"
                     }
                  ]
               }
@@ -523,15 +527,14 @@ document.addEventListener('DOMContentLoaded', function() {
                  "tooltip":[
                     {
                        "field":"title",
-                       "type":"nominal"
+                       "type":"nominal",
+                       "title":"Title"
                     },
                     {
                        "field":"Start",
                        "type":"temporal",
-                       "format":"%Y-%m-%d"
-                    },
-                    {
-                       "field":"URL"
+                       "format":"%Y-%m-%d",
+                       "title":"Date"
                     }
                  ]
               }
@@ -602,12 +605,14 @@ document.addEventListener('DOMContentLoaded', function() {
                  "tooltip":[
                     {
                        "field":"title",
-                       "type":"nominal"
+                       "type":"nominal",
+                       "title":"Fund Name"
                     },
                     {
                        "field":"Start",
                        "type":"temporal",
-                       "format":"%Y-%m-%d"
+                       "format":"%Y-%m-%d",
+                       "title":"Date"
                     }
                  ]
               }
