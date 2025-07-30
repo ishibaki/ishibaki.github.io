@@ -80,11 +80,11 @@ document.addEventListener('DOMContentLoaded', function() {
               "as":"sectionBase"
            },
            {
-              "calculate":"datum.end != null && datum.end != '' ? (datum.start + datum.end)/2 : datum.start",
+              "calculate":"datum.End != null && datum.End != '' ? (datum.Start + datum.End)/2 : datum.Start",
               "as":"midpoint"
            },
            {
-              "calculate":"(datum.end === null || datum.end === '') ? -datum.contentBase - 0.6 : -datum.contentBase",
+              "calculate":"(datum.End === null || datum.End === '') ? -datum.contentBase - 0.6 : -datum.contentBase",
               "as":"y"
            },
            {
@@ -99,12 +99,12 @@ document.addEventListener('DOMContentLoaded', function() {
               "joinaggregate":[
                  {
                     "op":"max",
-                    "field":"start",
+                    "field":"Start",
                     "as":"max_start"
                  },
                  {
                     "op":"max",
-                    "field":"end",
+                    "field":"End",
                     "as":"max_end"
                  }
               ]
@@ -296,7 +296,7 @@ document.addEventListener('DOMContentLoaded', function() {
               "description":"Period events (rectangles)",
               "transform":[
                  {
-                    "filter":"datum.end != null && datum.end != ''"
+                    "filter":"datum.End != null && datum.End != ''"
                  }
               ],
               "mark":{
@@ -307,12 +307,12 @@ document.addEventListener('DOMContentLoaded', function() {
               },
               "encoding":{
                  "x":{
-                    "field":"start",
+                    "field":"Start",
                     "type":"temporal",
                     "title":"Year"
                  },
                  "x2":{
-                    "field":"end",
+                    "field":"End",
                     "type":"temporal"
                  },
                  "y":{
@@ -343,14 +343,21 @@ document.addEventListener('DOMContentLoaded', function() {
                        "type":"nominal"
                     },
                     {
-                       "field":"start",
+                       "field":"Start",
                        "type":"temporal",
                        "format":"%Y-%m-%d"
                     },
                     {
-                       "field":"end",
+                       "field":"End",
                        "type":"temporal",
                        "format":"%Y-%m-%d"
+                    },
+                    {
+                       "condition":{
+                           "test":"datum.Lab != null && datum.Lab != ''",
+                           "field":"Lab",
+                           "type":"nominal"
+                       }
                     }
                  ]
               }
@@ -359,7 +366,7 @@ document.addEventListener('DOMContentLoaded', function() {
               "description":"Period event labels",
               "transform":[
                  {
-                    "filter":"datum.end != null && datum.end != ''"
+                    "filter":"datum.End != null && datum.End != ''"
                  }
               ],
               "mark":{
@@ -387,7 +394,7 @@ document.addEventListener('DOMContentLoaded', function() {
               "description":"Point events, Publication",
               "transform":[
                  {
-                    "filter":"(datum.end === null || datum.end === '') && datum.section === 'Publications'"
+                    "filter":"(datum.End === null || datum.End === '') && datum.section === 'Publications'"
                  }
               ],
               "mark":{
@@ -398,7 +405,7 @@ document.addEventListener('DOMContentLoaded', function() {
               },
               "encoding":{
                  "x":{
-                    "field":"start",
+                    "field":"Start",
                     "type":"temporal"
                  },
                  "y":{
@@ -439,12 +446,12 @@ document.addEventListener('DOMContentLoaded', function() {
                        "type":"nominal"
                     },
                     {
-                       "field":"start",
+                       "field":"Start",
                        "type":"temporal",
                        "format":"%Y-%m-%d"
                     },
                     {
-                       "field":"url",
+                       "field":"Journal",
                        "type":"nominal"
                     }
                  ]
@@ -454,7 +461,7 @@ document.addEventListener('DOMContentLoaded', function() {
               "description":"Point event labels, Publication",
               "transform":[
                  {
-                    "filter":"(datum.end === null || datum.end === '') && datum.section === 'Publications'"
+                    "filter":"(datum.End === null || datum.End === '') && datum.section === 'Publications'"
                  }
               ],
               "mark":{
@@ -466,7 +473,7 @@ document.addEventListener('DOMContentLoaded', function() {
               },
               "encoding":{
                  "x":{
-                    "field":"start",
+                    "field":"Start",
                     "type":"temporal"
                  },
                  "y":{
@@ -479,8 +486,8 @@ document.addEventListener('DOMContentLoaded', function() {
                  },
                  "href":{
                     "condition":{
-                       "test":"datum.url != null && datum.url != ''",
-                       "field":"url",
+                       "test":"datum.URL != null && datum.URL != ''",
+                       "field":"URL",
                        "type":"nominal"
                     }
                  }
@@ -490,7 +497,7 @@ document.addEventListener('DOMContentLoaded', function() {
               "description":"Point events, Awards",
               "transform":[
                  {
-                    "filter":"(datum.end === null || datum.end === '') && datum.section === 'Awards'"
+                    "filter":"(datum.End === null || datum.End === '') && datum.section === 'Awards'"
                  }
               ],
               "mark":{
@@ -500,7 +507,7 @@ document.addEventListener('DOMContentLoaded', function() {
               },
               "encoding":{
                  "x":{
-                    "field":"start",
+                    "field":"Start",
                     "type":"temporal"
                  },
                  "y":{
@@ -519,12 +526,12 @@ document.addEventListener('DOMContentLoaded', function() {
                        "type":"nominal"
                     },
                     {
-                       "field":"start",
+                       "field":"Start",
                        "type":"temporal",
                        "format":"%Y-%m-%d"
                     },
                     {
-                       "field":"url"
+                       "field":"URL"
                     }
                  ]
               }
@@ -533,7 +540,7 @@ document.addEventListener('DOMContentLoaded', function() {
               "description":"Point event labels, Awards",
               "transform":[
                  {
-                    "filter":"(datum.end === null || datum.end === '') && datum.section === 'Awards'"
+                    "filter":"(datum.End === null || datum.End === '') && datum.section === 'Awards'"
                  }
               ],
               "mark":{
@@ -545,7 +552,7 @@ document.addEventListener('DOMContentLoaded', function() {
               },
               "encoding":{
                  "x":{
-                    "field":"start",
+                    "field":"Start",
                     "type":"temporal"
                  },
                  "y":{
@@ -558,8 +565,8 @@ document.addEventListener('DOMContentLoaded', function() {
                  },
                  "href":{
                     "condition":{
-                       "test":"datum.url != null && datum.url != ''",
-                       "field":"url",
+                       "test":"datum.URL != null && datum.URL != ''",
+                       "field":"URL",
                        "type":"nominal"
                     }
                  }
@@ -569,7 +576,7 @@ document.addEventListener('DOMContentLoaded', function() {
               "description":"Point events, Funding",
               "transform":[
                  {
-                    "filter":"(datum.end === null || datum.end === '') && datum.section === 'Funding'"
+                    "filter":"(datum.End === null || datum.End === '') && datum.section === 'Funding'"
                  }
               ],
               "mark":{
@@ -579,7 +586,7 @@ document.addEventListener('DOMContentLoaded', function() {
               },
               "encoding":{
                  "x":{
-                    "field":"start",
+                    "field":"Start",
                     "type":"temporal"
                  },
                  "y":{
@@ -598,7 +605,7 @@ document.addEventListener('DOMContentLoaded', function() {
                        "type":"nominal"
                     },
                     {
-                       "field":"start",
+                       "field":"Start",
                        "type":"temporal",
                        "format":"%Y-%m-%d"
                     }
@@ -609,7 +616,7 @@ document.addEventListener('DOMContentLoaded', function() {
               "description":"Point event labels, Funding",
               "transform":[
                  {
-                    "filter":"(datum.end === null || datum.end === '') && datum.section === 'Funding'"
+                    "filter":"(datum.End === null || datum.End === '') && datum.section === 'Funding'"
                  }
               ],
               "mark":{
@@ -621,7 +628,7 @@ document.addEventListener('DOMContentLoaded', function() {
               },
               "encoding":{
                  "x":{
-                    "field":"start",
+                    "field":"Start",
                     "type":"temporal"
                  },
                  "y":{
@@ -741,7 +748,7 @@ document.addEventListener('DOMContentLoaded', function() {
         ],
         "encoding":{
            "x":{
-              "field":"start",
+              "field":"Start",
               "type":"temporal",
               "scale":{
                  "domain":[
