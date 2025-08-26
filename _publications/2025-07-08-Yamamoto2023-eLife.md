@@ -6,7 +6,7 @@ excerpt: ''
 date: 2025-07-08
 author: Yamamoto, T.<sup>*</sup>, <b><u>Ishibashi, T.<sup>*</sup></u></b>, Kiyosue-Mimori, Y., Hiver, S., Tokushige, N., Tarama, M., Takeichi, M., Shibata, T.<sup>†</sup>
 venue: 'eLife'
-volume: "<b>14</b>"
+volume: "<b>14</b>:e102296"
 paperurl: "https://doi.org/10.7554/eLife.102296"
 citation: 'Yamamoto, T.<sup>*</sup>, <b><u>Ishibashi, T.<sup>*</sup></u></b>, Kiyosue-Mimori, Y., Hiver, S., Tokushige, N., Tarama, M., Takeichi, M., Shibata, T.<sup>†</sup> (2025) "Epithelial cell chirality emerges through the dynamic concentric pattern of actomyosin cytoskeleton" <i>eLife</i> <b>14</b>:e102296.'
 abbrev: "Yamamoto et al. (2025) eLife"
