@@ -6,14 +6,15 @@ excerpt: ''
 date: 2025-07-08
 author: Yamamoto, T.<sup>*</sup>, <b><u>Ishibashi, T.<sup>*</sup></u></b>, Kiyosue-Mimori, Y., Hiver, S., Tokushige, N., Tarama, M., Takeichi, M., Shibata, T.<sup>†</sup>
 venue: 'eLife'
-volume: "<b>in press</b>"
+volume: "<b>14</b>"
 paperurl: "https://doi.org/10.7554/eLife.102296"
-citation: 'Yamamoto, T.<sup>*</sup>, <b><u>Ishibashi, T.<sup>*</sup></u></b>, Kiyosue-Mimori, Y., Hiver, S., Tokushige, N., Tarama, M., Takeichi, M., Shibata, T.<sup>†</sup> (2025) "Epithelial cell chirality emerges through the dynamic concentric pattern of actomyosin cytoskeleton" <i>eLife</i> <b>in press</b>.'
+citation: 'Yamamoto, T.<sup>*</sup>, <b><u>Ishibashi, T.<sup>*</sup></u></b>, Kiyosue-Mimori, Y., Hiver, S., Tokushige, N., Tarama, M., Takeichi, M., Shibata, T.<sup>†</sup> (2025) "Epithelial cell chirality emerges through the dynamic concentric pattern of actomyosin cytoskeleton" <i>eLife</i> <b>14</b>:e102296.'
 abbrev: "Yamamoto et al. (2025) eLife"
 is_peer: true
 ---
 
-[Preprint (bioRxiv)](https://doi.org/10.1101/2023.08.16.553476)
+- [Preprint (bioRxiv)](https://doi.org/10.1101/2023.08.16.553476)
+- [Press Release by RIKEN](https://www.riken.jp/press/2025/20250826_5/index.html)
 
 # 簡単な解説
 
