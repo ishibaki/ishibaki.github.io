@@ -14,7 +14,7 @@ is_peer: true
 ---
 
 - [Preprint (bioRxiv)](https://doi.org/10.1101/2023.08.16.553476)
-- [Press Release by RIKEN](https://www.riken.jp/press/2025/20250826_5/index.html)
+- [理研プレスリリース](https://www.riken.jp/press/2025/20250826_5/index.html)
 
 # 簡単な解説
 
