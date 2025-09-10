@@ -21,7 +21,7 @@ var em_shtml2 = convertLetter5_shtml(String.fromCharCode(101,110,107,101,110,107
 var ph_shtml1 = convertLetter5_shtml(String.fromCharCode(40,53,46,42,50,45,42,48,50,45,47,42,50,54,49,47), 3);
 var ph_shtml2 = convertLetter5_shtml(String.fromCharCode(40,53,46,42,45,54,45,42,46,51,52,50,42,45,49,48,45), 3);
 
-document.write("Business e"+"-"+"m"+"ail a"+"ddr"+"es"+"s: <a href=\"ma"+"ilt"+"o:"+em_shtml1+"\">"+em_shtml1+"</a><br>");
+document.write("Business e"+"-"+"m"+"ail a"+"ddr"+"es"+"s: <a href=\"ma"+"ilt"+"o:"+em_shtml1+"\">"+em_shtml1+"</a><br><br>");
 document.write("Private e"+"-"+"m"+"ail a"+"ddr"+"es"+"s: <a href=\"ma"+"ilt"+"o:"+em_shtml2+"\">"+em_shtml2+"</a><br><br>");
 document.write("Business p"+"hon"+"e nu"+"mbe"+"r: " + ph_shtml1 + "<br>");
 </script>
