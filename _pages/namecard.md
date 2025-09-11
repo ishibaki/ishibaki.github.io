@@ -4,7 +4,7 @@ title: "Tomoki Ishibashi, Ph.D. / 石橋朋樹 博士(理学)"
 author_profile: false
 ---
 
-<img style="border-radius: 10px;" src="/images/20250910_portrait.png" width="512" alt="Tomoki Ishibashi's portrait: A man with white Mao-collar shirt">
+<img style="border-radius: 10px;" src="/images/20250910_portrait2.webp" width="512" alt="Tomoki Ishibashi's portrait: A man with white Mao-collar shirt">
 
 
 <script type="text/javascript">
