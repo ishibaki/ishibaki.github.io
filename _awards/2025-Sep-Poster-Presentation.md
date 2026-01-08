@@ -9,3 +9,5 @@ venue: 'Team meeting of Transformative Research Areas (A): Mechanical Self-trans
 ---
 
 ![Certification](/images/20250901_award_cert.webp)
+
+![Group Photo](/images/20250901_Award_blurred.webp)
