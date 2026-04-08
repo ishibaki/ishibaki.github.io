@@ -14,6 +14,7 @@ I am interested in Development.
 
 ![Left-right asymmetry in *Drosophila*](../images/fig2.png)
 
+- [Force transmission balance through adhesions determines multicellular handedness](https://www.biorxiv.org/content/10.64898/2026.04.04.716462v1)
 - [E and ID proteins regulate cell chirality and left–right asymmetric development in *Drosophila*](https://onlinelibrary.wiley.com/doi/full/10.1111/gtc.12669)
 - [Statistical Validation Verifies That Enantiomorphic States of Chiral Cells Are Determinant Dictating the Left- or Right-Handed Direction of the Hindgut Rotation in *Drosophila*](https://www.mdpi.com/2073-8994/12/12/1991/htm)
 - [Epithelial cell chirality emerges through the dynamic concentric pattern of actomyosin](https://doi.org/10.7554/eLife.102296)
