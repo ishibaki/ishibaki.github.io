@@ -1,9 +1,9 @@
 ---
 title: "Force transmission balance through adhesions determines multicellular handedness"
 collection: publications
-permalink: /publication/2026-04-08-Ishibashi2026-bioRxiv
+permalink: /publication/2026-04-07-Ishibashi2026-bioRxiv
 excerpt: ''
-date: 2026-04-08
+date: 2026-04-07
 author: <b><u>Ishibashi, T.<sup>†</sup></u></b>, Nishizawa, R., Ogita, G., Tokushige, N., Shibata, T.<sup>†</sup>
 venue: 'bioRxiv'
 volume: false
