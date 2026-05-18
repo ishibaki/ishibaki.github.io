@@ -6,9 +6,9 @@ excerpt: ''
 date: 2019-01-09
 author: <b><u>Ishibashi, T.</u></b>, Hatori, R., Maeda, R., Nakamura, M., Taguchi, T., Matsuyama, Y., Matsuno, K.<sup>†</sup>
 venue: 'Genes to Cells'
-volume: <b>24</b>:214–230
+volume: <b>24</b>:214
 paperurl: 'https://onlinelibrary.wiley.com/doi/full/10.1111/gtc.12669'
-citation: '<b><u>Ishibashi, T.</u></b>, Hatori, R., Maeda, R., Nakamura, M., Taguchi, T., Matsuyama, Y., Matsuno, K.<sup>†</sup> (2019) <i>Genes to Cells</i>, <b>24</b>:214–230.'
+citation: '<b><u>Ishibashi, T.</u></b>, Hatori, R., Maeda, R., Nakamura, M., Taguchi, T., Matsuyama, Y., Matsuno, K.<sup>†</sup> (2019) <i>Genes to Cells</i>, <b>24</b>:214.'
 abbrev: "Ishibashi et al. (2019) Genes Cells"
 is_peer: "true"
 ---
