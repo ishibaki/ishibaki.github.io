@@ -86,7 +86,8 @@ author_profile: true
               "RIKEN SPDR Grant",
               "RIKEN Organoid Project",
               "JST ACT-X",
-              "KatoKinen Travel Grant"
+              "KatoKinen Travel Grant",
+              "SPReAD"
             ],
             "range": [
               "black",
@@ -98,7 +99,8 @@ author_profile: true
               "turquoise",
               "khaki",
               "tomato",
-              "lavender"
+              "lavender",
+              "#013f98"
             ]
           },
           "title": "Grant name",
