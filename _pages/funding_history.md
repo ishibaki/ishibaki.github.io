@@ -17,7 +17,7 @@ author_profile: true
           {"date": "2023-04-01", "type": "Indirect fee", "value": 990},
           {"date": "2024-04-01", "type": "Indirect fee", "value": 1350},
           {"date": "2025-04-01", "type": "Indirect fee", "value": 720},
-          {"date": "2026-04-01", "type": "Indirect fee", "value": 450},
+          {"date": "2026-04-01", "type": "Indirect fee", "value": 1493.4},
           {"date": "2016-04-01", "type": "JSPS DC1 Fellowship", "value": 1000},
           {"date": "2017-04-01", "type": "JSPS DC1 Fellowship", "value": 900},
           {"date": "2018-04-01", "type": "JSPS DC1 Fellowship", "value": 900},
