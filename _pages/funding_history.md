@@ -40,7 +40,8 @@ author_profile: true
           {"date": "2025-04-01", "type": "JST ACT-X", "value": 1500},
           {"date": "2026-04-01", "type": "JST ACT-X", "value": 1500},
           {"date": "2025-03-26", "type": "KatoKinen Travel Grant", "value": 300},
-          {"date": "2026-07-01", "type": "SPReAD", "value": 4978}
+          {"date": "2026-07-01", "type": "SPReAD", "value": 4978},
+          {"date": "2026-09-01", "type": "RIKEN Life-Cycle Redesign PJ", "value": 1500}
         ]
       },
       "params": [
