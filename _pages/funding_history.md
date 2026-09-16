@@ -18,15 +18,15 @@ author_profile: true
           {"date": "2024-04-01", "type": "Indirect fee", "value": 1350},
           {"date": "2025-04-01", "type": "Indirect fee", "value": 720},
           {"date": "2026-04-01", "type": "Indirect fee", "value": 1493.4},
-          {"date": "2016-04-01", "type": "JSPS Fellowship", "value": 1000},
-          {"date": "2017-04-01", "type": "JSPS Fellowship", "value": 900},
-          {"date": "2018-04-01", "type": "JSPS Fellowship", "value": 900},
+          {"date": "2016-04-01", "type": "JSPS DC1 Fellowship", "value": 1000},
+          {"date": "2017-04-01", "type": "JSPS DC1 Fellowship", "value": 900},
+          {"date": "2018-04-01", "type": "JSPS DC1 Fellowship", "value": 900},
           {"date": "2019-04-01", "type": "", "value": 0},
           {"date": "2020-04-01", "type": "", "value": 0},
           {"date": "2021-04-01", "type": "", "value": 0},
-          {"date": "2022-04-01", "type": "JSPS Fellowship", "value": 1200},
-          {"date": "2023-04-01", "type": "JSPS Fellowship", "value": 1100},
-          {"date": "2024-04-01", "type": "JSPS Fellowship", "value": 1100},
+          {"date": "2022-04-01", "type": "JSPS PD Fellowship", "value": 1200},
+          {"date": "2023-04-01", "type": "JSPS PD Fellowship", "value": 1100},
+          {"date": "2024-04-01", "type": "JSPS PD Fellowship", "value": 1100},
           {"date": "2022-08-03", "type": "DGD Fellowship", "value": 200},
           {"date": "2022-12-16", "type": "Yazaki Travel Grant", "value": 321},
           {"date": "2023-04-01", "type": "JSPS ECS", "value": 2200},
@@ -41,7 +41,7 @@ author_profile: true
           {"date": "2026-04-01", "type": "JST ACT-X", "value": 1500},
           {"date": "2025-03-26", "type": "KatoKinen Travel Grant", "value": 300},
           {"date": "2026-07-01", "type": "SPReAD", "value": 4978},
-          {"date": "2026-09-01", "type": "Life-Cycle Redesign", "value": 1500}
+          {"date": "2026-09-01", "type": "RIKEN Life-Cycle Redesign PJ", "value": 1500}
         ]
       },
       "params": [
@@ -88,7 +88,8 @@ author_profile: true
               "RIKEN Organoid Project",
               "JST ACT-X",
               "KatoKinen Travel Grant",
-              "SPReAD"
+              "SPReAD",
+              "RIKEN Life-Cycle Redesign PJ"
             ],
             "range": [
               "black",
@@ -101,7 +102,8 @@ author_profile: true
               "khaki",
               "tomato",
               "lavender",
-              "#013f98"
+              "#013f98",
+              "springgreen"
             ]
           },
           "title": "Grant name",
